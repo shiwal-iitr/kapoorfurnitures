@@ -12,8 +12,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }) {
-  const { slug } = await params;
+export async function generateMetadata(props) {
+  const params = await props.params;
+  const slug = params?.slug;
   const product = getProductBySlug(slug);
 
   if (!product) {
@@ -31,8 +32,9 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function ProductDetailPage({ params }) {
-  const { slug } = await params;
+export default async function ProductDetailPage(props) {
+  const params = await props.params;
+  const slug = params?.slug;
   const product = getProductBySlug(slug);
 
   if (!product) {
