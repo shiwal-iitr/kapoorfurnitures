@@ -183,18 +183,18 @@ export const products = [
   },
   {
     "id": 9210,
-    "name": "Elegant Centre Table 11",
-    "slug": "elegant-centre-table-11",
-    "category": "centre-tables",
+    "name": "Piyestra Study Table 11",
+    "slug": "piyestra-study-table-11",
+    "category": "piyestra-study",
     "price": 13000,
     "originalPrice": 15000,
-    "description": "A beautiful centre table to perfectly complement your living room seating. Features a sturdy design with a premium finish.",
+    "description": "A beautiful study table to perfectly complement your workspace. Features a sturdy design with a premium finish.",
     "features": [
       "Sturdy Construction",
       "Premium Finish",
       "Modern Design"
     ],
-    "dimensions": "Standard Centre Table Size",
+    "dimensions": "Standard Study Table Size",
     "material": "Premium Wood / Glass",
     "image": "/images/centre_tables_raw/img_p10_1.png",
     "isFeatured": false,
