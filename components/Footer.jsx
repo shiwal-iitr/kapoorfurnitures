@@ -16,11 +16,7 @@ const categories = [
   { name: 'Outdoor', href: '#' },
 ];
 
-const socialLinks = [
-  { icon: '📘', label: 'Facebook', href: '#' },
-  { icon: '📸', label: 'Instagram', href: '#' },
-  { icon: '🐦', label: 'Twitter', href: '#' },
-];
+
 
 export default function Footer() {
   return (
@@ -30,7 +26,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* About Column */}
           <div>
-            <h3 className="text-2xl font-serif text-black mb-4">
+            <h3 className="text-2xl font-serif text-black mb-8">
               Kapoor <span className="text-gray-500">Furnitures</span>
             </h3>
             <p className="text-sm leading-relaxed mb-6">
@@ -38,19 +34,6 @@ export default function Footer() {
               We blend traditional craftsmanship with modern design to deliver furniture
               that speaks elegance, comfort, and sophistication.
             </p>
-            {/* Social Icons */}
-            <div className="flex items-center gap-4">
-              {socialLinks.map((social) => (
-                <a
-                  key={social.label}
-                  href={social.href}
-                  aria-label={social.label}
-                  className="text-2xl hover:scale-110 transition-transform duration-200"
-                >
-                  {social.icon}
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Quick Links Column */}
