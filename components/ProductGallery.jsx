@@ -11,13 +11,39 @@ export default function ProductGallery({ product }) {
     
   const [activeIndex, setActiveIndex] = useState(0);
   
-  const discount = product.originalPrice > product.price
-    ? Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)
-    : 0;
+
+
+  const isBed = product.category === 'beds' || product.category === 'dining';
 
   return (
     <div className="relative">
       {/* Main Image */}
+      {isBed ? (
+        <div className="rounded-3xl overflow-hidden bg-gray-50 border border-gray-100">
+          {images[activeIndex] && images[activeIndex] !== '/images/placeholder.svg' ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={images[activeIndex]}
+              alt={`${product.name} view ${activeIndex + 1}`}
+              className="w-full h-auto object-contain"
+            />
+          ) : (
+            <div className="aspect-[4/3] flex items-center justify-center">
+              <span className="text-[8rem] font-serif text-gray-200 select-none leading-none">
+                {product.name.charAt(0)}
+              </span>
+            </div>
+          )}
+          {/* Badges */}
+          <div className="absolute top-6 left-6 flex flex-col gap-2">
+            {product.isNew && (
+              <span className="bg-emerald-500 text-white text-xs font-semibold px-3 py-1.5 rounded-full">
+                NEW
+              </span>
+            )}
+          </div>
+        </div>
+      ) : (
       <div className="aspect-square rounded-3xl overflow-hidden bg-gray-50 flex items-center justify-center relative border border-gray-100">
         {images[activeIndex] && images[activeIndex] !== '/images/placeholder.svg' ? (
           <Image
@@ -46,13 +72,9 @@ export default function ProductGallery({ product }) {
               NEW
             </span>
           )}
-          {discount > 0 && (
-            <span className="bg-red-500/90 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
-              {discount}% OFF
-            </span>
-          )}
         </div>
       </div>
+      )}
 
       {/* Thumbnails Gallery */}
       {images.length > 1 && (

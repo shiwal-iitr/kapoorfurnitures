@@ -56,9 +56,6 @@ export default async function ProductDetailPage(props) {
   }
 
   const relatedProducts = getRelatedProducts(product.id, 4);
-  const discount = Math.round(
-    ((product.originalPrice - product.price) / product.originalPrice) * 100
-  );
 
   const stars = Array.from({ length: 5 }, (_, i) =>
     i < Math.floor(product.rating) ? '★' : '☆'
@@ -121,22 +118,7 @@ export default async function ProductDetailPage(props) {
               </span>
             </div>
 
-            {/* Price */}
-            <div className="flex items-baseline gap-4 mb-8">
-              <span className="text-4xl font-bold text-gray-900">
-                ₹{product.price.toLocaleString('en-IN')}
-              </span>
-              {product.originalPrice > product.price && (
-                <>
-                  <span className="text-xl text-gray-400 line-through">
-                    ₹{product.originalPrice.toLocaleString('en-IN')}
-                  </span>
-                  <span className="text-emerald-400 text-sm font-semibold bg-emerald-400/10 px-2 py-1 rounded-full">
-                    Save ₹{(product.originalPrice - product.price).toLocaleString('en-IN')}
-                  </span>
-                </>
-              )}
-            </div>
+
 
             {/* Description */}
             <p className="text-gray-600 leading-relaxed mb-8 text-base">
@@ -224,9 +206,8 @@ export default async function ProductDetailPage(props) {
             category: product.category,
             offers: {
               '@type': 'Offer',
-              price: product.price,
-              priceCurrency: 'INR',
               availability: 'https://schema.org/InStock',
+              priceCurrency: 'INR',
             },
             aggregateRating: {
               '@type': 'AggregateRating',
