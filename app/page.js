@@ -133,7 +133,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Banner */}
-      <section className="py-20 px-4 relative overflow-hidden bg-gray-50">
+      <section className="py-20 px-4 mb-16 relative overflow-hidden bg-gray-50">
         <div className="container-custom relative text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">
             Ready to Transform Your Space?
