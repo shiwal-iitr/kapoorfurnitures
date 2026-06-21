@@ -21,7 +21,7 @@ export default function HomePage() {
             {[
               {
                 name: 'Bedroom',
-                href: '/products?category=piyestra-bedroom',
+                href: '/products?category=beds',
                 icon: 'https://piyestraindia.com/wp-content/uploads/2022/08/bed.png'
               },
               {
