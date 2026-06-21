@@ -1627,27 +1627,6 @@ export const products = [
     "reviews": 6
   },
   {
-    "id": 400003,
-    "name": "AUSTIN HYDRAULIC BED",
-    "slug": "austin-hydraulic-king-bed-400004",
-    "category": "piyestra-bedroom-beds",
-    "price": 32749,
-    "originalPrice": 37749,
-    "description": "Enhance your bedroom with this exquisitely designed Piyestra furniture piece, blending functionality with premium aesthetics.",
-    "features": [
-      "Premium Build Quality",
-      "Modern Design",
-      "Durable Materials"
-    ],
-    "dimensions": "Standard Size",
-    "material": "Premium Engineered Wood",
-    "image": "https://piyestraindia.com/wp-content/uploads/2024/02/01-19-600x492.jpg",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.5,
-    "reviews": 20
-  },
-  {
     "id": 400006,
     "name": "AUSTIN KING BED",
     "slug": "austin-king-bed-400007",
@@ -1669,71 +1648,8 @@ export const products = [
     "reviews": 49
   },
   {
-    "id": 400007,
-    "name": "AUSTIN KING BED",
-    "slug": "austin-king-bed-400008",
-    "category": "piyestra-bedroom-beds",
-    "price": 31824,
-    "originalPrice": 36824,
-    "description": "Enhance your bedroom with this exquisitely designed Piyestra furniture piece, blending functionality with premium aesthetics.",
-    "features": [
-      "Premium Build Quality",
-      "Modern Design",
-      "Durable Materials"
-    ],
-    "dimensions": "Standard Size",
-    "material": "Premium Engineered Wood",
-    "image": "https://piyestraindia.com/wp-content/uploads/2024/02/01-600x492.jpg",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.5,
-    "reviews": 42
-  },
-  {
-    "id": 400008,
-    "name": "AUSTIN QUEEN BED",
-    "slug": "austin-queen-bed-400009",
-    "category": "piyestra-bedroom-beds",
-    "price": 20442,
-    "originalPrice": 25442,
-    "description": "Enhance your bedroom with this exquisitely designed Piyestra furniture piece, blending functionality with premium aesthetics.",
-    "features": [
-      "Premium Build Quality",
-      "Modern Design",
-      "Durable Materials"
-    ],
-    "dimensions": "Standard Size",
-    "material": "Premium Engineered Wood",
-    "image": "https://piyestraindia.com/wp-content/uploads/2024/02/1-600x492.jpg",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.5,
-    "reviews": 29
-  },
-  {
-    "id": 400009,
-    "name": "AUSTIN QUEEN BED",
-    "slug": "austin-queen-bed-400010",
-    "category": "piyestra-bedroom-beds",
-    "price": 16840,
-    "originalPrice": 21840,
-    "description": "Enhance your bedroom with this exquisitely designed Piyestra furniture piece, blending functionality with premium aesthetics.",
-    "features": [
-      "Premium Build Quality",
-      "Modern Design",
-      "Durable Materials"
-    ],
-    "dimensions": "Standard Size",
-    "material": "Premium Engineered Wood",
-    "image": "https://piyestraindia.com/wp-content/uploads/2024/02/01-1-600x492.jpg",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.5,
-    "reviews": 25
-  },
-  {
     "id": 400010,
-    "name": "AVON HYDRAULIC KING BED",
+    "name": "AVON HYDRAULIC BED",
     "slug": "avon-hydraulic-king-bed-400011",
     "category": "piyestra-bedroom-beds",
     "price": 24200,
@@ -1751,27 +1667,6 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 8
-  },
-  {
-    "id": 400011,
-    "name": "AVON HYDRAULIC QUEEN BED",
-    "slug": "avon-hydraulic-queen-bed-400012",
-    "category": "piyestra-bedroom-beds",
-    "price": 18851,
-    "originalPrice": 23851,
-    "description": "Enhance your bedroom with this exquisitely designed Piyestra furniture piece, blending functionality with premium aesthetics.",
-    "features": [
-      "Premium Build Quality",
-      "Modern Design",
-      "Durable Materials"
-    ],
-    "dimensions": "Standard Size",
-    "material": "Premium Engineered Wood",
-    "image": "https://piyestraindia.com/wp-content/uploads/2022/11/PKBAV-007-1-600x492.jpg",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.5,
-    "reviews": 53
   },
   {
     "id": 400012,
@@ -2092,8 +1987,7 @@ export const products = [
     "material": "Fabric / Solid Wood",
     "image": "/images/sofas_raw/img_p8_1.png",
     "gallery": [
-      "/images/sofas_raw/img_p8_1.png",
-      "/images/sofas_raw/img_p9_1.png"
+      "/images/sofas_raw/img_p8_1.png"
     ],
     "isFeatured": false,
     "isNew": false,
