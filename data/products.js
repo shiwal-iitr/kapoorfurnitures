@@ -27,7 +27,7 @@ export const categories = [
         "id": "bedroom-beds",
         "name": "Beds",
         "description": "Elegant beds for restful nights",
-        "image": "/images/products/royal-teak-king-bed.jpg"
+        "image": "/images/beds_raw/img_p0_1.png"
       },
       {
         "id": "bedroom-chairs",
@@ -98,7 +98,8 @@ export const categories = [
           },
           {
             "id": "piyestra-bedroom-centre-tables",
-            "name": "Centre Tables"
+            "name": "Centre Tables",
+            "image": "https://piyestraindia.com/wp-content/uploads/2024/12/01-3-600x600.jpg"
           }
         ]
       },
