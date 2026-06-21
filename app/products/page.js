@@ -116,6 +116,7 @@ function ProductsContent() {
               activeCategoryNode.id !== 'dining' &&
               activeCategoryNode.id !== 'piyestra' &&
               activeCategoryNode.id !== 'living-room' &&
+              activeCategoryNode.id !== 'bedroom' &&
               !['sofa-sets', 'centre-tables', 'piyestra-bedroom', 'piyestra-bedroom-beds', 'piyestra-bedroom-wardrobes', 'piyestra-office', 'piyestra-study', 'piyestra-entertainment'].includes(activeCategoryNode.id)
             )) && (
               <div className="flex items-center gap-3">
