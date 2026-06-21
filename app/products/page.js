@@ -112,7 +112,12 @@ function ProductsContent() {
             />
 
             {/* Sort Dropdown */}
-            {(!activeCategoryNode || (activeCategoryNode.id !== 'dining' && activeCategoryNode.id !== 'piyestra')) && (
+            {(!activeCategoryNode || (
+              activeCategoryNode.id !== 'dining' &&
+              activeCategoryNode.id !== 'piyestra' &&
+              activeCategoryNode.id !== 'living-room' &&
+              !['sofa-sets', 'centre-tables', 'piyestra-bedroom', 'piyestra-bedroom-beds', 'piyestra-bedroom-wardrobes', 'piyestra-office', 'piyestra-study', 'piyestra-entertainment'].includes(activeCategoryNode.id)
+            )) && (
               <div className="flex items-center gap-3">
                 <span className="text-gray-500 text-sm">Sort by:</span>
                 <select
@@ -172,7 +177,7 @@ function ProductsContent() {
 
       {/* Product Grid */}
       {(!subcategoriesToShow || subcategoriesToShow.length === 0) && (
-        <section className="pb-24">
+        <section className="pb-24 pt-8">
           <div className="container-custom">
             {filteredProducts.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
