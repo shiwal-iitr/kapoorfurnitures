@@ -1586,7 +1586,7 @@ export const products = [
   },
   {
     "id": 400000,
-    "name": "ATHENA HYDRAULIC KING BED",
+    "name": "ATHENA HYDRAULIC BED",
     "slug": "athena-hydraulic-king-bed-400001",
     "category": "piyestra-bedroom-beds",
     "price": 22448,
@@ -1606,29 +1606,8 @@ export const products = [
     "reviews": 6
   },
   {
-    "id": 400001,
-    "name": "ATHENA HYDRAULIC QUEEN BED",
-    "slug": "athena-hydraulic-queen-bed-400002",
-    "category": "piyestra-bedroom-beds",
-    "price": 21417,
-    "originalPrice": 26417,
-    "description": "Enhance your bedroom with this exquisitely designed Piyestra furniture piece, blending functionality with premium aesthetics.",
-    "features": [
-      "Premium Build Quality",
-      "Modern Design",
-      "Durable Materials"
-    ],
-    "dimensions": "Standard Size",
-    "material": "Premium Engineered Wood",
-    "image": "https://piyestraindia.com/wp-content/uploads/2024/12/01-1-600x492.jpg",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.5,
-    "reviews": 38
-  },
-  {
     "id": 400002,
-    "name": "AUSTIN HYDRAULIC KING BED",
+    "name": "AUSTIN HYDRAULIC BED",
     "slug": "austin-hydraulic-king-bed-400003",
     "category": "piyestra-bedroom-beds",
     "price": 32369,
@@ -1649,7 +1628,7 @@ export const products = [
   },
   {
     "id": 400003,
-    "name": "AUSTIN HYDRAULIC KING BED",
+    "name": "AUSTIN HYDRAULIC BED",
     "slug": "austin-hydraulic-king-bed-400004",
     "category": "piyestra-bedroom-beds",
     "price": 32749,
@@ -1667,48 +1646,6 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 20
-  },
-  {
-    "id": 400004,
-    "name": "AUSTIN HYDRAULIC QUEEN BED",
-    "slug": "austin-hydraulic-queen-bed-400005",
-    "category": "piyestra-bedroom-beds",
-    "price": 33869,
-    "originalPrice": 38869,
-    "description": "Enhance your bedroom with this exquisitely designed Piyestra furniture piece, blending functionality with premium aesthetics.",
-    "features": [
-      "Premium Build Quality",
-      "Modern Design",
-      "Durable Materials"
-    ],
-    "dimensions": "Standard Size",
-    "material": "Premium Engineered Wood",
-    "image": "https://piyestraindia.com/wp-content/uploads/2023/12/1-2-600x492.jpg",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.5,
-    "reviews": 29
-  },
-  {
-    "id": 400005,
-    "name": "AUSTIN HYDRAULIC QUEEN BED",
-    "slug": "austin-hydraulic-queen-bed-400006",
-    "category": "piyestra-bedroom-beds",
-    "price": 28627,
-    "originalPrice": 33627,
-    "description": "Enhance your bedroom with this exquisitely designed Piyestra furniture piece, blending functionality with premium aesthetics.",
-    "features": [
-      "Premium Build Quality",
-      "Modern Design",
-      "Durable Materials"
-    ],
-    "dimensions": "Standard Size",
-    "material": "Premium Engineered Wood",
-    "image": "https://piyestraindia.com/wp-content/uploads/2024/02/01-19-600x492.jpg",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.5,
-    "reviews": 36
   },
   {
     "id": 400006,
