@@ -52,13 +52,13 @@ export default function HeroSection() {
         >
           <Link
             href="/products"
-            className="inline-block bg-[#c9a96e] text-[#1a1a2e] font-semibold px-16 py-4 rounded-full text-lg whitespace-nowrap hover:scale-105 transition-transform duration-300 shadow-lg shadow-[#c9a96e]/25"
+            className="inline-block bg-[#c9a96e] text-[#1a1a2e] font-semibold px-16 py-4 rounded text-lg whitespace-nowrap hover:scale-105 transition-transform duration-300 shadow-lg shadow-[#c9a96e]/25"
           >
             Explore Collection
           </Link>
           <Link
             href="/contact"
-            className="inline-block border-2 border-[#c9a96e] text-[#c9a96e] bg-transparent font-semibold px-16 py-4 rounded-full text-lg whitespace-nowrap hover:bg-[#c9a96e]/10 hover:scale-105 transition-all duration-300"
+            className="inline-block border-2 border-[#c9a96e] text-[#c9a96e] bg-transparent font-semibold px-16 py-4 rounded text-lg whitespace-nowrap hover:bg-[#c9a96e]/10 hover:scale-105 transition-all duration-300"
           >
             Contact Us
           </Link>

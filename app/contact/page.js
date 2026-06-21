@@ -8,9 +8,9 @@ export const metadata = {
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen pt-8">
+    <div className="min-h-screen">
       {/* Page Header */}
-      <section className="section-padding pb-8">
+      <section className="pt-12 pb-8 px-4">
         <div className="container-custom text-center">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4">
             Get In Touch

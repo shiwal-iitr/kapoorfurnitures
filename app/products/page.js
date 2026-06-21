@@ -74,9 +74,9 @@ function ProductsContent() {
   }, [activeCategory, activeCategoryNode, sortBy]);
 
   return (
-    <div className="min-h-screen pt-8">
+    <div className="min-h-screen">
       {/* Page Header */}
-      <section className="section-padding pb-4 relative">
+      <section className="pt-12 pb-4 px-4 relative">
         <div className="container-custom text-center">
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4 uppercase">
             {activeCategoryNode ? activeCategoryNode.name : 'Our Collection'}

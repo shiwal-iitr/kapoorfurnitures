@@ -1,10 +1,24 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { products, getProductBySlug, getRelatedProducts } from '../../../data/products';
+import { products, categories, getProductBySlug, getRelatedProducts } from '../../../data/products';
 import ProductCard from '../../../components/ProductCard';
 import ProductGallery from '../../../components/ProductGallery';
 import WhatsAppEnquireButton from '../../../components/WhatsAppEnquireButton';
 import BackButton from '../../../components/BackButton';
+
+function getCategoryName(categoryId) {
+  const search = (cats) => {
+    for (const cat of cats) {
+      if (cat.id === categoryId) return cat.name;
+      if (cat.subcategories) {
+        const found = search(cat.subcategories);
+        if (found) return found;
+      }
+    }
+    return null;
+  };
+  return search(categories) || categoryId;
+}
 
 export async function generateStaticParams() {
   return products.map((product) => ({
@@ -81,7 +95,7 @@ export default async function ProductDetailPage(props) {
             href={`/products?category=${product.category}`}
             className="hover:text-[#c9a96e] transition-colors capitalize"
           >
-            {product.category === 'sofa-sets' ? 'Sofa Sets' : product.category === 'almirahs' ? 'Almirahs' : 'Beds'}
+            {getCategoryName(product.category)}
           </Link>
           <span>/</span>
           <span className="text-gray-600 truncate max-w-[200px]">{product.name}</span>
@@ -98,7 +112,7 @@ export default async function ProductDetailPage(props) {
           <div className="flex flex-col justify-center">
             {/* Category */}
             <span className="text-[#c9a96e] text-sm uppercase tracking-[0.2em] font-medium mb-3">
-              {product.category === 'sofa-sets' ? 'Sofa Sets' : product.category === 'almirahs' ? 'Almirahs' : 'Beds'}
+              {getCategoryName(product.category)}
             </span>
 
             {/* Title */}
@@ -179,7 +193,7 @@ export default async function ProductDetailPage(props) {
 
       {/* Related Products */}
       {relatedProducts.length > 0 && (
-        <section className="section-padding bg-gradient-to-b from-transparent via-[#1a1a2e]/30 to-transparent">
+        <section className="section-padding bg-gray-50">
           <div className="container-custom">
             <h2 className="section-heading text-2xl md:text-3xl">
               You May Also Like
