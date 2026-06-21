@@ -519,7 +519,7 @@ export const products = [
     ],
     "dimensions": "Standard Dining Size",
     "material": "Premium Wood & Glass",
-    "image": "/images/dining_raw/extra/img_p0_1.png",
+    "image": "/images/ai_generated/ai_dining_extra_a_1782073679209.png",
     "gallery": [
       "/images/dining_raw/extra/img_p0_1.png"
     ],
@@ -543,7 +543,7 @@ export const products = [
     ],
     "dimensions": "Standard Dining Size",
     "material": "Premium Wood & Glass",
-    "image": "/images/dining_raw/extra/img_p1_1.png",
+    "image": "/images/ai_generated/ai_dining_extra_b_1782073694681.png",
     "gallery": [
       "/images/dining_raw/extra/img_p1_1.png"
     ],
@@ -567,7 +567,7 @@ export const products = [
     ],
     "dimensions": "Standard Dining Size",
     "material": "Premium Wood & Glass",
-    "image": "/images/dining_raw/extra/img_p2_1.png",
+    "image": "/images/ai_generated/ai_dining_extra_c_1782073708691.png",
     "gallery": [
       "/images/dining_raw/extra/img_p2_1.png"
     ],
@@ -2318,7 +2318,7 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/beds_extra_raw/img_p0_1.png",
+    "image": "/images/ai_generated/ai_premium_bed_1_1782073720444.png",
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
@@ -2339,7 +2339,7 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/beds_extra_raw/img_p10_1.png",
+    "image": "/images/ai_generated/ai_premium_bed_2_1782073733180.png",
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
@@ -2360,7 +2360,7 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/beds_extra_raw/img_p11_1.png",
+    "image": "/images/ai_generated/ai_premium_bed_3_1782073744376.png",
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
@@ -2381,7 +2381,7 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/beds_extra_raw/img_p12_1.png",
+    "image": "/images/ai_generated/ai_premium_bed_4_1782073756546.png",
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
@@ -2423,7 +2423,7 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/beds_extra_raw/img_p2_1.png",
+    "image": "/images/ai_generated/ai_premium_bed_6_1782073770385.png",
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
