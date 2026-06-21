@@ -30,7 +30,8 @@ export const categories = [
       {
         "id": "bedroom-chairs",
         "name": "Bedroom Chairs",
-        "description": "Comfortable bedroom chairs"
+        "description": "Comfortable bedroom chairs",
+        "image": "/images/bedroom_chairs_raw/img_p0_1.png"
       }
     ]
   },
@@ -48,15 +49,18 @@ export const categories = [
         "subcategories": [
           {
             "id": "3-1-1-sofas",
-            "name": "3-1-1 Sofas"
+            "name": "3-1-1 Sofas",
+            "image": "/images/3_1_1_sofas_raw/img_p0_1.png"
           },
           {
             "id": "3-2-2-sofas",
-            "name": "3-2-2 Sofas"
+            "name": "3-2-2 Sofas",
+            "image": "/images/sofas_raw/img_p0_1.png"
           },
           {
             "id": "l-shape-sofas",
-            "name": "L-Shape Sofas"
+            "name": "L-Shape Sofas",
+            "image": "/images/sofas_raw/img_p10_1.png"
           }
         ]
       },
