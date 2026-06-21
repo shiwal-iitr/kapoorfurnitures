@@ -22,53 +22,30 @@ export default function ProductCard({ product }) {
     <Link href={`/products/${product.slug}`} className="group block">
       <div className="bg-white border border-gray-100 rounded-2xl overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:shadow-black/5 transition-all duration-300">
         {/* Image container */}
-        {product.category === 'beds' || product.category === 'dining' ? (
-          <div className="relative w-full bg-gray-50 overflow-hidden">
-            {product.image && product.image !== '/images/placeholder.svg' ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src={product.image}
-                alt={product.name}
-                className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
-              />
-            ) : (
-              <div className="aspect-[4/3] flex items-center justify-center">
-                <span className="text-6xl font-serif text-gray-300 select-none">
-                  {product.name?.charAt(0) || 'F'}
-                </span>
-              </div>
-            )}
-            {product.isNew && (
-              <span className="absolute top-3 left-3 bg-emerald-500 text-white text-xs px-2 py-1 rounded-full font-medium">
-                New
-              </span>
-            )}
-          </div>
-        ) : (
-        <div className="relative aspect-square bg-gray-50 flex items-center justify-center overflow-hidden">
+        <div className="relative w-full bg-gray-50 overflow-hidden">
           {product.image && product.image !== '/images/placeholder.svg' ? (
-            <Image
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
               src={product.image.includes('piyestraindia.com') ? `${product.image}?v=1` : product.image}
               alt={product.name}
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-500"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
             />
           ) : (
-            <span className="text-6xl font-serif text-gray-300 select-none group-hover:scale-110 transition-transform duration-500">
-              {product.name?.charAt(0) || 'F'}
-            </span>
+            <div className="flex items-center justify-center p-12">
+              <span className="text-6xl font-serif text-gray-300 select-none group-hover:scale-110 transition-transform duration-500">
+                {product.name?.charAt(0) || 'F'}
+              </span>
+            </div>
           )}
 
           {/* New badge */}
           {product.isNew && (
-            <span className="absolute top-3 left-3 bg-emerald-500 text-white text-xs px-2 py-1 rounded-full font-medium">
+            <span className="absolute top-3 left-3 bg-emerald-500 text-white text-xs px-2 py-1 rounded-full font-medium shadow-sm">
               New
             </span>
           )}
         </div>
-        )}
 
         {/* Card body */}
         <div className="p-5 space-y-3">
