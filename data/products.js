@@ -3489,6 +3489,195 @@ export const products = [
     "isNew": true,
     "rating": 4.7,
     "reviews": 10
+  },
+  {
+    "id": 9400,
+    "name": "Premium Centre Table 1",
+    "slug": "premium-centre-table-1",
+    "category": "centre-tables",
+    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
+    "price": 15000,
+    "originalPrice": 18000,
+    "features": [
+      "Premium Construction",
+      "Elegant Design",
+      "Durable Finish"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Wood / Metal / Glass",
+    "image": "/images/centre_tables_extra_raw/img_p0_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 5
+  },
+  {
+    "id": 9401,
+    "name": "Premium Centre Table 2",
+    "slug": "premium-centre-table-2",
+    "category": "centre-tables",
+    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
+    "price": 15500,
+    "originalPrice": 18500,
+    "features": [
+      "Premium Construction",
+      "Elegant Design",
+      "Durable Finish"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Wood / Metal / Glass",
+    "image": "/images/centre_tables_extra_raw/img_p1_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 5
+  },
+  {
+    "id": 9402,
+    "name": "Premium Centre Table 3",
+    "slug": "premium-centre-table-3",
+    "category": "centre-tables",
+    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
+    "price": 16000,
+    "originalPrice": 19000,
+    "features": [
+      "Premium Construction",
+      "Elegant Design",
+      "Durable Finish"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Wood / Metal / Glass",
+    "image": "/images/centre_tables_extra_raw/img_p2_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 5
+  },
+  {
+    "id": 9403,
+    "name": "Premium Centre Table 4",
+    "slug": "premium-centre-table-4",
+    "category": "centre-tables",
+    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
+    "price": 16500,
+    "originalPrice": 19500,
+    "features": [
+      "Premium Construction",
+      "Elegant Design",
+      "Durable Finish"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Wood / Metal / Glass",
+    "image": "/images/centre_tables_extra_raw/img_p3_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 5
+  },
+  {
+    "id": 9404,
+    "name": "Premium Centre Table 5",
+    "slug": "premium-centre-table-5",
+    "category": "centre-tables",
+    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
+    "price": 17000,
+    "originalPrice": 20000,
+    "features": [
+      "Premium Construction",
+      "Elegant Design",
+      "Durable Finish"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Wood / Metal / Glass",
+    "image": "/images/centre_tables_extra_raw/img_p4_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 5
+  },
+  {
+    "id": 9405,
+    "name": "Premium Centre Table 6",
+    "slug": "premium-centre-table-6",
+    "category": "centre-tables",
+    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
+    "price": 17500,
+    "originalPrice": 20500,
+    "features": [
+      "Premium Construction",
+      "Elegant Design",
+      "Durable Finish"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Wood / Metal / Glass",
+    "image": "/images/centre_tables_extra_raw/img_p5_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 5
+  },
+  {
+    "id": 9406,
+    "name": "Premium Centre Table 7",
+    "slug": "premium-centre-table-7",
+    "category": "centre-tables",
+    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
+    "price": 18000,
+    "originalPrice": 21000,
+    "features": [
+      "Premium Construction",
+      "Elegant Design",
+      "Durable Finish"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Wood / Metal / Glass",
+    "image": "/images/centre_tables_extra_raw/img_p6_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 5
+  },
+  {
+    "id": 9407,
+    "name": "Premium Centre Table 8",
+    "slug": "premium-centre-table-8",
+    "category": "centre-tables",
+    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
+    "price": 18500,
+    "originalPrice": 21500,
+    "features": [
+      "Premium Construction",
+      "Elegant Design",
+      "Durable Finish"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Wood / Metal / Glass",
+    "image": "/images/centre_tables_extra_raw/img_p7_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 5
+  },
+  {
+    "id": 9408,
+    "name": "Premium Centre Table 9",
+    "slug": "premium-centre-table-9",
+    "category": "centre-tables",
+    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
+    "price": 19000,
+    "originalPrice": 22000,
+    "features": [
+      "Premium Construction",
+      "Elegant Design",
+      "Durable Finish"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Wood / Metal / Glass",
+    "image": "/images/centre_tables_extra_raw/img_p8_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 5
   }
 ];
 
