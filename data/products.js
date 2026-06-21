@@ -1,34 +1,113 @@
 export const categories = [
-  { id: 'dining', name: 'Dining', description: 'Elegant and durable dining tables for your home', image: '/images/dining_raw/main/img_p1_1.png' },
-  { id: 'beds', name: 'Beds', description: 'Elegant beds for restful nights', image: '/images/products/royal-teak-king-bed.jpg' },
-  
-  { 
-    id: 'living-room', 
-    name: 'Living Room', 
-    description: 'Living room furniture', 
-    image: '/images/sofas_raw/img_p0_1.png',
-    subcategories: [
-      { id: 'sofa-sets', name: 'Sofa Sets', description: 'Luxurious seating comfort', image: '/images/sofas_raw/img_p0_1.png' },
-      { id: 'centre-tables', name: 'Centre Tables', description: 'Elegant centre tables', image: '/images/centre_tables_raw/img_p0_1.png' }
+  {
+    "id": "dining",
+    "name": "Dining",
+    "description": "Elegant and durable dining tables for your home",
+    "image": "/images/dining_raw/main/img_p1_1.png",
+    "subcategories": [
+      {
+        "id": "marble-top",
+        "name": "Marble Top"
+      },
+      {
+        "id": "glass-top",
+        "name": "Glass Top"
+      }
     ]
   },
-  { 
-    id: 'piyestra', 
-    name: 'Piyestra', 
-    description: 'Exclusive Piyestra Furniture Collection', 
-    image: '/images/placeholder.svg',
-    subcategories: [
-      { id: 'piyestra-bedroom',
-        name: 'Bedroom',
-        description: 'Piyestra Bedroom Collection',
-        image: 'https://piyestraindia.com/wp-content/uploads/2024/12/01-3-600x600.jpg',
-        subcategories: [
-          { id: 'piyestra-bedroom-beds', name: 'Beds', image: 'https://piyestraindia.com/wp-content/uploads/2024/12/01-1-600x492.jpg' },
-          { id: 'piyestra-bedroom-wardrobes', name: 'Wardrobes', image: 'https://piyestraindia.com/wp-content/uploads/2024/12/01-2-600x600.jpg' }
-        ] },
-      { id: 'piyestra-office', name: 'Office Tables', description: 'Piyestra Office Collection', image: 'https://piyestraindia.com/wp-content/uploads/2022/08/01-600x559.jpg' },
-      { id: 'piyestra-study', name: 'Study', description: 'Piyestra Study Collection', image: 'https://piyestraindia.com/wp-content/uploads/2023/05/C-1-1-600x600.jpg' },
-      { id: 'piyestra-entertainment', name: 'Entertainment', description: 'Piyestra Entertainment Collection', image: 'https://piyestraindia.com/wp-content/uploads/2023/06/A-1-600x600.jpg' },
+  {
+    "id": "beds",
+    "name": "Beds",
+    "description": "Elegant beds for restful nights",
+    "image": "/images/products/royal-teak-king-bed.jpg",
+    "subcategories": [
+      {
+        "id": "bedroom-chairs",
+        "name": "Bedroom Chairs",
+        "description": "Comfortable bedroom chairs"
+      }
+    ]
+  },
+  {
+    "id": "living-room",
+    "name": "Living Room",
+    "description": "Living room furniture",
+    "image": "/images/sofas_raw/img_p0_1.png",
+    "subcategories": [
+      {
+        "id": "sofa-sets",
+        "name": "Sofa Sets",
+        "description": "Luxurious seating comfort",
+        "image": "/images/sofas_raw/img_p0_1.png",
+        "subcategories": [
+          {
+            "id": "3-1-1-sofas",
+            "name": "3-1-1 Sofas"
+          },
+          {
+            "id": "3-2-2-sofas",
+            "name": "3-2-2 Sofas"
+          },
+          {
+            "id": "l-shape-sofas",
+            "name": "L-Shape Sofas"
+          }
+        ]
+      },
+      {
+        "id": "centre-tables",
+        "name": "Centre Tables",
+        "description": "Elegant centre tables",
+        "image": "/images/centre_tables_raw/img_p0_1.png"
+      }
+    ]
+  },
+  {
+    "id": "piyestra",
+    "name": "Piyestra",
+    "description": "Exclusive Piyestra Furniture Collection",
+    "image": "/images/placeholder.svg",
+    "subcategories": [
+      {
+        "id": "piyestra-bedroom",
+        "name": "Bedroom",
+        "description": "Piyestra Bedroom Collection",
+        "image": "https://piyestraindia.com/wp-content/uploads/2024/12/01-3-600x600.jpg",
+        "subcategories": [
+          {
+            "id": "piyestra-bedroom-beds",
+            "name": "Beds",
+            "image": "https://piyestraindia.com/wp-content/uploads/2024/12/01-1-600x492.jpg"
+          },
+          {
+            "id": "piyestra-bedroom-wardrobes",
+            "name": "Wardrobes",
+            "image": "https://piyestraindia.com/wp-content/uploads/2024/12/01-2-600x600.jpg"
+          },
+          {
+            "id": "piyestra-bedroom-centre-tables",
+            "name": "Centre Tables"
+          }
+        ]
+      },
+      {
+        "id": "piyestra-office",
+        "name": "Office Tables",
+        "description": "Piyestra Office Collection",
+        "image": "https://piyestraindia.com/wp-content/uploads/2022/08/01-600x559.jpg"
+      },
+      {
+        "id": "piyestra-study",
+        "name": "Study",
+        "description": "Piyestra Study Collection",
+        "image": "https://piyestraindia.com/wp-content/uploads/2023/05/C-1-1-600x600.jpg"
+      },
+      {
+        "id": "piyestra-entertainment",
+        "name": "Entertainment",
+        "description": "Piyestra Entertainment Collection",
+        "image": "https://piyestraindia.com/wp-content/uploads/2023/06/A-1-600x600.jpg"
+      }
     ]
   }
 ];
@@ -637,50 +716,6 @@ export const products = [
     "isNew": false,
     "rating": 4.2,
     "reviews": 134
-  },
-  {
-    "id": 8,
-    "name": "Walnut Finish Platform Bed",
-    "slug": "walnut-finish-platform-bed",
-    "category": "beds",
-    "price": 27999,
-    "originalPrice": 35999,
-    "description": "The Walnut Finish Platform Bed offers a low-profile Japanese-inspired design with a floating appearance. Built on solid engineered wood, it provides excellent mattress support without a box spring.",
-    "features": [
-      "Low-profile platform design",
-      "Floating base illusion",
-      "Walnut laminate finish",
-      "No box spring needed"
-    ],
-    "dimensions": "L 200 x W 160 x H 40 cm",
-    "material": "Engineered Wood",
-    "image": "/images/beds_raw/img_p7_1.png",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.6,
-    "reviews": 45
-  },
-  {
-    "id": 9,
-    "name": "Kashmiri Walnut Carved Bed",
-    "slug": "kashmiri-walnut-carved-bed",
-    "category": "beds",
-    "price": 84999,
-    "originalPrice": 99999,
-    "description": "A masterpiece of Kashmiri craftsmanship, this bed showcases intricate hand-carved floral motifs on premium walnut wood. Each piece is unique, making it a treasured heirloom for generations.",
-    "features": [
-      "Hand-carved floral motifs",
-      "Premium walnut wood",
-      "Heirloom quality",
-      "Natural lacquer finish"
-    ],
-    "dimensions": "L 210 x W 185 x H 130 cm",
-    "material": "Walnut Wood",
-    "image": "/images/beds_raw/img_p8_1.png",
-    "isFeatured": false,
-    "isNew": false,
-    "rating": 4.9,
-    "reviews": 28
   },
   {
     "id": 10,
@@ -1924,7 +1959,7 @@ export const products = [
     "id": 8100,
     "name": "Sofa Set 1",
     "slug": "sofa-set-1",
-    "category": "sofa-sets",
+    "category": "3-2-2-sofas",
     "description": "A premium sofa set crafted for comfort and elegance. Perfect centerpiece for your living room with superior cushioning and durable fabric.",
     "features": [
       "Premium Upholstery",
@@ -1949,7 +1984,7 @@ export const products = [
     "id": 8101,
     "name": "Sofa Set 2",
     "slug": "sofa-set-2",
-    "category": "sofa-sets",
+    "category": "3-2-2-sofas",
     "description": "A luxurious multi-piece sofa set designed for large living spaces. Combines comfort with classic design elements for a sophisticated look.",
     "features": [
       "Premium Upholstery",
@@ -1975,7 +2010,7 @@ export const products = [
     "id": 8102,
     "name": "Sofa Set 3",
     "slug": "sofa-set-3",
-    "category": "sofa-sets",
+    "category": "3-2-2-sofas",
     "description": "An elegant sofa set with a contemporary design. Features premium fabric upholstery and a sturdy wooden frame for long-lasting comfort.",
     "features": [
       "Contemporary Design",
@@ -1998,7 +2033,7 @@ export const products = [
     "id": 8103,
     "name": "Sofa Set 4",
     "slug": "sofa-set-4",
-    "category": "sofa-sets",
+    "category": "l-shape-sofas",
     "description": "A beautifully crafted sofa set that blends traditional and modern aesthetics. Offers exceptional comfort and durability for everyday use.",
     "features": [
       "Traditional-Modern Design",
@@ -2021,7 +2056,7 @@ export const products = [
     "id": 8104,
     "name": "Sofa Set 5",
     "slug": "sofa-set-5",
-    "category": "sofa-sets",
+    "category": "l-shape-sofas",
     "description": "A stylish and spacious sofa set ideal for families. Features plush cushioning and a rich fabric finish that adds warmth to your living room.",
     "features": [
       "Plush Cushioning",
@@ -2046,7 +2081,7 @@ export const products = [
     "id": 8105,
     "name": "Sofa Set 6",
     "slug": "sofa-set-6",
-    "category": "sofa-sets",
+    "category": "l-shape-sofas",
     "description": "A compact yet comfortable sofa set perfect for apartments and smaller living spaces. Elegant design with premium upholstery.",
     "features": [
       "Compact Design",
@@ -2069,7 +2104,7 @@ export const products = [
     "id": 8106,
     "name": "Sofa Set 7",
     "slug": "sofa-set-7",
-    "category": "sofa-sets",
+    "category": "l-shape-sofas",
     "description": "A premium sectional sofa with a contemporary design. Ideal for modern living rooms offering abundant seating with style.",
     "features": [
       "Sectional Design",
@@ -2092,7 +2127,7 @@ export const products = [
     "id": 8107,
     "name": "Sofa Set 8",
     "slug": "sofa-set-8",
-    "category": "sofa-sets",
+    "category": "l-shape-sofas",
     "description": "An exquisite sofa set featuring hand-crafted details and superior comfort. A statement piece for your living room.",
     "features": [
       "Hand-Crafted Details",
@@ -2115,7 +2150,7 @@ export const products = [
     "id": 8108,
     "name": "Sofa Set 9",
     "slug": "sofa-set-9",
-    "category": "sofa-sets",
+    "category": "l-shape-sofas",
     "description": "A royal and majestic sofa set with intricate carvings and plush upholstery. Brings a touch of grandeur to your home.",
     "features": [
       "Intricate Carvings",
@@ -2138,7 +2173,7 @@ export const products = [
     "id": 8109,
     "name": "Sofa Set 10",
     "slug": "sofa-set-10",
-    "category": "sofa-sets",
+    "category": "l-shape-sofas",
     "description": "A modern and sleek sofa set with clean lines and minimalist design. Perfect for contemporary interiors.",
     "features": [
       "Minimalist Design",
@@ -2162,7 +2197,7 @@ export const products = [
     "id": 8110,
     "name": "Sofa Set 11",
     "slug": "sofa-set-11",
-    "category": "sofa-sets",
+    "category": "l-shape-sofas",
     "description": "A versatile sofa set suitable for both formal and casual settings. Features high-density foam and premium fabric for lasting comfort.",
     "features": [
       "Versatile Design",
@@ -2186,7 +2221,7 @@ export const products = [
     "id": 8111,
     "name": "Sofa Set 12",
     "slug": "sofa-set-12",
-    "category": "sofa-sets",
+    "category": "l-shape-sofas",
     "description": "A chic and stylish sofa set with distinctive design elements. The perfect blend of comfort and contemporary style.",
     "features": [
       "Distinctive Design",
@@ -2210,7 +2245,7 @@ export const products = [
     "id": 8112,
     "name": "Sofa Set 13",
     "slug": "sofa-set-13",
-    "category": "sofa-sets",
+    "category": "3-2-2-sofas",
     "description": "A grand and luxurious sofa set that commands attention. Superior craftsmanship with premium materials for an unforgettable living room.",
     "features": [
       "Grand Design",
@@ -2235,7 +2270,7 @@ export const products = [
     "id": 8113,
     "name": "Sofa Set 14",
     "slug": "sofa-set-14",
-    "category": "sofa-sets",
+    "category": "l-shape-sofas",
     "description": "A sophisticated sofa set featuring elegant detailing and superior comfort. Ideal for those who appreciate fine craftsmanship.",
     "features": [
       "Elegant Detailing",
@@ -2254,34 +2289,1193 @@ export const products = [
     "isNew": true,
     "rating": 4.6,
     "reviews": 21
+  },
+  {
+    "id": 986354,
+    "name": "Premium Bed 1",
+    "slug": "premium-bed-1",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p0_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986355,
+    "name": "Premium Bed 2",
+    "slug": "premium-bed-2",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p10_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986356,
+    "name": "Premium Bed 3",
+    "slug": "premium-bed-3",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p11_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986357,
+    "name": "Premium Bed 4",
+    "slug": "premium-bed-4",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p12_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986358,
+    "name": "Premium Bed 5",
+    "slug": "premium-bed-5",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p1_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986359,
+    "name": "Premium Bed 6",
+    "slug": "premium-bed-6",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p2_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986360,
+    "name": "Premium Bed 7",
+    "slug": "premium-bed-7",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p3_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986361,
+    "name": "Premium Bed 8",
+    "slug": "premium-bed-8",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p4_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986362,
+    "name": "Premium Bed 9",
+    "slug": "premium-bed-9",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p5_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986363,
+    "name": "Premium Bed 10",
+    "slug": "premium-bed-10",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p6_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986364,
+    "name": "Premium Bed 11",
+    "slug": "premium-bed-11",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p7_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986365,
+    "name": "Premium Bed 12",
+    "slug": "premium-bed-12",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p8_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986366,
+    "name": "Premium Bed 13",
+    "slug": "premium-bed-13",
+    "category": "beds",
+    "price": 25000,
+    "originalPrice": 30000,
+    "description": "Elegant bed for restful nights with modern aesthetic.",
+    "features": [
+      "Sturdy Construction",
+      "Premium Finish",
+      "Comfortable"
+    ],
+    "dimensions": "Standard King Size",
+    "material": "Engineered Wood",
+    "image": "/images/beds_extra_raw/img_p9_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 20
+  },
+  {
+    "id": 986367,
+    "name": "Bedroom Chair 1",
+    "slug": "bedroom-chair-1",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p0_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986368,
+    "name": "Bedroom Chair 2",
+    "slug": "bedroom-chair-2",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p10_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986369,
+    "name": "Bedroom Chair 3",
+    "slug": "bedroom-chair-3",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p11_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986370,
+    "name": "Bedroom Chair 4",
+    "slug": "bedroom-chair-4",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p12_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986371,
+    "name": "Bedroom Chair 5",
+    "slug": "bedroom-chair-5",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p13_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986372,
+    "name": "Bedroom Chair 6",
+    "slug": "bedroom-chair-6",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p1_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986373,
+    "name": "Bedroom Chair 7",
+    "slug": "bedroom-chair-7",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p2_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986374,
+    "name": "Bedroom Chair 8",
+    "slug": "bedroom-chair-8",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p3_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986375,
+    "name": "Bedroom Chair 9",
+    "slug": "bedroom-chair-9",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p4_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986376,
+    "name": "Bedroom Chair 10",
+    "slug": "bedroom-chair-10",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p5_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986377,
+    "name": "Bedroom Chair 11",
+    "slug": "bedroom-chair-11",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p6_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986378,
+    "name": "Bedroom Chair 12",
+    "slug": "bedroom-chair-12",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p7_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986379,
+    "name": "Bedroom Chair 13",
+    "slug": "bedroom-chair-13",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p8_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": 986380,
+    "name": "Bedroom Chair 14",
+    "slug": "bedroom-chair-14",
+    "category": "bedroom-chairs",
+    "price": 6000,
+    "originalPrice": 8000,
+    "description": "Elegant chair perfectly complementing your bedroom.",
+    "features": [
+      "Premium Fabric",
+      "Comfortable Seating"
+    ],
+    "dimensions": "Standard",
+    "material": "Wood & Fabric",
+    "image": "/images/bedroom_chairs_raw/img_p9_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "name": "ATHENA DRESSING TABLE",
+    "slug": "athena-dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium ATHENA DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2024/12/01-3-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 14,
+    "id": 986381
+  },
+  {
+    "name": "AUSTIN DRESSING TABLE",
+    "slug": "austin-dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium AUSTIN DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2023/12/T-1-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 36,
+    "id": 986382
+  },
+  {
+    "name": "AUSTIN DRESSING TABLE",
+    "slug": "austin-dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium AUSTIN DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2023/12/01-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 53,
+    "id": 986383
+  },
+  {
+    "name": "AVON DRESSING TABLE",
+    "slug": "avon-dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium AVON DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2022/08/A-1-1-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 13,
+    "id": 986384
+  },
+  {
+    "name": "CAIRO DRESSING TABLE",
+    "slug": "cairo-dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium CAIRO DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2024/01/01-5-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 44,
+    "id": 986385
+  },
+  {
+    "name": "DRESSING TABLE",
+    "slug": "dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2022/08/M-1-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 43,
+    "id": 986386
+  },
+  {
+    "name": "DRESSING TABLE",
+    "slug": "dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2024/02/01-16-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 24,
+    "id": 986387
+  },
+  {
+    "name": "FELCITY DRESSING TABLE",
+    "slug": "felcity-dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium FELCITY DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2022/11/F-1-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 19,
+    "id": 986388
+  },
+  {
+    "name": "GEORGIA DRESSING TABLE",
+    "slug": "georgia-dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium GEORGIA DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2025/01/01-3-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 25,
+    "id": 986389
+  },
+  {
+    "name": "HARRY DRESSING TABLE",
+    "slug": "harry-dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium HARRY DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2022/11/G-1-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 26,
+    "id": 986390
+  },
+  {
+    "name": "INDY DRESSING TABLE",
+    "slug": "indy-dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium INDY DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2024/02/01-13-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 35,
+    "id": 986391
+  },
+  {
+    "name": "LIBERTY DRESSING TABLE",
+    "slug": "liberty-dressing-table",
+    "category": "piyestra-bedroom-centre-tables",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium LIBERTY DRESSING TABLE from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2024/10/01-7-600x600.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 50,
+    "id": 986392
+  },
+  {
+    "name": "HARRY STORAGE BED",
+    "slug": "harry-storage-bed",
+    "category": "piyestra-bedroom-beds",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium HARRY STORAGE KING BED from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2022/11/PKBHA-007-1-600x492.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 51,
+    "id": 986393
+  },
+  {
+    "name": "LIBERTY HYDRAULIC BED",
+    "slug": "liberty-hydraulic-bed",
+    "category": "piyestra-bedroom-beds",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium LIBERTY HYDRAULIC KING BED from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2024/10/01-5-600x492.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 45,
+    "id": 986394
+  },
+  {
+    "name": "ZERENA HYDRAULIC BED",
+    "slug": "zerena-hydraulic-bed",
+    "category": "piyestra-bedroom-beds",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium ZERENA HYDRAULIC KING BED from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction"
+    ],
+    "dimensions": "Standard",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2023/05/PKBS-032-1-600x492.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 20,
+    "id": 986395
+  },
+  {
+    "id": 986396,
+    "name": "Marble Top Dining 1",
+    "slug": "marble-top-dining-1",
+    "category": "marble-top",
+    "price": 45000,
+    "originalPrice": 50000,
+    "description": "Elegant marble top dining table.",
+    "features": [
+      "Marble Top",
+      "Premium Finish"
+    ],
+    "dimensions": "Standard 6 Seater",
+    "material": "Marble & Wood",
+    "image": "/images/marble_top_dining_raw/img_p0_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.9,
+    "reviews": 5
+  },
+  {
+    "id": 986397,
+    "name": "Marble Top Dining 2",
+    "slug": "marble-top-dining-2",
+    "category": "marble-top",
+    "price": 45000,
+    "originalPrice": 50000,
+    "description": "Elegant marble top dining table.",
+    "features": [
+      "Marble Top",
+      "Premium Finish"
+    ],
+    "dimensions": "Standard 6 Seater",
+    "material": "Marble & Wood",
+    "image": "/images/marble_top_dining_raw/img_p1_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.9,
+    "reviews": 5
+  },
+  {
+    "id": 986398,
+    "name": "Marble Top Dining 3",
+    "slug": "marble-top-dining-3",
+    "category": "marble-top",
+    "price": 45000,
+    "originalPrice": 50000,
+    "description": "Elegant marble top dining table.",
+    "features": [
+      "Marble Top",
+      "Premium Finish"
+    ],
+    "dimensions": "Standard 6 Seater",
+    "material": "Marble & Wood",
+    "image": "/images/marble_top_dining_raw/img_p2_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.9,
+    "reviews": 5
+  },
+  {
+    "id": 986399,
+    "name": "Marble Top Dining 4",
+    "slug": "marble-top-dining-4",
+    "category": "marble-top",
+    "price": 45000,
+    "originalPrice": 50000,
+    "description": "Elegant marble top dining table.",
+    "features": [
+      "Marble Top",
+      "Premium Finish"
+    ],
+    "dimensions": "Standard 6 Seater",
+    "material": "Marble & Wood",
+    "image": "/images/marble_top_dining_raw/img_p3_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.9,
+    "reviews": 5
+  },
+  {
+    "id": 986400,
+    "name": "Marble Top Dining 5",
+    "slug": "marble-top-dining-5",
+    "category": "marble-top",
+    "price": 45000,
+    "originalPrice": 50000,
+    "description": "Elegant marble top dining table.",
+    "features": [
+      "Marble Top",
+      "Premium Finish"
+    ],
+    "dimensions": "Standard 6 Seater",
+    "material": "Marble & Wood",
+    "image": "/images/marble_top_dining_raw/img_p4_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.9,
+    "reviews": 5
+  },
+  {
+    "id": 986401,
+    "name": "Marble Top Dining 6",
+    "slug": "marble-top-dining-6",
+    "category": "marble-top",
+    "price": 45000,
+    "originalPrice": 50000,
+    "description": "Elegant marble top dining table.",
+    "features": [
+      "Marble Top",
+      "Premium Finish"
+    ],
+    "dimensions": "Standard 6 Seater",
+    "material": "Marble & Wood",
+    "image": "/images/marble_top_dining_raw/img_p5_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.9,
+    "reviews": 5
+  },
+  {
+    "id": 986402,
+    "name": "Marble Top Dining 7",
+    "slug": "marble-top-dining-7",
+    "category": "marble-top",
+    "price": 45000,
+    "originalPrice": 50000,
+    "description": "Elegant marble top dining table.",
+    "features": [
+      "Marble Top",
+      "Premium Finish"
+    ],
+    "dimensions": "Standard 6 Seater",
+    "material": "Marble & Wood",
+    "image": "/images/marble_top_dining_raw/img_p6_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.9,
+    "reviews": 5
+  },
+  {
+    "id": 986403,
+    "name": "L-Shape Sofa Extra 1",
+    "slug": "l-shape-sofa-extra-1",
+    "category": "l-shape-sofas",
+    "price": 35000,
+    "originalPrice": 40000,
+    "description": "Spacious and comfortable L-Shape sofa.",
+    "features": [
+      "Premium Fabric",
+      "L-Shape Design"
+    ],
+    "dimensions": "Standard L-Shape",
+    "material": "Wood & Fabric",
+    "image": "/images/l_shape_sofa_extra_raw/img_p0_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.6,
+    "reviews": 15
+  },
+  {
+    "id": 986404,
+    "name": "L-Shape Sofa Extra 2",
+    "slug": "l-shape-sofa-extra-2",
+    "category": "l-shape-sofas",
+    "price": 35000,
+    "originalPrice": 40000,
+    "description": "Spacious and comfortable L-Shape sofa.",
+    "features": [
+      "Premium Fabric",
+      "L-Shape Design"
+    ],
+    "dimensions": "Standard L-Shape",
+    "material": "Wood & Fabric",
+    "image": "/images/l_shape_sofa_extra_raw/img_p1_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.6,
+    "reviews": 15
+  },
+  {
+    "id": 986405,
+    "name": "L-Shape Sofa Extra 3",
+    "slug": "l-shape-sofa-extra-3",
+    "category": "l-shape-sofas",
+    "price": 35000,
+    "originalPrice": 40000,
+    "description": "Spacious and comfortable L-Shape sofa.",
+    "features": [
+      "Premium Fabric",
+      "L-Shape Design"
+    ],
+    "dimensions": "Standard L-Shape",
+    "material": "Wood & Fabric",
+    "image": "/images/l_shape_sofa_extra_raw/img_p2_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.6,
+    "reviews": 15
+  },
+  {
+    "id": 986406,
+    "name": "L-Shape Sofa Extra 4",
+    "slug": "l-shape-sofa-extra-4",
+    "category": "l-shape-sofas",
+    "price": 35000,
+    "originalPrice": 40000,
+    "description": "Spacious and comfortable L-Shape sofa.",
+    "features": [
+      "Premium Fabric",
+      "L-Shape Design"
+    ],
+    "dimensions": "Standard L-Shape",
+    "material": "Wood & Fabric",
+    "image": "/images/l_shape_sofa_extra_raw/img_p3_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.6,
+    "reviews": 15
+  },
+  {
+    "id": 986407,
+    "name": "L-Shape Sofa Extra 5",
+    "slug": "l-shape-sofa-extra-5",
+    "category": "l-shape-sofas",
+    "price": 35000,
+    "originalPrice": 40000,
+    "description": "Spacious and comfortable L-Shape sofa.",
+    "features": [
+      "Premium Fabric",
+      "L-Shape Design"
+    ],
+    "dimensions": "Standard L-Shape",
+    "material": "Wood & Fabric",
+    "image": "/images/l_shape_sofa_extra_raw/img_p4_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.6,
+    "reviews": 15
+  },
+  {
+    "id": 986408,
+    "name": "3-1-1 Sofa 1",
+    "slug": "3-1-1-sofa-1",
+    "category": "3-1-1-sofas",
+    "price": 28000,
+    "originalPrice": 32000,
+    "description": "Elegant 3-1-1 sofa set.",
+    "features": [
+      "Premium Fabric",
+      "3-1-1 Configuration"
+    ],
+    "dimensions": "Standard Set",
+    "material": "Wood & Fabric",
+    "image": "/images/3_1_1_sofas_raw/img_p0_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 10
+  },
+  {
+    "id": 986409,
+    "name": "3-1-1 Sofa 2",
+    "slug": "3-1-1-sofa-2",
+    "category": "3-1-1-sofas",
+    "price": 28000,
+    "originalPrice": 32000,
+    "description": "Elegant 3-1-1 sofa set.",
+    "features": [
+      "Premium Fabric",
+      "3-1-1 Configuration"
+    ],
+    "dimensions": "Standard Set",
+    "material": "Wood & Fabric",
+    "image": "/images/3_1_1_sofas_raw/img_p1_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 10
+  },
+  {
+    "id": 986410,
+    "name": "3-1-1 Sofa 3",
+    "slug": "3-1-1-sofa-3",
+    "category": "3-1-1-sofas",
+    "price": 28000,
+    "originalPrice": 32000,
+    "description": "Elegant 3-1-1 sofa set.",
+    "features": [
+      "Premium Fabric",
+      "3-1-1 Configuration"
+    ],
+    "dimensions": "Standard Set",
+    "material": "Wood & Fabric",
+    "image": "/images/3_1_1_sofas_raw/img_p2_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 10
+  },
+  {
+    "id": 986411,
+    "name": "3-1-1 Sofa 4",
+    "slug": "3-1-1-sofa-4",
+    "category": "3-1-1-sofas",
+    "price": 28000,
+    "originalPrice": 32000,
+    "description": "Elegant 3-1-1 sofa set.",
+    "features": [
+      "Premium Fabric",
+      "3-1-1 Configuration"
+    ],
+    "dimensions": "Standard Set",
+    "material": "Wood & Fabric",
+    "image": "/images/3_1_1_sofas_raw/img_p3_1.png",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 10
   }
 ];
-
-// ========================
-//  HELPER FUNCTIONS
-// ========================
-
-export function getProductBySlug(slug) {
-  return products.find((product) => product.slug === slug) || null;
-}
-
-export function getProductsByCategory(category) {
-  return products.filter((product) => product.category === category);
-}
-
-export function getFeaturedProducts() {
-  return products.filter((product) => product.isFeatured);
-}
-
-export function getRelatedProducts(productId, limit = 4) {
-  const currentProduct = products.find((product) => product.id === productId);
-  if (!currentProduct) return [];
-
-  return products
-    .filter(
-      (product) =>
-        product.category === currentProduct.category &&
-        product.id !== productId
-    )
-    .slice(0, limit);
-}
