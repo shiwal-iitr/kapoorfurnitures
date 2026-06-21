@@ -176,7 +176,8 @@ function ProductsContent() {
       )}
 
       {/* Product Grid */}
-      <section className="pb-24 pt-8">
+      {(!subcategoriesToShow || subcategoriesToShow.length === 0) && (
+        <section className="pb-24 pt-8">
         <div className="container-custom">
           {filteredProducts.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -197,6 +198,7 @@ function ProductsContent() {
           )}
         </div>
       </section>
+      )}
     </div>
   );
 }
