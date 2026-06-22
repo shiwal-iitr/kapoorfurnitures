@@ -81,11 +81,7 @@ function ProductsContent() {
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4 uppercase">
             {activeCategoryNode ? activeCategoryNode.name : 'Our Collection'}
           </h1>
-          <div className="gold-line" />
-          <p className="text-gray-600 max-w-2xl mx-auto text-lg mb-8">
-            Explore our curated collection of premium furniture, handcrafted to
-            perfection for your dream home.
-          </p>
+          <div className="gold-line mb-8" />
         </div>
         
         {/* Back button aligned bottom left of header */}
@@ -142,6 +138,16 @@ function ProductsContent() {
           </div>
 
           {/* Results count removed per user request */}
+        </div>
+      </section>
+
+      {/* Description */}
+      <section className="pt-10 pb-8">
+        <div className="container-custom text-center">
+          <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+            Explore our curated collection of premium furniture, handcrafted to
+            perfection for your dream home.
+          </p>
         </div>
       </section>
 
