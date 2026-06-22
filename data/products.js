@@ -3679,6 +3679,50 @@ export const products = [
     "isNew": true,
     "rating": 4.8,
     "reviews": 5
+  },
+  {
+    "name": "STELLA HYDRAULIC BED",
+    "slug": "stella-hydraulic-bed",
+    "category": "piyestra-bedroom-beds",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium STELLA HYDRAULIC BED from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction",
+      "Hydraulic Storage"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2022/11/PKBS-019-1-600x492.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 30,
+    "id": 986412
+  },
+  {
+    "name": "VIANA BED",
+    "slug": "viana-bed",
+    "category": "piyestra-bedroom-beds",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium VIANA BED from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction",
+      "Hydraulic Storage"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2022/08/PKBV-003-1-600x492.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 35,
+    "id": 986413
   }
 ];
 
