@@ -33,7 +33,7 @@ export const categories = [
         "id": "bedroom-chairs",
         "name": "Bedroom Chairs",
         "description": "Comfortable bedroom chairs",
-        "image": "/images/bedroom_chairs_raw/img_p0_1.png"
+        "image": "/images/ai_generated/ai_bedroom_chair_7_1782118994595.png"
       }
     ]
   },
