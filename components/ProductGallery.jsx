@@ -18,53 +18,22 @@ export default function ProductGallery({ product }) {
   return (
     <div className="relative">
       {/* Main Image */}
-      {isBed ? (
-        <div className="rounded-3xl overflow-hidden bg-gray-50 border border-gray-100">
-          {images[activeIndex] && images[activeIndex] !== '/images/placeholder.svg' ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={images[activeIndex]}
-              alt={`${product.name} view ${activeIndex + 1}`}
-              className="w-full h-auto object-contain"
-            />
-          ) : (
-            <div className="aspect-[4/3] flex items-center justify-center">
-              <span className="text-[8rem] font-serif text-gray-200 select-none leading-none">
-                {product.name.charAt(0)}
-              </span>
-            </div>
-          )}
-          {/* Badges */}
-          <div className="absolute top-6 left-6 flex flex-col gap-2">
-            {product.isNew && (
-              <span className="bg-emerald-500 text-white text-xs font-semibold px-3 py-1.5 rounded-full">
-                NEW
-              </span>
-            )}
-          </div>
-        </div>
-      ) : (
-      <div className="aspect-square rounded-3xl overflow-hidden bg-gray-50 flex items-center justify-center relative border border-gray-100">
+      <div className="rounded-3xl overflow-hidden bg-gray-50 border border-gray-100">
         {images[activeIndex] && images[activeIndex] !== '/images/placeholder.svg' ? (
-          <Image
-            src={images[activeIndex]}
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={images[activeIndex].includes('piyestraindia.com') ? `${images[activeIndex]}?v=1` : images[activeIndex]}
             alt={`${product.name} view ${activeIndex + 1}`}
-            fill
-            className="object-cover"
-            sizes="(max-width: 1024px) 100vw, 50vw"
-            priority
+            className="w-full h-auto object-contain"
+            referrerPolicy="no-referrer"
           />
         ) : (
-          <>
-            <span className="text-[12rem] font-serif text-gray-200 select-none leading-none">
+          <div className="aspect-[4/3] flex items-center justify-center">
+            <span className="text-[8rem] font-serif text-gray-200 select-none leading-none">
               {product.name.charAt(0)}
             </span>
-            <div className="absolute bottom-8 right-8 text-6xl opacity-20">
-              {product.category === 'beds' ? '🛏️' : product.category === 'almirahs' ? '🚪' : '🛋️'}
-            </div>
-          </>
+          </div>
         )}
-
         {/* Badges */}
         <div className="absolute top-6 left-6 flex flex-col gap-2">
           {product.isNew && (
@@ -74,7 +43,6 @@ export default function ProductGallery({ product }) {
           )}
         </div>
       </div>
-      )}
 
       {/* Thumbnails Gallery */}
       {images.length > 1 && (
@@ -89,12 +57,12 @@ export default function ProductGallery({ product }) {
                   : 'border-transparent opacity-70 hover:opacity-100'
               }`}
             >
-              <Image
-                src={imgSrc}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={imgSrc.includes('piyestraindia.com') ? `${imgSrc}?v=1` : imgSrc}
                 alt={`${product.name} thumbnail ${idx + 1}`}
-                fill
-                className="object-cover"
-                sizes="96px"
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
               />
             </button>
           ))}
