@@ -3684,8 +3684,8 @@ export const products = [
     "name": "STELLA HYDRAULIC BED",
     "slug": "stella-hydraulic-bed",
     "category": "piyestra-bedroom-beds",
-    "price": 50,
-    "originalPrice": 60,
+    "price": 25000,
+    "originalPrice": 30000,
     "description": "Premium STELLA HYDRAULIC BED from Piyestra Collection, offering modern design and durability.",
     "features": [
       "Premium Quality",
@@ -3706,8 +3706,8 @@ export const products = [
     "name": "VIANA BED",
     "slug": "viana-bed",
     "category": "piyestra-bedroom-beds",
-    "price": 50,
-    "originalPrice": 60,
+    "price": 25000,
+    "originalPrice": 30000,
     "description": "Premium VIANA BED from Piyestra Collection, offering modern design and durability.",
     "features": [
       "Premium Quality",
@@ -3728,8 +3728,8 @@ export const products = [
     "name": "INDY HYDRAULIC BED",
     "slug": "indy-hydraulic-bed",
     "category": "piyestra-bedroom-beds",
-    "price": 50,
-    "originalPrice": 60,
+    "price": 25000,
+    "originalPrice": 30000,
     "description": "Premium INDY HYDRAULIC BED from Piyestra Collection, offering modern design and durability.",
     "features": [
       "Premium Quality",
