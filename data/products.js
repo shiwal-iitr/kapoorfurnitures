@@ -3723,6 +3723,28 @@ export const products = [
     "rating": 4.8,
     "reviews": 35,
     "id": 986413
+  },
+  {
+    "name": "INDY HYDRAULIC BED",
+    "slug": "indy-hydraulic-bed",
+    "category": "piyestra-bedroom-beds",
+    "price": 50,
+    "originalPrice": 60,
+    "description": "Premium INDY HYDRAULIC BED from Piyestra Collection, offering modern design and durability.",
+    "features": [
+      "Premium Quality",
+      "Modern Design",
+      "Durable Construction",
+      "Hydraulic Storage"
+    ],
+    "dimensions": "Standard Size",
+    "material": "Engineered Wood",
+    "image": "https://piyestraindia.com/wp-content/uploads/2022/08/PKBS-004-1-600x492.jpg",
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 21,
+    "id": 986414
   }
 ];
 
