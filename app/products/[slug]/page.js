@@ -35,13 +35,28 @@ export async function generateMetadata(props) {
     return { title: 'Product Not Found' };
   }
 
+  const imageUrl = product.image
+    ? `https://www.kapoorfurnitures.com${product.image}`
+    : '/og-image.png';
+
   return {
     title: `${product.name} - ${product.material}`,
     description: product.description,
+    alternates: {
+      canonical: `/products/${product.slug}`,
+    },
     openGraph: {
       title: product.name,
       description: product.description,
+      url: `https://www.kapoorfurnitures.com/products/${product.slug}`,
       type: 'website',
+      images: [{ url: imageUrl, alt: product.name }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: product.name,
+      description: product.description,
+      images: [imageUrl],
     },
   };
 }
@@ -217,11 +232,26 @@ export default async function ProductDetailPage(props) {
             '@type': 'Product',
             name: product.name,
             description: product.description,
-            category: product.category,
+            category: getCategoryName(product.category),
+            sku: String(product.id),
+            image: product.image
+              ? `https://www.kapoorfurnitures.com${product.image}`
+              : undefined,
+            brand: {
+              '@type': 'Brand',
+              name: 'Kapoor Furnitures',
+            },
+            material: product.material,
             offers: {
               '@type': 'Offer',
+              url: `https://www.kapoorfurnitures.com/products/${product.slug}`,
               availability: 'https://schema.org/InStock',
               priceCurrency: 'INR',
+              price: product.price,
+              seller: {
+                '@type': 'Organization',
+                name: 'Kapoor Furnitures',
+              },
             },
             aggregateRating: {
               '@type': 'AggregateRating',

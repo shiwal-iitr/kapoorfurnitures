@@ -4,16 +4,16 @@ const quickLinks = [
   { name: 'Home', href: '/' },
   { name: 'Products', href: '/products' },
   { name: 'Contact', href: '/contact' },
-  { name: 'About Us', href: '#' },
-  { name: 'FAQs', href: '#' },
+  { name: 'Visit Showroom', href: '/contact' },
+  { name: 'FAQs', href: '/contact' },
 ];
 
 const categories = [
-  { name: 'Living Room', href: '#' },
-  { name: 'Bedroom', href: '#' },
-  { name: 'Dining Room', href: '#' },
-  { name: 'Office', href: '#' },
-  { name: 'Outdoor', href: '#' },
+  { name: 'Living Room', href: '/products?category=living-room' },
+  { name: 'Bedroom', href: '/products?category=bedroom' },
+  { name: 'Dining Room', href: '/products?category=dining' },
+  { name: 'Office', href: '/products?category=piyestra-office' },
+  { name: 'Study', href: '/products?category=piyestra-study' },
 ];
 
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
       {/* Wooden Background */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat transition-all duration-1000"
@@ -48,17 +48,17 @@ export default function HeroSection() {
 
         {/* CTA Buttons */}
         <div
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12 opacity-0 animate-[fadeInUp_0.8s_ease-out_1.1s_forwards]"
+          className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 mt-12 px-4 sm:px-0 opacity-0 animate-[fadeInUp_0.8s_ease-out_1.1s_forwards]"
         >
           <Link
             href="/products"
-            className="inline-block bg-[#c9a96e] text-[#1a1a2e] font-semibold px-16 py-4 rounded text-lg whitespace-nowrap hover:scale-105 transition-transform duration-300 shadow-lg shadow-[#c9a96e]/25"
+            className="block sm:inline-block text-center w-full sm:w-auto bg-[#c9a96e] text-[#1a1a2e] font-semibold px-10 sm:px-16 py-4 rounded text-lg whitespace-nowrap hover:scale-105 transition-transform duration-300 shadow-lg shadow-[#c9a96e]/25"
           >
             Explore Collection
           </Link>
           <Link
             href="/contact"
-            className="inline-block border-2 border-[#c9a96e] text-[#c9a96e] bg-transparent font-semibold px-16 py-4 rounded text-lg whitespace-nowrap hover:bg-[#c9a96e]/10 hover:scale-105 transition-all duration-300"
+            className="block sm:inline-block text-center w-full sm:w-auto border-2 border-[#c9a96e] text-[#c9a96e] bg-transparent font-semibold px-10 sm:px-16 py-4 rounded text-lg whitespace-nowrap hover:bg-[#c9a96e]/10 hover:scale-105 transition-all duration-300"
           >
             Contact Us
           </Link>

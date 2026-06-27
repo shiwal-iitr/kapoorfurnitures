@@ -15,9 +15,9 @@ export default function HomePage() {
       {/* Category Showcase */}
       <section className="section-padding bg-white border-b border-gray-100">
         <div className="container-custom text-center py-10">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-24 tracking-tight">Offering furniture that makes you feel home</h2>
-          
-          <div className="flex flex-wrap justify-center gap-16 md:gap-24 lg:gap-[100px] max-w-7xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-12 md:mb-24 tracking-tight">Offering furniture that makes you feel home</h2>
+
+          <div className="flex flex-wrap justify-center gap-x-10 gap-y-10 md:gap-24 lg:gap-[100px] max-w-7xl mx-auto">
             {[
               {
                 name: 'Bedroom',
@@ -163,33 +163,33 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FurnitureStore',
+            '@id': 'https://www.kapoorfurnitures.com/#store',
             name: 'Kapoor Furnitures',
             description:
-              'Premium furniture store offering handcrafted beds, almirahs, and sofa sets.',
-            url: 'https://kapoorfurnitures.com',
-            telephone: '+91-9935411101',
+              'Premium furniture store in Kanpur offering handcrafted beds, sofa sets, dining tables, wardrobes and bedroom furniture.',
+            url: 'https://www.kapoorfurnitures.com',
+            image: 'https://www.kapoorfurnitures.com/og-image.png',
+            telephone: '+91-9076647555',
+            email: 'Himanshukapoor2000@gmail.com',
+            priceRange: '₹₹',
             address: {
               '@type': 'PostalAddress',
-              streetAddress: '123, Furniture Lane, MG Road',
-              addressLocality: 'New Delhi',
-              addressRegion: 'Delhi',
-              postalCode: '110001',
+              streetAddress: '124/C/234, Govind Nagar',
+              addressLocality: 'Kanpur',
+              addressRegion: 'Uttar Pradesh',
+              postalCode: '208006',
               addressCountry: 'IN',
             },
+            hasMap: 'https://maps.app.goo.gl/RJRL9KUegEu8KHpcA',
+            areaServed: 'Kanpur',
             openingHoursSpecification: [
               {
                 '@type': 'OpeningHoursSpecification',
                 dayOfWeek: [
-                  'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday',
+                  'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday',
                 ],
-                opens: '10:00',
-                closes: '21:00',
-              },
-              {
-                '@type': 'OpeningHoursSpecification',
-                dayOfWeek: 'Sunday',
-                opens: '11:00',
-                closes: '19:00',
+                opens: '10:30',
+                closes: '20:30',
               },
             ],
           }),
