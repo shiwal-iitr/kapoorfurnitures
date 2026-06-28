@@ -142,9 +142,9 @@ function ProductsContent() {
       </section>
 
       {/* Description */}
-      <section className="pt-10 pb-6 text-center">
-        <div className="container-custom">
-          <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+      <section className="pt-10 pb-6">
+        <div className="container-custom flex justify-center">
+          <p className="text-gray-600 max-w-2xl text-lg text-center">
             Explore our curated collection of premium furniture, handcrafted to
             perfection for your dream home.
           </p>
