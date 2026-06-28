@@ -142,8 +142,8 @@ function ProductsContent() {
       </section>
 
       {/* Description */}
-      <section className="pt-10 pb-10">
-        <div className="container-custom text-center">
+      <section className="pt-10 pb-6 text-center">
+        <div className="container-custom">
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             Explore our curated collection of premium furniture, handcrafted to
             perfection for your dream home.
@@ -153,20 +153,20 @@ function ProductsContent() {
 
       {/* Visual Subcategories Grid */}
       {subcategoriesToShow && subcategoriesToShow.length > 0 && (
-        <section className="pb-16 pt-2">
+        <section className="pb-16 pt-8">
           <div className="container-custom">
             <div className="flex flex-wrap justify-center gap-8">
               {subcategoriesToShow.map((sub) => (
-                <div 
+                <div
                   key={sub.id}
                   onClick={() => setActiveCategory(sub.id)}
-                  className={`relative w-full sm:w-[45%] lg:w-[30%] min-w-[280px] rounded-2xl overflow-hidden cursor-pointer group ${activeCategory === sub.id ? 'ring-4 ring-black ring-offset-2' : ''}`}
+                  className={`relative w-full sm:w-[45%] lg:w-[30%] min-w-[280px] h-[340px] rounded-2xl overflow-hidden cursor-pointer group ${activeCategory === sub.id ? 'ring-4 ring-black ring-offset-2' : ''}`}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img 
-                    src={sub.image && sub.image.includes('piyestraindia.com') ? `${sub.image}?v=1` : (sub.image || '/images/placeholder.svg')} 
+                  <img
+                    src={sub.image && sub.image.includes('piyestraindia.com') ? `${sub.image}?v=1` : (sub.image || '/images/placeholder.svg')}
                     alt={sub.name}
-                    className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     referrerPolicy="no-referrer"
                   />
                   <div className="absolute inset-0 bg-black/40 transition-opacity duration-300 group-hover:bg-black/30" />
