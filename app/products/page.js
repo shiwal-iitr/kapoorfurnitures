@@ -129,8 +129,6 @@ function ProductsContent() {
                 >
                   <option value="featured">Featured</option>
                   <option value="newest">Newest</option>
-                  <option value="price-low">Price: Low to High</option>
-                  <option value="price-high">Price: High to Low</option>
                   <option value="rating">Top Rated</option>
                 </select>
               </div>
