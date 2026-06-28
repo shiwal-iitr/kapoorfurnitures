@@ -8,7 +8,7 @@ export const categories = [
       {
         "id": "marble-top",
         "name": "Marble Top",
-        "image": "/images/marble_top_dining_raw/img_p0_1.png"
+        "image": "/images/ai_generated/ai_dining_marble_p6_1782050477581.png"
       },
       {
         "id": "glass-top",
@@ -70,7 +70,7 @@ export const categories = [
         "id": "centre-tables",
         "name": "Centre Tables",
         "description": "Elegant centre tables",
-        "image": "/images/centre_tables_raw/img_p0_1.png"
+        "image": "/images/centre_tables_raw/img_p4_1.png"
       }
     ]
   },
@@ -247,27 +247,6 @@ export const products = [
     "dimensions": "Standard Centre Table Size",
     "material": "Premium Wood / Glass",
     "image": "/images/centre_tables_raw/img_p7_1.png",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.6,
-    "reviews": 15
-  },
-  {
-    "id": 9209,
-    "name": "Elegant Centre Table 10",
-    "slug": "elegant-centre-table-10",
-    "category": "centre-tables",
-    "price": 12500,
-    "originalPrice": 14500,
-    "description": "A beautiful centre table to perfectly complement your living room seating. Features a sturdy design with a premium finish.",
-    "features": [
-      "Sturdy Construction",
-      "Premium Finish",
-      "Modern Design"
-    ],
-    "dimensions": "Standard Centre Table Size",
-    "material": "Premium Wood / Glass",
-    "image": "/images/ai_generated/ai_edit_elegant_table_1_1782050962519.png",
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,

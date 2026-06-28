@@ -98,9 +98,9 @@ function ProductsContent() {
       </section>
 
       {/* Filters & Sort */}
-      <section className="pb-8">
+      <section className="pb-8 mt-6">
         <div className="container-custom">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex flex-col items-center gap-6">
             {/* Category Filter */}
             <CategoryFilter
               activeCategory={activeCategory}
@@ -142,7 +142,7 @@ function ProductsContent() {
       </section>
 
       {/* Description */}
-      <section className="pt-10 pb-8">
+      <section className="pt-10 pb-10">
         <div className="container-custom text-center">
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             Explore our curated collection of premium furniture, handcrafted to
@@ -153,7 +153,7 @@ function ProductsContent() {
 
       {/* Visual Subcategories Grid */}
       {subcategoriesToShow && subcategoriesToShow.length > 0 && (
-        <section className="pb-12 pt-6">
+        <section className="pb-16 pt-2">
           <div className="container-custom">
             <div className="flex flex-wrap justify-center gap-8">
               {subcategoriesToShow.map((sub) => (
