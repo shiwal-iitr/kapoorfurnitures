@@ -142,7 +142,7 @@ function ProductsContent() {
       </section>
 
       {/* Description */}
-      <section className="pt-10 pb-6">
+      <section style={{ paddingTop: '110px', paddingBottom: '94px' }}>
         <div className="container-custom flex justify-center">
           <p className="text-gray-600 max-w-2xl text-lg text-center">
             Explore our curated collection of premium furniture, handcrafted to
