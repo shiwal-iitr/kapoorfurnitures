@@ -21,14 +21,14 @@ export default function ProductCard({ product }) {
   return (
     <Link href={`/products/${product.slug}`} className="group block">
       <div className="bg-white border border-gray-100 rounded-2xl overflow-hidden hover:-translate-y-1 hover:shadow-xl hover:shadow-black/5 transition-all duration-300">
-        {/* Image container */}
-        <div className="relative w-full h-56 bg-gray-50 overflow-hidden flex items-center justify-center">
+        {/* Image container — fixed 4:3 ratio, object-cover so all cards are identical */}
+        <div className="relative w-full aspect-[4/3] bg-gray-50 overflow-hidden">
           {product.image && product.image !== '/images/placeholder.svg' ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={product.image.includes('piyestraindia.com') ? `${product.image}?v=1` : product.image}
               alt={product.name}
-              className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
             />
           ) : (

@@ -15,7 +15,7 @@ export default function HomePage() {
       {/* Category Showcase */}
       <section className="section-padding bg-white border-b border-gray-100">
         <div className="container-custom text-center py-10">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-12 md:mb-24 tracking-tight">Offering furniture that makes you feel home</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-[98px] md:mb-[146px] tracking-tight">Offering furniture that makes you feel home</h2>
 
           <div className="flex flex-wrap justify-center gap-x-10 gap-y-10 md:gap-24 lg:gap-[100px] max-w-7xl mx-auto">
             {[
