@@ -48,7 +48,7 @@ export default function HeroSection() {
 
         {/* CTA Buttons */}
         <div
-          className="flex flex-col sm:flex-row items-center sm:items-center justify-center gap-4 mt-[58px] sm:mt-12 px-4 sm:px-0 opacity-0 animate-[fadeInUp_0.8s_ease-out_1.1s_forwards]"
+          className="flex flex-col sm:flex-row items-center sm:items-center justify-center gap-4 mt-[72px] sm:mt-12 px-4 sm:px-0 opacity-0 animate-[fadeInUp_0.8s_ease-out_1.1s_forwards]"
         >
           <Link
             href="/products"

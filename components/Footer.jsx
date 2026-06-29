@@ -22,7 +22,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-50 border-t border-gray-200 text-gray-600">
       {/* Main Footer Content */}
-      <div className="max-w-7xl mx-auto pl-[30px] pr-5 sm:px-8 lg:px-12 py-16">
+      <div className="max-w-7xl mx-auto pl-[40px] pr-5 sm:px-8 lg:px-12 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* About Column */}
           <div>
@@ -127,7 +127,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-gray-200">
-        <div className="max-w-7xl mx-auto pl-[30px] pr-5 sm:px-8 lg:px-12 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="max-w-7xl mx-auto pl-[40px] pr-5 sm:px-8 lg:px-12 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
             © 2026 Kapoor Furnitures. All rights reserved.
           </p>
