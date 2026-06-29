@@ -29,10 +29,10 @@ export default function FeaturedProducts() {
         </div>
 
         {/* View All Link */}
-        <div className="text-center mt-12 md:mt-32">
+        <div className="text-center mt-[58px] md:mt-32">
           <Link
             href="/products"
-            className="inline-block px-16 py-4 bg-black text-white font-semibold rounded-full hover:scale-105 transition-transform duration-300 shadow-lg shadow-black/20"
+            className="inline-block px-16 py-4 bg-black text-white font-semibold rounded hover:scale-105 transition-transform duration-300 shadow-lg shadow-black/20"
           >
             View All Products
           </Link>
