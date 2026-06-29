@@ -2143,7 +2143,7 @@ export const products = [
     "material": "Fabric / Sheesham Wood",
     "image": "/images/ai_generated/ai_sofa_8_edit_1782723346907.png",
     "gallery": [
-      "/images/sofas_raw/img_p16_1.png"
+      "/images/ai_generated/ai_sofa_8_edit_1782723346907.png"
     ],
     "isFeatured": false,
     "isNew": false,
