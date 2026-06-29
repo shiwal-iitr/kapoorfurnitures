@@ -23,11 +23,9 @@
 }
 
 /* ===== Base Styles ===== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Note: do NOT add `* { margin: 0; padding: 0 }` here — Tailwind v4 already
+   resets these inside @layer base, and an unlayered version would override
+   every padding/margin utility class via CSS cascade layers. */
 
 html {
   scroll-behavior: smooth;
