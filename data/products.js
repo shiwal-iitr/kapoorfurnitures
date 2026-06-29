@@ -52,7 +52,7 @@ export const categories = [
           {
             "id": "3-1-1-sofas",
             "name": "3-1-1 Sofas",
-            "image": "/images/3_1_1_sofas_raw/img_p0_1.png"
+            "image": "/images/ai_generated/ai_sofa_311_p0_1782050333297.png"
           },
           {
             "id": "3-2-2-sofas",
@@ -71,6 +71,18 @@ export const categories = [
         "name": "Centre Tables",
         "description": "Elegant centre tables",
         "image": "/images/centre_tables_raw/img_p4_1.png"
+      },
+      {
+        "id": "sofa-cum-bed",
+        "name": "Sofa Cum Bed",
+        "description": "Versatile sofa cum beds",
+        "image": "/images/placeholder.svg"
+      },
+      {
+        "id": "deewan-cum-bed",
+        "name": "Deewan Cum Bed",
+        "description": "Elegant deewan cum beds",
+        "image": "/images/placeholder.svg"
       }
     ]
   },
@@ -2129,7 +2141,7 @@ export const products = [
     ],
     "dimensions": "5-Seater",
     "material": "Fabric / Sheesham Wood",
-    "image": "/images/sofas_raw/img_p16_1.png",
+    "image": "/images/ai_generated/ai_sofa_8_edit_1782723346907.png",
     "gallery": [
       "/images/sofas_raw/img_p16_1.png"
     ],
@@ -2152,7 +2164,7 @@ export const products = [
     ],
     "dimensions": "7-Seater Royal",
     "material": "Silk Fabric / Teak Wood",
-    "image": "/images/sofas_raw/img_p17_1.png",
+    "image": "/images/ai_generated/ai_sofa_9_edit_1782723332780.png",
     "gallery": [
       "/images/sofas_raw/img_p17_1.png"
     ],
@@ -3727,31 +3739,3 @@ export const products = [
   }
 ];
 
-// ========================
-//  HELPER FUNCTIONS
-// ========================
-
-export function getProductBySlug(slug) {
-  return products.find((product) => product.slug === slug) || null;
-}
-
-export function getProductsByCategory(category) {
-  return products.filter((product) => product.category === category);
-}
-
-export function getFeaturedProducts() {
-  return products.filter((product) => product.isFeatured);
-}
-
-export function getRelatedProducts(productId, limit = 4) {
-  const currentProduct = products.find((product) => product.id === productId);
-  if (!currentProduct) return [];
-
-  return products
-    .filter(
-      (product) =>
-        product.category === currentProduct.category &&
-        product.id !== productId
-    )
-    .slice(0, limit);
-}
