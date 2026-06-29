@@ -41,7 +41,7 @@ export default function Navbar() {
           scrolled ? 'shadow-sm' : ''
         }`}
       >
-        <div className="max-w-7xl mx-auto pr-4 sm:pr-6 lg:pr-8" style={{ paddingLeft: 'calc(1rem + 50px)' }}>
+        <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex-shrink-0">

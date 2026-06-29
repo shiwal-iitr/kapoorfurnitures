@@ -273,8 +273,14 @@ body {
   width: 80px;
   height: 2px;
   background: #222222;
-  margin: 1rem 0;
+  margin: 1rem auto;
   border-radius: 2px;
+}
+
+@media (min-width: 1024px) {
+  .gold-line-left {
+    margin: 1rem 0;
+  }
 }
 
 /* ===== Card Hover Effects ===== */
@@ -394,17 +400,17 @@ body {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 1rem 0 calc(1rem + 50px);
+  padding: 0 1.25rem;
 }
 
 @media (min-width: 640px) {
   .container-custom {
-    padding: 0 1.5rem 0 calc(1.5rem + 50px);
+    padding: 0 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   .container-custom {
-    padding: 0 2rem 0 calc(2rem + 50px);
+    padding: 0 3rem;
   }
 }

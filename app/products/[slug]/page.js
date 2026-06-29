@@ -97,7 +97,7 @@ export default async function ProductDetailPage(props) {
       {/* Breadcrumb */}
       <div className="container-custom py-6">
         <BackButton />
-        <nav className="flex items-center gap-2 text-sm text-gray-500">
+        <nav className="flex items-center gap-2 text-sm text-gray-500 flex-wrap">
           <Link href="/" className="hover:text-[#c9a96e] transition-colors">
             Home
           </Link>

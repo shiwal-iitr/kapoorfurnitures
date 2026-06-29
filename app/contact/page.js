@@ -87,13 +87,13 @@ export default function ContactPage() {
             </a>
           </div>
 
-          <div className="h-32 w-full"></div>
+          <div className="h-16 md:h-32 w-full"></div>
 
           {/* Store Info & Map */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
             {/* Store Details */}
-            <div className="bg-white border border-gray-200 rounded-2xl p-8">
-              <h2 className="text-2xl font-serif font-bold text-gray-900 mb-6">
+            <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8">
+              <h2 className="text-2xl font-serif font-bold text-gray-900 mb-6 text-center lg:text-left">
                 Visit Our Showroom
               </h2>
               <div className="gold-line-left" />
