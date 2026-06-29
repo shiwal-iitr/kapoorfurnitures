@@ -2164,7 +2164,7 @@ export const products = [
     ],
     "dimensions": "7-Seater Royal",
     "material": "Silk Fabric / Teak Wood",
-    "image": "/images/ai_generated/ai_sofa_9_flush_glass_1782727111348.png",
+    "image": "/images/ai_generated/ai_sofa_9_glass_shrunk_1782727537587.png",
     "gallery": [
       "/images/sofas_raw/img_p17_1.png"
     ],
