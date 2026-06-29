@@ -45,8 +45,8 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 ml-[20px] md:ml-0">
-              <span className="text-3xl md:text-4xl font-serif tracking-wide text-black">
-                Kapoor <span className="text-gray-500">Furnitures</span>
+              <span className="text-3xl md:text-4xl font-serif tracking-wide text-[#c9a96e]">
+                Kapoor <span className="text-[#c9a96e]/70">Furnitures</span>
               </span>
             </Link>
 
