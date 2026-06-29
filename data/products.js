@@ -2166,7 +2166,7 @@ export const products = [
     "material": "Silk Fabric / Teak Wood",
     "image": "/images/ai_generated/ai_sofa_9_glass_shrunk_1782727537587.png",
     "gallery": [
-      "/images/sofas_raw/img_p17_1.png"
+      "/images/ai_generated/ai_sofa_9_glass_shrunk_1782727537587.png"
     ],
     "isFeatured": true,
     "isNew": false,
