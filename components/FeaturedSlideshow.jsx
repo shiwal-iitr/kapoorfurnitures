@@ -69,6 +69,8 @@ export default function FeaturedSlideshow() {
               src={s.product.image || '/images/placeholder.svg'}
               alt={s.product.name}
               className="w-full h-full object-cover"
+              referrerPolicy="no-referrer"
+              loading={i === idx ? 'eager' : 'lazy'}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
             <div className="absolute inset-x-0 bottom-0 px-6 sm:px-12 pb-20 md:pb-24 text-center">
