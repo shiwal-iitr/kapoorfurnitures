@@ -177,7 +177,10 @@ export const products = [
     "isFeatured": true,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/ai_generated/ai_edit_elegant_table_1_1782050962519.png"
+    ]
   },
   {
     "id": 9201,
@@ -198,7 +201,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/centre_tables_raw/img_p1_1.png"
+    ]
   },
   {
     "id": 9204,
@@ -219,7 +225,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/centre_tables_raw/img_p4_1.png"
+    ]
   },
   {
     "id": 9205,
@@ -240,7 +249,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/centre_tables_raw/img_p5_1.png"
+    ]
   },
   {
     "id": 9206,
@@ -261,7 +273,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/centre_tables_raw/img_p6_1.png"
+    ]
   },
   {
     "id": 9207,
@@ -282,7 +297,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/centre_tables_raw/img_p7_1.png"
+    ]
   },
   {
     "id": 9210,
@@ -303,7 +321,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/centre_tables_raw/img_p10_1.png"
+    ]
   },
   {
     "id": 9000,
@@ -324,7 +345,10 @@ export const products = [
     "isFeatured": true,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/dining_raw/main/img_p1_1.png"
+    ]
   },
   {
     "id": 9001,
@@ -345,7 +369,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/dining_raw/main/img_p2_1.png"
+    ]
   },
   {
     "id": 9002,
@@ -366,7 +393,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/dining_raw/main/img_p3_1.png"
+    ]
   },
   {
     "id": 9003,
@@ -387,7 +417,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/dining_raw/main/img_p4_1.png"
+    ]
   },
   {
     "id": 9004,
@@ -408,7 +441,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/dining_raw/main/img_p5_1.png"
+    ]
   },
   {
     "id": 9005,
@@ -429,7 +465,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/dining_raw/main/img_p6_1.png"
+    ]
   },
   {
     "id": 9006,
@@ -450,7 +489,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/dining_raw/main/img_p7_1.png"
+    ]
   },
   {
     "id": 9007,
@@ -471,7 +513,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/dining_raw/main/img_p8_1.png"
+    ]
   },
   {
     "id": 9008,
@@ -492,7 +537,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/dining_raw/main/img_p10_1.png"
+    ]
   },
   {
     "id": 9009,
@@ -513,7 +561,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/dining_raw/main/img_p12_1.png"
+    ]
   },
   {
     "id": 9100,
@@ -532,7 +583,7 @@ export const products = [
     "material": "Premium Wood & Glass",
     "image": "/images/ai_generated/ai_dining_extra_a_1782073679209.png",
     "gallery": [
-      "/images/dining_raw/extra/img_p0_1.png"
+      "/images/ai_generated/ai_dining_extra_a_1782073679209.png"
     ],
     "isFeatured": true,
     "isNew": true,
@@ -556,7 +607,7 @@ export const products = [
     "material": "Premium Wood & Glass",
     "image": "/images/ai_generated/ai_dining_extra_b_1782073694681.png",
     "gallery": [
-      "/images/dining_raw/extra/img_p1_1.png"
+      "/images/ai_generated/ai_dining_extra_b_1782073694681.png"
     ],
     "isFeatured": true,
     "isNew": true,
@@ -580,7 +631,7 @@ export const products = [
     "material": "Premium Wood & Glass",
     "image": "/images/ai_generated/ai_dining_extra_c_1782073708691.png",
     "gallery": [
-      "/images/dining_raw/extra/img_p2_1.png"
+      "/images/ai_generated/ai_dining_extra_c_1782073708691.png"
     ],
     "isFeatured": true,
     "isNew": true,
@@ -607,7 +658,10 @@ export const products = [
     "isFeatured": true,
     "isNew": false,
     "rating": 4.7,
-    "reviews": 124
+    "reviews": 124,
+    "gallery": [
+      "/images/beds_raw/img_p0_1.png"
+    ]
   },
   {
     "id": 2,
@@ -629,7 +683,10 @@ export const products = [
     "isFeatured": true,
     "isNew": false,
     "rating": 4.5,
-    "reviews": 89
+    "reviews": 89,
+    "gallery": [
+      "/images/beds_raw/img_p1_1.png"
+    ]
   },
   {
     "id": 3,
@@ -651,7 +708,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.3,
-    "reviews": 56
+    "reviews": 56,
+    "gallery": [
+      "/images/beds_raw/img_p2_1.png"
+    ]
   },
   {
     "id": 4,
@@ -673,7 +733,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 37
+    "reviews": 37,
+    "gallery": [
+      "/images/beds_raw/img_p3_1.png"
+    ]
   },
   {
     "id": 5,
@@ -695,7 +758,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4.4,
-    "reviews": 203
+    "reviews": 203,
+    "gallery": [
+      "/images/beds_raw/img_p4_1.png"
+    ]
   },
   {
     "id": 6,
@@ -717,7 +783,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4.1,
-    "reviews": 78
+    "reviews": 78,
+    "gallery": [
+      "/images/beds_raw/img_p5_1.png"
+    ]
   },
   {
     "id": 7,
@@ -739,7 +808,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4.2,
-    "reviews": 134
+    "reviews": 134,
+    "gallery": [
+      "/images/beds_raw/img_p6_1.png"
+    ]
   },
   {
     "id": 10,
@@ -761,7 +833,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4.3,
-    "reviews": 167
+    "reviews": 167,
+    "gallery": [
+      "/images/beds_raw/img_p9_1.png"
+    ]
   },
   {
     "id": 11,
@@ -783,7 +858,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4,
-    "reviews": 91
+    "reviews": 91,
+    "gallery": [
+      "/images/beds_raw/img_p10_1.png"
+    ]
   },
   {
     "id": 12,
@@ -805,7 +883,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4.7,
-    "reviews": 52
+    "reviews": 52,
+    "gallery": [
+      "/images/beds_raw/img_p11_1.png"
+    ]
   },
   {
     "id": 13,
@@ -827,7 +908,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4.4,
-    "reviews": 113
+    "reviews": 113,
+    "gallery": [
+      "/images/beds_raw/img_p12_1.png"
+    ]
   },
   {
     "id": 14,
@@ -849,7 +933,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4.2,
-    "reviews": 176
+    "reviews": 176,
+    "gallery": [
+      "/images/beds_raw/img_p13_1.png"
+    ]
   },
   {
     "id": 15,
@@ -871,7 +958,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4.5,
-    "reviews": 34
+    "reviews": 34,
+    "gallery": [
+      "/images/beds_raw/img_p14_1.png"
+    ]
   },
   {
     "id": 16,
@@ -893,7 +983,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4.3,
-    "reviews": 67
+    "reviews": 67,
+    "gallery": [
+      "/images/beds_raw/img_p15_1.png"
+    ]
   },
   {
     "id": 17,
@@ -915,7 +1008,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 3.9,
-    "reviews": 245
+    "reviews": 245,
+    "gallery": [
+      "/images/beds_raw/img_p16_1.png"
+    ]
   },
   {
     "id": 18,
@@ -937,7 +1033,10 @@ export const products = [
     "isFeatured": false,
     "isNew": false,
     "rating": 4.6,
-    "reviews": 41
+    "reviews": 41,
+    "gallery": [
+      "/images/beds_raw/img_p17_1.png"
+    ]
   },
   {
     "id": 450059,
@@ -959,7 +1058,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 34
+    "reviews": 34,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/01-600x559.jpg"
+    ]
   },
   {
     "id": 441995,
@@ -981,7 +1083,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 41
+    "reviews": 41,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/03-600x559.jpg"
+    ]
   },
   {
     "id": 339270,
@@ -1003,7 +1108,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 19
+    "reviews": 19,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/02-600x559.jpg"
+    ]
   },
   {
     "id": 360532,
@@ -1025,7 +1133,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 40
+    "reviews": 40,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/05-600x559.jpg"
+    ]
   },
   {
     "id": 479214,
@@ -1047,7 +1158,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 45
+    "reviews": 45,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/01-3-600x559.jpg"
+    ]
   },
   {
     "id": 170464,
@@ -1069,7 +1183,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 54
+    "reviews": 54,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/WT-01-600x559.jpg"
+    ]
   },
   {
     "id": 752073,
@@ -1091,7 +1208,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 46
+    "reviews": 46,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/12/7-600x559.jpg"
+    ]
   },
   {
     "id": 428762,
@@ -1113,7 +1233,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 18
+    "reviews": 18,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/WT-07-600x559.jpg"
+    ]
   },
   {
     "id": 986353,
@@ -1135,7 +1258,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 30
+    "reviews": 30,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/05/C-1-1-600x600.jpg"
+    ]
   },
   {
     "id": 413325,
@@ -1157,7 +1283,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 57
+    "reviews": 57,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/05/B-1-1-600x600.jpg"
+    ]
   },
   {
     "id": 144820,
@@ -1179,7 +1308,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 58
+    "reviews": 58,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/05/A-1-600x600.jpg"
+    ]
   },
   {
     "id": 144852,
@@ -1201,7 +1333,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 31
+    "reviews": 31,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/05/F-1-1-600x600.jpg"
+    ]
   },
   {
     "id": 803299,
@@ -1223,7 +1358,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 29
+    "reviews": 29,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/05/D-1-600x600.jpg"
+    ]
   },
   {
     "id": 18700,
@@ -1245,7 +1383,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 47
+    "reviews": 47,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/09/01-3-600x600.jpg"
+    ]
   },
   {
     "id": 971394,
@@ -1267,7 +1408,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 37
+    "reviews": 37,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/09/01-5-600x600.jpg"
+    ]
   },
   {
     "id": 915727,
@@ -1289,7 +1433,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 56
+    "reviews": 56,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/09/01-6-600x600.jpg"
+    ]
   },
   {
     "id": 375500,
@@ -1311,7 +1458,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 50
+    "reviews": 50,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/PRD86-1-1-600x600.jpg"
+    ]
   },
   {
     "id": 829054,
@@ -1333,7 +1483,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 49
+    "reviews": 49,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/PRD151-1-600x600.jpg"
+    ]
   },
   {
     "id": 107234,
@@ -1355,7 +1508,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 14
+    "reviews": 14,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/05/G-1-1-600x600.jpg"
+    ]
   },
   {
     "id": 523105,
@@ -1377,7 +1533,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 38
+    "reviews": 38,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/05/E-1-1-600x600.jpg"
+    ]
   },
   {
     "id": 517482,
@@ -1399,7 +1558,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/06/A-1-600x600.jpg"
+    ]
   },
   {
     "id": 433159,
@@ -1421,7 +1583,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 34
+    "reviews": 34,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/06/B-1-600x600.jpg"
+    ]
   },
   {
     "id": 198414,
@@ -1443,7 +1608,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/06/C-1-600x600.jpg"
+    ]
   },
   {
     "id": 248286,
@@ -1465,7 +1633,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 40
+    "reviews": 40,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/06/F-1-600x600.jpg"
+    ]
   },
   {
     "id": 196446,
@@ -1487,7 +1658,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 56
+    "reviews": 56,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/06/E-1-600x600.jpg"
+    ]
   },
   {
     "id": 499891,
@@ -1509,7 +1683,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 23
+    "reviews": 23,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/06/H-1-600x600.jpg"
+    ]
   },
   {
     "id": 576022,
@@ -1531,7 +1708,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 26
+    "reviews": 26,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/02/01-6-600x600.jpg"
+    ]
   },
   {
     "id": 280358,
@@ -1553,7 +1733,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 53
+    "reviews": 53,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/02/01-7-600x600.jpg"
+    ]
   },
   {
     "id": 920435,
@@ -1575,7 +1758,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 11
+    "reviews": 11,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/02/01-8-600x600.jpg"
+    ]
   },
   {
     "id": 45322,
@@ -1597,7 +1783,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/02/01-9-600x600.jpg"
+    ]
   },
   {
     "id": 304146,
@@ -1619,7 +1808,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 49
+    "reviews": 49,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/09/01-13-600x600.jpg"
+    ]
   },
   {
     "id": 46722,
@@ -1641,7 +1833,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 36
+    "reviews": 36,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/B-1-600x600.jpg"
+    ]
   },
   {
     "id": 400000,
@@ -1662,7 +1857,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 6
+    "reviews": 6,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/12/01-1-600x492.jpg"
+    ]
   },
   {
     "id": 400002,
@@ -1683,7 +1881,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 6
+    "reviews": 6,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/12/1-2-600x492.jpg"
+    ]
   },
   {
     "id": 400006,
@@ -1704,7 +1905,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 49
+    "reviews": 49,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/02/1-600x492.jpg"
+    ]
   },
   {
     "id": 400010,
@@ -1725,7 +1929,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 8
+    "reviews": 8,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/11/PKBAV-007-1-600x492.jpg"
+    ]
   },
   {
     "id": 400012,
@@ -1746,7 +1953,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 43
+    "reviews": 43,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/12/01-2-600x600.jpg"
+    ]
   },
   {
     "id": 400013,
@@ -1767,7 +1977,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 48
+    "reviews": 48,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/12/2D-A-1-600x600.jpg"
+    ]
   },
   {
     "id": 400014,
@@ -1788,7 +2001,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 47
+    "reviews": 47,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/02/01-3-600x600.jpg"
+    ]
   },
   {
     "id": 400015,
@@ -1809,7 +2025,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 24
+    "reviews": 24,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/12/3d-A-600x600.jpg"
+    ]
   },
   {
     "id": 400016,
@@ -1830,7 +2049,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 42
+    "reviews": 42,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/02/01-4-600x600.jpg"
+    ]
   },
   {
     "id": 400017,
@@ -1851,7 +2073,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 54
+    "reviews": 54,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/12/PKWAV-004-600x600.jpg"
+    ]
   },
   {
     "id": 400018,
@@ -1872,7 +2097,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/01/1.1-600x600.jpg"
+    ]
   },
   {
     "id": 400019,
@@ -1893,7 +2121,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 25
+    "reviews": 25,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2025/01/01-2-600x600.jpg"
+    ]
   },
   {
     "id": 400020,
@@ -1914,7 +2145,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 34
+    "reviews": 34,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/10/01-6-600x600.jpg"
+    ]
   },
   {
     "id": 400021,
@@ -1935,7 +2169,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 29
+    "reviews": 29,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2025/08/01-1-600x600.jpg"
+    ]
   },
   {
     "id": 400022,
@@ -1956,7 +2193,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 23
+    "reviews": 23,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/02/01-15-600x600.jpg"
+    ]
   },
   {
     "id": 400023,
@@ -1977,7 +2217,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
-    "reviews": 26
+    "reviews": 26,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/05/PKWNI-004-2-600x600.jpg"
+    ]
   },
   {
     "id": 8100,
@@ -1995,9 +2238,7 @@ export const products = [
     "material": "Fabric / Solid Wood",
     "image": "/images/sofas_raw/img_p0_1.png",
     "gallery": [
-      "/images/sofas_raw/img_p0_1.png",
-      "/images/sofas_raw/img_p1_1.png",
-      "/images/sofas_raw/img_p2_1.png"
+      "/images/sofas_raw/img_p0_1.png"
     ],
     "isFeatured": true,
     "isNew": false,
@@ -2020,10 +2261,7 @@ export const products = [
     "material": "Fabric / Solid Wood",
     "image": "/images/sofas_raw/img_p4_1.png",
     "gallery": [
-      "/images/sofas_raw/img_p4_1.png",
-      "/images/sofas_raw/img_p5_1.png",
-      "/images/sofas_raw/img_p6_1.png",
-      "/images/sofas_raw/img_p7_1.png"
+      "/images/sofas_raw/img_p4_1.png"
     ],
     "isFeatured": true,
     "isNew": false,
@@ -2092,9 +2330,7 @@ export const products = [
     "material": "Fabric / Teak Wood",
     "image": "/images/sofas_raw/img_p11_1.png",
     "gallery": [
-      "/images/sofas_raw/img_p11_1.png",
-      "/images/sofas_raw/img_p12_1.png",
-      "/images/sofas_raw/img_p13_1.png"
+      "/images/sofas_raw/img_p11_1.png"
     ],
     "isFeatured": true,
     "isNew": true,
@@ -2209,8 +2445,7 @@ export const products = [
     "material": "Fabric / Metal Frame",
     "image": "/images/sofas_raw/img_p18_1.png",
     "gallery": [
-      "/images/sofas_raw/img_p18_1.png",
-      "/images/sofas_raw/img_p19_1.png"
+      "/images/sofas_raw/img_p18_1.png"
     ],
     "isFeatured": false,
     "isNew": true,
@@ -2233,8 +2468,7 @@ export const products = [
     "material": "Fabric / Solid Wood",
     "image": "/images/sofas_raw/img_p20_1.png",
     "gallery": [
-      "/images/sofas_raw/img_p20_1.png",
-      "/images/sofas_raw/img_p21_1.png"
+      "/images/sofas_raw/img_p20_1.png"
     ],
     "isFeatured": false,
     "isNew": false,
@@ -2257,8 +2491,7 @@ export const products = [
     "material": "Velvet / Wood",
     "image": "/images/sofas_raw/img_p22_1.png",
     "gallery": [
-      "/images/sofas_raw/img_p22_1.png",
-      "/images/sofas_raw/img_p23_1.png"
+      "/images/sofas_raw/img_p22_1.png"
     ],
     "isFeatured": false,
     "isNew": false,
@@ -2281,9 +2514,7 @@ export const products = [
     "material": "Premium Fabric / Teak",
     "image": "/images/sofas_raw/img_p24_1.png",
     "gallery": [
-      "/images/sofas_raw/img_p24_1.png",
-      "/images/sofas_raw/img_p25_1.png",
-      "/images/sofas_raw/img_p26_1.png"
+      "/images/sofas_raw/img_p24_1.png"
     ],
     "isFeatured": true,
     "isNew": false,
@@ -2306,8 +2537,7 @@ export const products = [
     "material": "Fabric / Sheesham Wood",
     "image": "/images/sofas_raw/img_p27_1.png",
     "gallery": [
-      "/images/sofas_raw/img_p27_1.png",
-      "/images/sofas_raw/img_p28_1.png"
+      "/images/sofas_raw/img_p27_1.png"
     ],
     "isFeatured": false,
     "isNew": true,
@@ -2333,7 +2563,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_1_1782073720444.png"
+    ]
   },
   {
     "id": 986355,
@@ -2354,7 +2587,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_2_1782073733180.png"
+    ]
   },
   {
     "id": 986356,
@@ -2375,7 +2611,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_3_1782073744376.png"
+    ]
   },
   {
     "id": 986357,
@@ -2396,7 +2635,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_4_1782073756546.png"
+    ]
   },
   {
     "id": 986358,
@@ -2417,7 +2659,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_5_1782111107581.png"
+    ]
   },
   {
     "id": 986359,
@@ -2438,7 +2683,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_6_1782073770385.png"
+    ]
   },
   {
     "id": 986360,
@@ -2459,7 +2707,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_7_1782111123261.png"
+    ]
   },
   {
     "id": 986361,
@@ -2480,7 +2731,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_8_1782111135685.png"
+    ]
   },
   {
     "id": 986362,
@@ -2501,7 +2755,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_9_1782111150153.png"
+    ]
   },
   {
     "id": 986363,
@@ -2522,7 +2779,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_10_1782111167671.png"
+    ]
   },
   {
     "id": 986364,
@@ -2543,7 +2803,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_11_1782111181712.png"
+    ]
   },
   {
     "id": 986365,
@@ -2564,7 +2827,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_12_1782111196885.png"
+    ]
   },
   {
     "id": 986366,
@@ -2585,7 +2851,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 20
+    "reviews": 20,
+    "gallery": [
+      "/images/ai_generated/ai_premium_bed_13_1782111211485.png"
+    ]
   },
   {
     "id": 986367,
@@ -2605,7 +2874,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_1_1782118896134.png"
+    ]
   },
   {
     "id": 986368,
@@ -2625,7 +2897,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_2_1782118913255.png"
+    ]
   },
   {
     "id": 986369,
@@ -2645,7 +2920,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_3_1782118927760.png"
+    ]
   },
   {
     "id": 986370,
@@ -2665,7 +2943,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_4_1782118942924.png"
+    ]
   },
   {
     "id": 986371,
@@ -2685,7 +2966,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_5_1782118959980.png"
+    ]
   },
   {
     "id": 986372,
@@ -2705,7 +2989,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_6_1782118980213.png"
+    ]
   },
   {
     "id": 986373,
@@ -2725,7 +3012,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_7_1782118994595.png"
+    ]
   },
   {
     "id": 986374,
@@ -2745,7 +3035,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_8_1782119009032.png"
+    ]
   },
   {
     "id": 986375,
@@ -2765,7 +3058,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_9_1782119024502.png"
+    ]
   },
   {
     "id": 986376,
@@ -2785,7 +3081,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_10_1782119039835.png"
+    ]
   },
   {
     "id": 986377,
@@ -2805,7 +3104,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_11_1782153942124.png"
+    ]
   },
   {
     "id": 986378,
@@ -2825,7 +3127,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_12_1782153954843.png"
+    ]
   },
   {
     "id": 986379,
@@ -2845,7 +3150,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_13_1782153968586.png"
+    ]
   },
   {
     "id": 986380,
@@ -2865,7 +3173,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 12
+    "reviews": 12,
+    "gallery": [
+      "/images/ai_generated/ai_bedroom_chair_14_1782153984512.png"
+    ]
   },
   {
     "name": "ATHENA DRESSING TABLE",
@@ -2886,7 +3197,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 14,
-    "id": 986381
+    "id": 986381,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/12/01-3-600x600.jpg"
+    ]
   },
   {
     "name": "AUSTIN DRESSING TABLE",
@@ -2907,7 +3221,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 36,
-    "id": 986382
+    "id": 986382,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/12/T-1-600x600.jpg"
+    ]
   },
   {
     "name": "AUSTIN DRESSING TABLE",
@@ -2928,7 +3245,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 53,
-    "id": 986383
+    "id": 986383,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/12/01-600x600.jpg"
+    ]
   },
   {
     "name": "AVON DRESSING TABLE",
@@ -2949,7 +3269,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 13,
-    "id": 986384
+    "id": 986384,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/A-1-1-600x600.jpg"
+    ]
   },
   {
     "name": "CAIRO DRESSING TABLE",
@@ -2970,7 +3293,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 44,
-    "id": 986385
+    "id": 986385,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/01/01-5-600x600.jpg"
+    ]
   },
   {
     "name": "DRESSING TABLE",
@@ -2991,7 +3317,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 43,
-    "id": 986386
+    "id": 986386,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/M-1-600x600.jpg"
+    ]
   },
   {
     "name": "DRESSING TABLE",
@@ -3012,7 +3341,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 24,
-    "id": 986387
+    "id": 986387,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/02/01-16-600x600.jpg"
+    ]
   },
   {
     "name": "FELCITY DRESSING TABLE",
@@ -3033,7 +3365,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 19,
-    "id": 986388
+    "id": 986388,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/11/F-1-600x600.jpg"
+    ]
   },
   {
     "name": "GEORGIA DRESSING TABLE",
@@ -3054,7 +3389,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 25,
-    "id": 986389
+    "id": 986389,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2025/01/01-3-600x600.jpg"
+    ]
   },
   {
     "name": "HARRY DRESSING TABLE",
@@ -3075,7 +3413,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 26,
-    "id": 986390
+    "id": 986390,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/11/G-1-600x600.jpg"
+    ]
   },
   {
     "name": "INDY DRESSING TABLE",
@@ -3096,7 +3437,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 35,
-    "id": 986391
+    "id": 986391,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/02/01-13-600x600.jpg"
+    ]
   },
   {
     "name": "LIBERTY DRESSING TABLE",
@@ -3117,7 +3461,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 50,
-    "id": 986392
+    "id": 986392,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/10/01-7-600x600.jpg"
+    ]
   },
   {
     "name": "HARRY STORAGE BED",
@@ -3138,7 +3485,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 51,
-    "id": 986393
+    "id": 986393,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/11/PKBHA-007-1-600x492.jpg"
+    ]
   },
   {
     "name": "LIBERTY HYDRAULIC BED",
@@ -3159,7 +3509,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 45,
-    "id": 986394
+    "id": 986394,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2024/10/01-5-600x492.jpg"
+    ]
   },
   {
     "name": "ZERENA HYDRAULIC BED",
@@ -3180,7 +3533,10 @@ export const products = [
     "isNew": true,
     "rating": 4.5,
     "reviews": 20,
-    "id": 986395
+    "id": 986395,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2023/05/PKBS-032-1-600x492.jpg"
+    ]
   },
   {
     "id": 986396,
@@ -3200,7 +3556,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.9,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_dining_marble_p0_1782050395017.png"
+    ]
   },
   {
     "id": 986397,
@@ -3220,7 +3579,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.9,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_dining_marble_p1_1782050408061.png"
+    ]
   },
   {
     "id": 986398,
@@ -3240,7 +3602,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.9,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_dining_marble_p2_1782050424092.png"
+    ]
   },
   {
     "id": 986399,
@@ -3260,7 +3625,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.9,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_dining_marble_p3_1782050439529.png"
+    ]
   },
   {
     "id": 986400,
@@ -3280,7 +3648,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.9,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_dining_marble_p4_1782050450811.png"
+    ]
   },
   {
     "id": 986401,
@@ -3300,7 +3671,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.9,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_dining_marble_p5_1782050465260.png"
+    ]
   },
   {
     "id": 986402,
@@ -3320,7 +3694,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.9,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_dining_marble_p6_1782050477581.png"
+    ]
   },
   {
     "id": 986403,
@@ -3340,7 +3717,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/l_shape_sofa_extra_raw/img_p0_1.png"
+    ]
   },
   {
     "id": 986404,
@@ -3360,7 +3740,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/ai_generated/ai_lshape_extra_2_1782070471405.png"
+    ]
   },
   {
     "id": 986405,
@@ -3380,7 +3763,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/ai_generated/ai_lshape_extra_3_1782070484181.png"
+    ]
   },
   {
     "id": 986406,
@@ -3400,7 +3786,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/ai_generated/ai_lshape_extra_4_1782070497093.png"
+    ]
   },
   {
     "id": 986407,
@@ -3420,7 +3809,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
-    "reviews": 15
+    "reviews": 15,
+    "gallery": [
+      "/images/ai_generated/ai_lshape_extra_5_1782070510459.png"
+    ]
   },
   {
     "id": 986408,
@@ -3440,7 +3832,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 10
+    "reviews": 10,
+    "gallery": [
+      "/images/ai_generated/ai_sofa_311_p0_1782050333297.png"
+    ]
   },
   {
     "id": 986409,
@@ -3460,7 +3855,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 10
+    "reviews": 10,
+    "gallery": [
+      "/images/ai_generated/ai_sofa_311_p1_1782050346787.png"
+    ]
   },
   {
     "id": 986410,
@@ -3480,7 +3878,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 10
+    "reviews": 10,
+    "gallery": [
+      "/images/ai_generated/ai_sofa_311_p2_1782050360173.png"
+    ]
   },
   {
     "id": 986411,
@@ -3500,7 +3901,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.7,
-    "reviews": 10
+    "reviews": 10,
+    "gallery": [
+      "/images/ai_generated/ai_sofa_311_p3_1782050374402.png"
+    ]
   },
   {
     "id": 9400,
@@ -3521,7 +3925,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_premium_centre_1_1782050975550.png"
+    ]
   },
   {
     "id": 9401,
@@ -3542,7 +3949,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_premium_centre_2_1782050990086.png"
+    ]
   },
   {
     "id": 9402,
@@ -3563,7 +3973,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_premium_centre_3_1782051007982.png"
+    ]
   },
   {
     "id": 9403,
@@ -3584,7 +3997,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_premium_centre_4_1782051021807.png"
+    ]
   },
   {
     "id": 9404,
@@ -3605,7 +4021,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_premium_centre_5_1782051037923.png"
+    ]
   },
   {
     "id": 9405,
@@ -3626,7 +4045,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_premium_centre_6_1782070415889.png"
+    ]
   },
   {
     "id": 9406,
@@ -3647,7 +4069,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_premium_centre_7_1782070432148.png"
+    ]
   },
   {
     "id": 9407,
@@ -3668,7 +4093,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_premium_centre_8_1782070445123.png"
+    ]
   },
   {
     "id": 9408,
@@ -3689,7 +4117,10 @@ export const products = [
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
-    "reviews": 5
+    "reviews": 5,
+    "gallery": [
+      "/images/ai_generated/ai_premium_centre_9_1782070458003.png"
+    ]
   },
   {
     "name": "STELLA HYDRAULIC BED",
@@ -3711,7 +4142,10 @@ export const products = [
     "isNew": true,
     "rating": 4.8,
     "reviews": 30,
-    "id": 986412
+    "id": 986412,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/11/PKBS-019-1-600x492.jpg"
+    ]
   },
   {
     "name": "VIANA BED",
@@ -3733,7 +4167,10 @@ export const products = [
     "isNew": true,
     "rating": 4.8,
     "reviews": 35,
-    "id": 986413
+    "id": 986413,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/PKBV-003-1-600x492.jpg"
+    ]
   },
   {
     "name": "INDY HYDRAULIC BED",
@@ -3755,7 +4192,10 @@ export const products = [
     "isNew": true,
     "rating": 4.8,
     "reviews": 21,
-    "id": 986414
+    "id": 986414,
+    "gallery": [
+      "https://piyestraindia.com/wp-content/uploads/2022/08/PKBS-004-1-600x492.jpg"
+    ]
   }
 ];
 
