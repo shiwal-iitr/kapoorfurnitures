@@ -82,7 +82,7 @@ export const categories = [
         "id": "deewan-cum-bed",
         "name": "Deewan Cum Bed",
         "description": "Elegant deewan cum beds",
-        "image": "/images/placeholder.svg"
+        "image": "/images/products/deewan-cum-bed-2.png"
       }
     ]
   },
@@ -151,7 +151,7 @@ export const categories = [
         "id": "deewan-cum-bed",
         "name": "Deewan Cum Bed",
         "description": "Elegant deewan cum beds",
-        "image": "/images/placeholder.svg"
+        "image": "/images/products/deewan-cum-bed-2.png"
       }
     ]
   }
@@ -4196,34 +4196,33 @@ export const products = [
     "gallery": [
       "https://piyestraindia.com/wp-content/uploads/2022/08/PKBS-004-1-600x492.jpg"
     ]
+  },
+  {
+    "id": "deewan-cum-bed-1",
+    "name": "Premium Deewan Cum Bed 1",
+    "description": "An elegant and luxurious Deewan Cum Bed, perfect for sophisticated living rooms.",
+    "price": "Price on Request",
+    "category": "living-room",
+    "subcategory": "deewan-cum-bed",
+    "image": "/images/products/deewan-cum-bed-1.png",
+    "features": [
+      "Premium upholstery",
+      "Sturdy frame",
+      "Convertible design"
+    ]
+  },
+  {
+    "id": "deewan-cum-bed-2",
+    "name": "Premium Deewan Cum Bed 2",
+    "description": "A luxurious Deewan Cum Bed designed for comfort and style in premium living spaces.",
+    "price": "Price on Request",
+    "category": "living-room",
+    "subcategory": "deewan-cum-bed",
+    "image": "/images/products/deewan-cum-bed-2.png",
+    "features": [
+      "Plush cushioning",
+      "Elegant finishing",
+      "Convertible design"
+    ]
   }
 ];
-
-// ========================
-//  HELPER FUNCTIONS
-// ========================
-
-export function getProductBySlug(slug) {
-  return products.find((product) => product.slug === slug) || null;
-}
-
-export function getProductsByCategory(category) {
-  return products.filter((product) => product.category === category);
-}
-
-export function getFeaturedProducts() {
-  return products.filter((product) => product.isFeatured);
-}
-
-export function getRelatedProducts(productId, limit = 4) {
-  const currentProduct = products.find((product) => product.id === productId);
-  if (!currentProduct) return [];
-
-  return products
-    .filter(
-      (product) =>
-        product.category === currentProduct.category &&
-        product.id !== productId
-    )
-    .slice(0, limit);
-}
