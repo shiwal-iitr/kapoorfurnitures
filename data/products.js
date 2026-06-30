@@ -76,7 +76,7 @@ export const categories = [
         "id": "sofa-cum-bed",
         "name": "Sofa Cum Bed",
         "description": "Versatile sofa cum beds",
-        "image": "/images/placeholder.svg"
+        "image": "/images/products/ai_sofa_cum_bed_0.png"
       },
       {
         "id": "deewan-cum-bed",
@@ -145,7 +145,7 @@ export const categories = [
         "id": "sofa-cum-bed",
         "name": "Sofa Cum Bed",
         "description": "Versatile sofa cum beds",
-        "image": "/images/placeholder.svg"
+        "image": "/images/products/ai_sofa_cum_bed_0.png"
       },
       {
         "id": "deewan-cum-bed",
@@ -4240,5 +4240,93 @@ export const products = [
     "rating": 4.9,
     "reviews": 15,
     "originalPrice": 28000
+  },
+  {
+    "id": "sofa-cum-bed-1",
+    "slug": "sofa-cum-bed-1",
+    "name": "Luxury Sofa Cum Bed Model 1",
+    "description": "A premium Sofa Cum Bed featuring an elegant multi-purpose design for modern living spaces.",
+    "price": 24000,
+    "originalPrice": 28000,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/ai_sofa_cum_bed_0.png",
+    "features": [
+      "Plush seating",
+      "Sturdy pull-out mechanism",
+      "Premium upholstery"
+    ],
+    "gallery": [
+      "/images/products/ai_sofa_cum_bed_0.png"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 14
+  },
+  {
+    "id": "sofa-cum-bed-2",
+    "slug": "sofa-cum-bed-2",
+    "name": "Luxury Sofa Cum Bed Model 2",
+    "description": "Sophisticated dual-tone Sofa Cum Bed offering ultimate comfort in both seating and sleeping configurations.",
+    "price": 25500,
+    "originalPrice": 30000,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/ai_sofa_cum_bed_1.png",
+    "features": [
+      "Dual-tone design",
+      "High-density foam",
+      "Easy conversion"
+    ],
+    "gallery": [
+      "/images/products/ai_sofa_cum_bed_1.png"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 18
+  },
+  {
+    "id": "sofa-cum-bed-3",
+    "slug": "sofa-cum-bed-3",
+    "name": "Luxury Sofa Cum Bed Model 3",
+    "description": "Elegant space-saving Sofa Cum Bed designed with premium tufted fabrics and sturdy construction.",
+    "price": 26000,
+    "originalPrice": 32000,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/ai_sofa_cum_bed_2.png",
+    "features": [
+      "Tufted fabrics",
+      "Space-saving design",
+      "Sturdy wooden base"
+    ],
+    "gallery": [
+      "/images/products/ai_sofa_cum_bed_2.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.6,
+    "reviews": 11
+  },
+  {
+    "id": "sofa-cum-bed-4",
+    "slug": "sofa-cum-bed-4",
+    "name": "Luxury Sofa Cum Bed Model 4",
+    "description": "A premium multi-functional piece that brings a contemporary, sophisticated look to any room.",
+    "price": 28000,
+    "originalPrice": 35000,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/ai_sofa_cum_bed_3.png",
+    "features": [
+      "Contemporary look",
+      "Premium multi-functional",
+      "Durable fabric"
+    ],
+    "gallery": [
+      "/images/products/ai_sofa_cum_bed_3.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.9,
+    "reviews": 22
   }
 ];
