@@ -8,7 +8,7 @@ const SLIDE_CATEGORIES = [
   { id: 'sofa-sets', label: 'Sofa Sets', href: '/products?category=sofa-sets' },
   { id: 'centre-tables', label: 'Centre Tables', href: '/products?category=centre-tables' },
   { id: 'dining', label: 'Dining', href: '/products?category=dining' },
-  { id: 'bedroom-chairs', label: 'Bedroom Chairs', href: '/products?category=bedroom-chairs' },
+  { id: 'bedroom-chairs', label: 'Chairs', href: '/products?category=chairs' },
   { id: 'piyestra-study', label: 'Study', href: '/products?category=piyestra-study' },
 ];
 

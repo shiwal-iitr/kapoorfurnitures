@@ -28,11 +28,19 @@ export const categories = [
         "name": "Beds",
         "description": "Elegant beds for restful nights",
         "image": "/images/beds_raw/img_p0_1.png"
-      },
+      }
+    ]
+  },
+  {
+    "id": "chairs",
+    "name": "Chairs",
+    "description": "Comfortable chairs for every room",
+    "image": "/images/ai_generated/ai_bedroom_chair_7_1782118994595.png",
+    "subcategories": [
       {
         "id": "bedroom-chairs",
-        "name": "Bedroom Chairs",
-        "description": "Comfortable bedroom chairs",
+        "name": "Chairs",
+        "description": "Comfortable chairs",
         "image": "/images/ai_generated/ai_bedroom_chair_7_1782118994595.png"
       }
     ]
@@ -96,7 +104,7 @@ export const categories = [
         "id": "piyestra-bedroom",
         "name": "Bedroom",
         "description": "Piyestra Bedroom Collection",
-        "image": "https://piyestraindia.com/wp-content/uploads/2024/12/01-3-600x600.jpg",
+        "image": "https://piyestraindia.com/wp-content/uploads/2024/12/01-1-600x492.jpg",
         "subcategories": [
           {
             "id": "piyestra-bedroom-beds",
@@ -110,7 +118,7 @@ export const categories = [
           },
           {
             "id": "piyestra-bedroom-centre-tables",
-            "name": "Centre Tables",
+            "name": "Dressing Tables",
             "image": "https://piyestraindia.com/wp-content/uploads/2024/12/01-3-600x600.jpg"
           }
         ]

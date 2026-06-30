@@ -48,7 +48,7 @@ const CATEGORY_ICONS = [
   },
   {
     name: 'Chairs',
-    href: '/products?category=bedroom-chairs',
+    href: '/products?category=chairs',
     svg: (
       <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true">
         <path d="M20 8h24v22H20z" />
