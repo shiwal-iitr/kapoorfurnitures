@@ -18,8 +18,8 @@
   --color-text-secondary: #555555;
   --color-text-muted: #888888;
   --color-border: #e0e0e0;
-  --font-serif: 'Playfair Display', Georgia, serif;
-  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
 }
 
 /* ===== Base Styles ===== */
