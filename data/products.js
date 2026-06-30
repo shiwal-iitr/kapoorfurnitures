@@ -239,30 +239,6 @@ export const products = [
     ]
   },
   {
-    "id": 9205,
-    "name": "Elegant Centre Table 6",
-    "slug": "elegant-centre-table-6",
-    "category": "centre-tables",
-    "price": 10500,
-    "originalPrice": 12500,
-    "description": "A beautiful centre table to perfectly complement your living room seating. Features a sturdy design with a premium finish.",
-    "features": [
-      "Sturdy Construction",
-      "Premium Finish",
-      "Modern Design"
-    ],
-    "dimensions": "Standard Centre Table Size",
-    "material": "Premium Wood / Glass",
-    "image": "/images/centre_tables_raw/img_p5_1.png",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.6,
-    "reviews": 15,
-    "gallery": [
-      "/images/centre_tables_raw/img_p5_1.png"
-    ]
-  },
-  {
     "id": 9206,
     "name": "Elegant Centre Table 7",
     "slug": "elegant-centre-table-7",
@@ -2434,9 +2410,9 @@ export const products = [
   },
   {
     "id": 8112,
-    "name": "Sofa Set 13",
+    "name": "3-1-1 Sofa Set",
     "slug": "sofa-set-13",
-    "category": "3-2-2-sofas",
+    "category": "3-1-1-sofas",
     "description": "A grand and luxurious sofa set that commands attention. Superior craftsmanship with premium materials for an unforgettable living room.",
     "features": [
       "Grand Design",
@@ -3886,54 +3862,6 @@ export const products = [
     "reviews": 5,
     "gallery": [
       "/images/ai_generated/ai_premium_centre_2_1782050990086.png"
-    ]
-  },
-  {
-    "id": 9402,
-    "name": "Premium Centre Table 3",
-    "slug": "premium-centre-table-3",
-    "category": "centre-tables",
-    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
-    "price": 16000,
-    "originalPrice": 19000,
-    "features": [
-      "Premium Construction",
-      "Elegant Design",
-      "Durable Finish"
-    ],
-    "dimensions": "Standard Size",
-    "material": "Wood / Metal / Glass",
-    "image": "/images/ai_generated/ai_premium_centre_3_1782051007982.png",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.8,
-    "reviews": 5,
-    "gallery": [
-      "/images/ai_generated/ai_premium_centre_3_1782051007982.png"
-    ]
-  },
-  {
-    "id": 9403,
-    "name": "Premium Centre Table 4",
-    "slug": "premium-centre-table-4",
-    "category": "centre-tables",
-    "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
-    "price": 16500,
-    "originalPrice": 19500,
-    "features": [
-      "Premium Construction",
-      "Elegant Design",
-      "Durable Finish"
-    ],
-    "dimensions": "Standard Size",
-    "material": "Wood / Metal / Glass",
-    "image": "/images/ai_generated/ai_premium_centre_4_1782051021807.png",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.8,
-    "reviews": 5,
-    "gallery": [
-      "/images/ai_generated/ai_premium_centre_4_1782051021807.png"
     ]
   },
   {

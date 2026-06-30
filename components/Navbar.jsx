@@ -43,7 +43,16 @@ export default function Navbar() {
           scrolled ? 'shadow-sm' : ''
         }`}
       >
-        <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+        {/* Golden gradient covering the left half of the header */}
+        <div
+          aria-hidden="true"
+          className="absolute inset-y-0 left-0 w-1/2 pointer-events-none -z-[1]"
+          style={{
+            background:
+              'linear-gradient(to right, rgba(212,175,55,0.45) 0%, rgba(212,175,55,0.30) 60%, rgba(212,175,55,0) 100%)',
+          }}
+        />
+        <div className="relative max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 ml-[20px] md:ml-0 flex items-center gap-3">

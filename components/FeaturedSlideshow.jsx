@@ -5,10 +5,17 @@ import { products } from '../data/products';
 
 const SLIDE_CATEGORIES = [
   { id: 'bedroom-beds', label: 'Beds', href: '/products?category=bedroom-beds' },
-  { id: 'sofa-sets', label: 'Sofa Sets', href: '/products?category=sofa-sets' },
+  { id: '3-1-1-sofas', label: '3-1-1 Sofas', href: '/products?category=3-1-1-sofas' },
+  { id: '3-2-2-sofas', label: '3-2-2 Sofas', href: '/products?category=3-2-2-sofas' },
+  { id: 'l-shape-sofas', label: 'L-Shape Sofas', href: '/products?category=l-shape-sofas' },
   { id: 'centre-tables', label: 'Centre Tables', href: '/products?category=centre-tables' },
   { id: 'dining', label: 'Dining', href: '/products?category=dining' },
+  { id: 'marble-top', label: 'Marble Top Dining', href: '/products?category=marble-top' },
   { id: 'bedroom-chairs', label: 'Chairs', href: '/products?category=chairs' },
+  { id: 'sofa-cum-bed', label: 'Sofa Cum Bed', href: '/products?category=sofa-cum-bed' },
+  { id: 'deewan-cum-bed', label: 'Deewan Cum Bed', href: '/products?category=deewan-cum-bed' },
+  { id: 'piyestra-bedroom-beds', label: 'Piyestra Bedroom', href: '/products?category=piyestra-bedroom-beds' },
+  { id: 'piyestra-office', label: 'Piyestra Office', href: '/products?category=piyestra-office' },
   { id: 'piyestra-study', label: 'Study', href: '/products?category=piyestra-study' },
 ];
 

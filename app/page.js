@@ -81,11 +81,13 @@ const CATEGORY_ICONS = [
     ),
   },
   {
-    name: 'More Items',
-    href: '/products',
+    name: 'Piyestra',
+    href: '/products?category=piyestra',
     svg: (
       <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true">
-        <path d="M4 16h56L32 52z" />
+        <path d="M14 8h36v6H14zM10 16h44v4H10z" />
+        <path d="M14 22h36v22H14z" />
+        <path d="M10 46h44v4H10zM14 50h6v8h-6zM44 50h6v8h-6z" />
       </svg>
     ),
   },

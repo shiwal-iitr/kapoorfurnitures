@@ -2,6 +2,7 @@ import { Inter, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import TestimonialsSection from '../components/TestimonialsSection';
 import WhatsAppButton from '../components/WhatsAppButton';
 
 const inter = Inter({
@@ -91,6 +92,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} antialiased`}>
         <Navbar />
         <main>{children}</main>
+        <TestimonialsSection />
         <Footer />
         <WhatsAppButton />
       </body>
