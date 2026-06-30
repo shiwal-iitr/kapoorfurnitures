@@ -134,6 +134,26 @@ export const categories = [
         "image": "https://piyestraindia.com/wp-content/uploads/2023/06/A-1-600x600.jpg"
       }
     ]
+  },
+  {
+    "id": "others",
+    "name": "Others",
+    "description": "Sofa cum bed & Deewan cum bed",
+    "image": "/images/placeholder.svg",
+    "subcategories": [
+      {
+        "id": "sofa-cum-bed",
+        "name": "Sofa Cum Bed",
+        "description": "Versatile sofa cum beds",
+        "image": "/images/placeholder.svg"
+      },
+      {
+        "id": "deewan-cum-bed",
+        "name": "Deewan Cum Bed",
+        "description": "Elegant deewan cum beds",
+        "image": "/images/placeholder.svg"
+      }
+    ]
   }
 ];
 
