@@ -55,32 +55,34 @@ export default function Navbar() {
                 />
               </div>
               <div className="flex flex-col justify-center leading-none">
-                <span
-                  className="brand-cinzel text-xl md:text-2xl tracking-[0.08em] uppercase"
-                  style={{
-                    background: 'linear-gradient(to bottom right, #F8E5A3, #D4AF37, #8A6410)',
-                    WebkitBackgroundClip: 'text',
-                    WebkitTextFillColor: 'transparent',
-                    fontWeight: 800,
-                    textShadow: '0 1px 0 rgba(0,0,0,0.05)',
-                  }}
-                >
-                  Kapoor
-                </span>
-                <span
-                  className="brand-script text-lg md:text-2xl -mt-0.5 ml-4 md:ml-6"
-                  style={{
-                    background: 'linear-gradient(to bottom right, #F8E5A3, #D4AF37, #8A6410)',
-                    WebkitBackgroundClip: 'text',
-                    WebkitTextFillColor: 'transparent',
-                    lineHeight: 1,
-                  }}
-                >
-                  Furnitures
-                </span>
-                <div className="flex items-center gap-2 mt-1">
+                <div className="flex items-baseline gap-2 md:gap-3">
+                  <span
+                    className="brand-cinzel text-3xl md:text-4xl tracking-[0.08em] uppercase"
+                    style={{
+                      background: 'linear-gradient(to bottom right, #F8E5A3, #D4AF37, #8A6410)',
+                      WebkitBackgroundClip: 'text',
+                      WebkitTextFillColor: 'transparent',
+                      fontWeight: 800,
+                      textShadow: '0 1px 0 rgba(0,0,0,0.05)',
+                    }}
+                  >
+                    Kapoor
+                  </span>
+                  <span
+                    className="brand-script text-2xl md:text-3xl"
+                    style={{
+                      background: 'linear-gradient(to bottom right, #F8E5A3, #D4AF37, #8A6410)',
+                      WebkitBackgroundClip: 'text',
+                      WebkitTextFillColor: 'transparent',
+                      lineHeight: 1,
+                    }}
+                  >
+                    Furnitures
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 mt-1.5">
                   <div className="h-[1px] flex-grow bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent opacity-50"></div>
-                  <span className="brand-tagline italic text-[9px] md:text-[10px] tracking-[0.12em] text-[#a07b18]">
+                  <span className="brand-tagline italic text-[10px] md:text-[11px] tracking-[0.12em] text-[#a07b18]">
                     Premium Living Since 2000
                   </span>
                   <div className="h-[1px] flex-grow bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent opacity-50"></div>
