@@ -4506,3 +4506,33 @@ export const products = [
     "reviews": 15
   }
 ];
+
+// ========================
+//  HELPER FUNCTIONS
+// ========================
+
+export function getProductBySlug(slug) {
+  return products.find((product) => product.slug === slug) || null;
+}
+
+export function getProductsByCategory(category) {
+  return products.filter((product) => product.category === category);
+}
+
+export function getFeaturedProducts() {
+  return products.filter((product) => product.isFeatured);
+}
+
+export function getRelatedProducts(productId, limit = 4) {
+  const currentProduct = products.find((product) => product.id === productId);
+  if (!currentProduct) return [];
+
+  return products
+    .filter(
+      (product) =>
+        product.category === currentProduct.category &&
+        product.id !== productId
+    )
+    .slice(0, limit);
+}
+
