@@ -4201,28 +4201,44 @@ export const products = [
     "id": "deewan-cum-bed-1",
     "name": "Premium Deewan Cum Bed 1",
     "description": "An elegant and luxurious Deewan Cum Bed, perfect for sophisticated living rooms.",
-    "price": "Price on Request",
-    "category": "living-room",
-    "subcategory": "deewan-cum-bed",
+    "price": 20000,
+    "category": "deewan-cum-bed",
     "image": "/images/products/deewan-cum-bed-1.png",
     "features": [
       "Premium upholstery",
       "Sturdy frame",
       "Convertible design"
-    ]
+    ],
+    "slug": "deewan-cum-bed-1",
+    "gallery": [
+      "/images/products/deewan-cum-bed-1.png"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 12,
+    "originalPrice": 25000
   },
   {
     "id": "deewan-cum-bed-2",
     "name": "Premium Deewan Cum Bed 2",
     "description": "A luxurious Deewan Cum Bed designed for comfort and style in premium living spaces.",
-    "price": "Price on Request",
-    "category": "living-room",
-    "subcategory": "deewan-cum-bed",
+    "price": 22000,
+    "category": "deewan-cum-bed",
     "image": "/images/products/deewan-cum-bed-2.png",
     "features": [
       "Plush cushioning",
       "Elegant finishing",
       "Convertible design"
-    ]
+    ],
+    "slug": "deewan-cum-bed-2",
+    "gallery": [
+      "/images/products/deewan-cum-bed-2.png"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "rating": 4.9,
+    "reviews": 15,
+    "originalPrice": 28000
   }
 ];
