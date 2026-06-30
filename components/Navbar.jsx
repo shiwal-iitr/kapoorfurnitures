@@ -44,10 +44,50 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link href="/" className="flex-shrink-0 ml-[20px] md:ml-0">
-              <span className="text-3xl md:text-4xl font-serif tracking-wide text-[#c9a96e]">
-                Kapoor <span className="text-[#c9a96e]/70">Furnitures</span>
-              </span>
+            <Link href="/" className="flex-shrink-0 ml-[20px] md:ml-0 flex items-center gap-3">
+              <svg width="44" height="44" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-md hidden md:block">
+                <defs>
+                  <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#F8E5A3" />
+                    <stop offset="20%" stopColor="#D4AF37" />
+                    <stop offset="50%" stopColor="#AA7C11" />
+                    <stop offset="80%" stopColor="#D4AF37" />
+                    <stop offset="100%" stopColor="#F8E5A3" />
+                  </linearGradient>
+                </defs>
+                <g stroke="url(#gold-grad)" strokeWidth="3" fill="none" transform="translate(50,50) scale(0.85) translate(-50,-50)">
+                  <path d="M 50 5 C 65 5, 95 35, 95 50 C 95 65, 65 95, 50 95 C 35 95, 5 65, 5 50 C 5 35, 35 5, 50 5 Z" />
+                  <path d="M 50 5 C 65 5, 95 35, 95 50 C 95 65, 65 95, 50 95 C 35 95, 5 65, 5 50 C 5 35, 35 5, 50 5 Z" transform="rotate(45 50 50)" />
+                </g>
+                <circle cx="50" cy="50" r="28" stroke="url(#gold-grad)" strokeWidth="2.5" fill="none"/>
+                <circle cx="50" cy="50" r="24" stroke="url(#gold-grad)" strokeWidth="1" fill="none"/>
+                <rect x="38" y="65" width="12" height="3" fill="url(#gold-grad)" />
+                <rect x="40" y="62" width="8" height="3" fill="url(#gold-grad)" />
+                <rect x="41.5" y="35" width="5" height="27" fill="url(#gold-grad)" />
+                <line x1="42.5" y1="35" x2="42.5" y2="62" stroke="#68470B" strokeWidth="0.5" />
+                <line x1="44" y1="35" x2="44" y2="62" stroke="#68470B" strokeWidth="0.5" />
+                <line x1="45.5" y1="35" x2="45.5" y2="62" stroke="#68470B" strokeWidth="0.5" />
+                <rect x="40" y="32" width="8" height="3" fill="url(#gold-grad)" />
+                <rect x="38" y="29" width="12" height="3" fill="url(#gold-grad)" />
+                <path d="M 46.5 48 L 59 30 L 66 30 L 51.5 50 L 67 70 L 59 70 L 46.5 52 Z" fill="url(#gold-grad)" />
+              </svg>
+              <div className="flex flex-col justify-center">
+                <span className="text-2xl md:text-3xl font-serif tracking-wide leading-none pb-1" style={{
+                  background: 'linear-gradient(to bottom right, #F8E5A3, #D4AF37, #AA7C11)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                  fontWeight: 600
+                }}>
+                  Kapoor Furnitures
+                </span>
+                <div className="flex items-center gap-2">
+                  <div className="h-[1px] flex-grow bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent opacity-50"></div>
+                  <span className="text-[9px] md:text-[10px] uppercase tracking-[0.15em] font-medium text-[#c9a96e]">
+                    Premium Living Since 2000
+                  </span>
+                  <div className="h-[1px] flex-grow bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent opacity-50"></div>
+                </div>
+              </div>
             </Link>
 
             {/* Desktop Nav Links */}
