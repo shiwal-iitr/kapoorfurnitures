@@ -4328,5 +4328,181 @@ export const products = [
     "isNew": true,
     "rating": 4.9,
     "reviews": 22
+  },
+  {
+    "id": "sofa-cum-bed-5",
+    "slug": "sofa-cum-bed-5",
+    "name": "Luxury Sofa Cum Bed Model 5",
+    "description": "Elegant space-saving design combined with supreme comfort for contemporary homes.",
+    "price": 25000,
+    "originalPrice": 30000,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/ai_sofa_cum_bed_4.png",
+    "features": [
+      "Plush seating",
+      "Sturdy pull-out mechanism",
+      "Premium upholstery"
+    ],
+    "gallery": [
+      "/images/products/ai_sofa_cum_bed_4.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 10
+  },
+  {
+    "id": "sofa-cum-bed-6",
+    "slug": "sofa-cum-bed-6",
+    "name": "Luxury Sofa Cum Bed Model 6",
+    "description": "Sophisticated dual-tone Sofa Cum Bed offering ultimate comfort in both seating and sleeping configurations.",
+    "price": 26500,
+    "originalPrice": 32000,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/ai_sofa_cum_bed_5.png",
+    "features": [
+      "Dual-tone design",
+      "High-density foam",
+      "Easy conversion"
+    ],
+    "gallery": [
+      "/images/products/ai_sofa_cum_bed_5.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 14
+  },
+  {
+    "id": "sofa-cum-bed-7",
+    "slug": "sofa-cum-bed-7",
+    "name": "Luxury Sofa Cum Bed Model 7",
+    "description": "A premium piece that perfectly balances style and practicality for your living space.",
+    "price": 27000,
+    "originalPrice": 33000,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/ai_sofa_cum_bed_6.png",
+    "features": [
+      "Contemporary look",
+      "Space-saving",
+      "Sturdy wooden base"
+    ],
+    "gallery": [
+      "/images/products/ai_sofa_cum_bed_6.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.4,
+    "reviews": 8
+  },
+  {
+    "id": "sofa-cum-bed-8",
+    "slug": "sofa-cum-bed-8",
+    "name": "Luxury Sofa Cum Bed Model 8",
+    "description": "Ultra-luxurious Sofa Cum Bed that seamlessly transforms into a cozy sleeping space.",
+    "price": 29000,
+    "originalPrice": 35000,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/ai_sofa_cum_bed_7.png",
+    "features": [
+      "Ultra-luxurious",
+      "Premium multi-functional",
+      "Durable fabric"
+    ],
+    "gallery": [
+      "/images/products/ai_sofa_cum_bed_7.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": "sofa-cum-bed-9",
+    "slug": "sofa-cum-bed-9",
+    "name": "Luxury Sofa Cum Bed Model 9",
+    "description": "Minimalist and highly functional Sofa Cum Bed with a sleek silhouette and hidden storage.",
+    "price": 24500,
+    "originalPrice": 29500,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/ai_sofa_cum_bed_8.png",
+    "features": [
+      "Sleek silhouette",
+      "Hidden storage",
+      "Premium finish"
+    ],
+    "gallery": [
+      "/images/products/ai_sofa_cum_bed_8.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.6,
+    "reviews": 16
+  },
+  {
+    "id": "sofa-cum-bed-10",
+    "slug": "sofa-cum-bed-10",
+    "name": "Luxury Sofa Cum Bed Model 10",
+    "description": "An elegant addition to any modern interior, featuring smooth sliding mechanisms and plush fabric.",
+    "price": 31000,
+    "originalPrice": 38000,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/ai_sofa_cum_bed_9.png",
+    "features": [
+      "Smooth sliding mechanism",
+      "Plush fabric",
+      "Modern interior fit"
+    ],
+    "gallery": [
+      "/images/products/ai_sofa_cum_bed_9.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.9,
+    "reviews": 24
+  },
+  {
+    "id": "sofa-cum-bed-11",
+    "slug": "sofa-cum-bed-11",
+    "name": "Classic Sofa Cum Bed Model 11",
+    "description": "A classic style Sofa Cum Bed designed to maximize room space without compromising on sleeping comfort.",
+    "price": 22000,
+    "originalPrice": 26000,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/raw_sofa_cum_bed_10.png",
+    "features": [
+      "Classic style",
+      "Comfortable sleeping area",
+      "Durable build"
+    ],
+    "gallery": [
+      "/images/products/raw_sofa_cum_bed_10.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.3,
+    "reviews": 9
+  },
+  {
+    "id": "sofa-cum-bed-12",
+    "slug": "sofa-cum-bed-12",
+    "name": "Classic Sofa Cum Bed Model 12",
+    "description": "A reliable and robust Sofa Cum Bed that is perfect for everyday use in busy households.",
+    "price": 23000,
+    "originalPrice": 27500,
+    "category": "sofa-cum-bed",
+    "image": "/images/products/raw_sofa_cum_bed_11.png",
+    "features": [
+      "Robust construction",
+      "Everyday use",
+      "Comfortable seating"
+    ],
+    "gallery": [
+      "/images/products/raw_sofa_cum_bed_11.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.4,
+    "reviews": 15
   }
 ];
