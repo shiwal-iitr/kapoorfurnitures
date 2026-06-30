@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import logoImg from '../public/images/logo.png';
+import logoImg from '../public/images/logo.jpg';
 import { usePathname } from 'next/navigation';
 
 const navLinks = [
