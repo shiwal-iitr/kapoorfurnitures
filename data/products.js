@@ -1000,7 +1000,7 @@ export const products = [
   },
   {
     "id": 450059,
-    "name": "Premium Office Table 1",
+    "name": "EXECUTIVE TABLE",
     "slug": "executive-table-450059",
     "category": "piyestra-office",
     "price": 50,
@@ -1025,7 +1025,7 @@ export const products = [
   },
   {
     "id": 441995,
-    "name": "Premium Office Table 2",
+    "name": "EXECUTIVE TABLE",
     "slug": "executive-table-441995",
     "category": "piyestra-office",
     "price": 50,
@@ -1050,7 +1050,7 @@ export const products = [
   },
   {
     "id": 339270,
-    "name": "Premium Office Table 3",
+    "name": "OFFICE TABLE",
     "slug": "office-table-339270",
     "category": "piyestra-office",
     "price": 50,
@@ -1075,7 +1075,7 @@ export const products = [
   },
   {
     "id": 360532,
-    "name": "Premium Office Table 4",
+    "name": "OFFICE TABLE",
     "slug": "office-table-360532",
     "category": "piyestra-office",
     "price": 50,
@@ -1100,7 +1100,7 @@ export const products = [
   },
   {
     "id": 479214,
-    "name": "Premium Office Table 5",
+    "name": "OFFICE TABLE",
     "slug": "office-table-479214",
     "category": "piyestra-office",
     "price": 50,
@@ -1125,7 +1125,7 @@ export const products = [
   },
   {
     "id": 170464,
-    "name": "Premium Office Table 6",
+    "name": "OFFICE TABLE",
     "slug": "office-table-170464",
     "category": "piyestra-office",
     "price": 50,
@@ -1150,7 +1150,7 @@ export const products = [
   },
   {
     "id": 752073,
-    "name": "Premium Office Table 7",
+    "name": "OFFICE TABLE",
     "slug": "office-table-752073",
     "category": "piyestra-office",
     "price": 50,
@@ -1175,7 +1175,7 @@ export const products = [
   },
   {
     "id": 428762,
-    "name": "Premium Office Table 8",
+    "name": "OFFICE TABLE",
     "slug": "office-table-428762",
     "category": "piyestra-office",
     "price": 50,
@@ -1200,7 +1200,7 @@ export const products = [
   },
   {
     "id": 986353,
-    "name": "Premium Study Table 1",
+    "name": "COMPUTER TABLE",
     "slug": "computer-table-986353",
     "category": "piyestra-study",
     "price": 50,
@@ -1225,7 +1225,7 @@ export const products = [
   },
   {
     "id": 413325,
-    "name": "Premium Study Table 2",
+    "name": "COMPUTER TABLE",
     "slug": "computer-table-413325",
     "category": "piyestra-study",
     "price": 50,
@@ -1250,7 +1250,7 @@ export const products = [
   },
   {
     "id": 144820,
-    "name": "Premium Study Table 3",
+    "name": "COMPUTER TABLE",
     "slug": "computer-table-144820",
     "category": "piyestra-study",
     "price": 50,
@@ -1275,7 +1275,7 @@ export const products = [
   },
   {
     "id": 144852,
-    "name": "Premium Study Table 4",
+    "name": "STUDY DESK",
     "slug": "study-desk-144852",
     "category": "piyestra-study",
     "price": 50,
@@ -1300,7 +1300,7 @@ export const products = [
   },
   {
     "id": 803299,
-    "name": "Premium Study Table 5",
+    "name": "STUDY DESK",
     "slug": "study-desk-803299",
     "category": "piyestra-study",
     "price": 50,
@@ -1325,7 +1325,7 @@ export const products = [
   },
   {
     "id": 18700,
-    "name": "Premium Study Table 6",
+    "name": "STUDY DESK",
     "slug": "study-desk-18700",
     "category": "piyestra-study",
     "price": 50,
@@ -1350,7 +1350,7 @@ export const products = [
   },
   {
     "id": 971394,
-    "name": "Premium Study Table 7",
+    "name": "STUDY DESK",
     "slug": "study-desk-971394",
     "category": "piyestra-study",
     "price": 50,
@@ -1375,7 +1375,7 @@ export const products = [
   },
   {
     "id": 915727,
-    "name": "Premium Study Table 8",
+    "name": "STUDY DESK",
     "slug": "study-desk-915727",
     "category": "piyestra-study",
     "price": 50,
@@ -1400,7 +1400,7 @@ export const products = [
   },
   {
     "id": 107234,
-    "name": "Premium Study Table 9",
+    "name": "STUDY DESK",
     "slug": "study-desk-107234",
     "category": "piyestra-study",
     "price": 50,
@@ -1425,7 +1425,7 @@ export const products = [
   },
   {
     "id": 523105,
-    "name": "Premium Study Table 10",
+    "name": "STUDY DESK",
     "slug": "study-desk-523105",
     "category": "piyestra-study",
     "price": 50,
@@ -1450,7 +1450,7 @@ export const products = [
   },
   {
     "id": 517482,
-    "name": "Premium Entertainment Unit 1",
+    "name": "AUDIO/VIDEO RACK",
     "slug": "audio-video-rack-517482",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1475,7 +1475,7 @@ export const products = [
   },
   {
     "id": 433159,
-    "name": "Premium Entertainment Unit 2",
+    "name": "AUDIO/VIDEO RACK",
     "slug": "audio-video-rack-433159",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1500,7 +1500,7 @@ export const products = [
   },
   {
     "id": 198414,
-    "name": "Premium Entertainment Unit 3",
+    "name": "AUDIO/VIDEO RACK",
     "slug": "audio-video-rack-198414",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1525,7 +1525,7 @@ export const products = [
   },
   {
     "id": 248286,
-    "name": "Premium Entertainment Unit 4",
+    "name": "AUDIO/VIDEO RACK",
     "slug": "audio-video-rack-248286",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1550,7 +1550,7 @@ export const products = [
   },
   {
     "id": 196446,
-    "name": "Premium Entertainment Unit 5",
+    "name": "AUDIO/VIDEO RACK",
     "slug": "audio-video-rack-196446",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1575,7 +1575,7 @@ export const products = [
   },
   {
     "id": 499891,
-    "name": "Premium Entertainment Unit 6",
+    "name": "AUDIO/VIDEO RACK",
     "slug": "audio-video-rack-499891",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1600,7 +1600,7 @@ export const products = [
   },
   {
     "id": 576022,
-    "name": "Premium Entertainment Unit 7",
+    "name": "AUDIO/VIDEO RACK",
     "slug": "audio-video-rack-576022",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1625,7 +1625,7 @@ export const products = [
   },
   {
     "id": 280358,
-    "name": "Premium Entertainment Unit 8",
+    "name": "AUDIO/VIDEO RACK",
     "slug": "audio-video-rack-280358",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1650,7 +1650,7 @@ export const products = [
   },
   {
     "id": 920435,
-    "name": "Premium Entertainment Unit 9",
+    "name": "AUDIO/VIDEO RACK",
     "slug": "audio-video-rack-920435",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1675,7 +1675,7 @@ export const products = [
   },
   {
     "id": 45322,
-    "name": "Premium Entertainment Unit 10",
+    "name": "AUDIO/VIDEO RACK",
     "slug": "audio-video-rack-45322",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1700,7 +1700,7 @@ export const products = [
   },
   {
     "id": 304146,
-    "name": "Premium Entertainment Unit 11",
+    "name": "AUDIO/VIDEO RACK (Copy)",
     "slug": "audio-video-rack-copy-304146",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1725,7 +1725,7 @@ export const products = [
   },
   {
     "id": 46722,
-    "name": "Premium Entertainment Unit 12",
+    "name": "AVA WALL UNIT",
     "slug": "ava-wall-unit-46722",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1750,7 +1750,7 @@ export const products = [
   },
   {
     "id": 400000,
-    "name": "Premium Bed 17",
+    "name": "ATHENA HYDRAULIC BED",
     "slug": "athena-hydraulic-king-bed-400001",
     "category": "piyestra-bedroom-beds",
     "price": 22448,
@@ -1774,7 +1774,7 @@ export const products = [
   },
   {
     "id": 400002,
-    "name": "Premium Bed 18",
+    "name": "AUSTIN HYDRAULIC BED",
     "slug": "austin-hydraulic-king-bed-400003",
     "category": "piyestra-bedroom-beds",
     "price": 32369,
@@ -1798,7 +1798,7 @@ export const products = [
   },
   {
     "id": 400006,
-    "name": "Premium Bed 19",
+    "name": "AUSTIN KING BED",
     "slug": "austin-king-bed-400007",
     "category": "piyestra-bedroom-beds",
     "price": 29070,
@@ -1822,7 +1822,7 @@ export const products = [
   },
   {
     "id": 400010,
-    "name": "Premium Bed 20",
+    "name": "AVON HYDRAULIC BED",
     "slug": "avon-hydraulic-king-bed-400011",
     "category": "piyestra-bedroom-beds",
     "price": 24200,
@@ -1846,7 +1846,7 @@ export const products = [
   },
   {
     "id": 400012,
-    "name": "Premium Wardrobe 1",
+    "name": "ATHENA 2 DOOR SLIDING WARDROBE",
     "slug": "athena-2-door-sliding-wardrobe-400013",
     "category": "piyestra-bedroom-wardrobes",
     "price": 32477,
@@ -1870,7 +1870,7 @@ export const products = [
   },
   {
     "id": 400013,
-    "name": "Premium Wardrobe 2",
+    "name": "AUSTIN 2 DOOR WARDROBE",
     "slug": "austin-2-door-wardrobe-400014",
     "category": "piyestra-bedroom-wardrobes",
     "price": 23511,
@@ -1894,7 +1894,7 @@ export const products = [
   },
   {
     "id": 400014,
-    "name": "Premium Wardrobe 3",
+    "name": "AUSTIN 2 DOOR WARDROBE",
     "slug": "austin-2-door-wardrobe-400015",
     "category": "piyestra-bedroom-wardrobes",
     "price": 26865,
@@ -1918,7 +1918,7 @@ export const products = [
   },
   {
     "id": 400015,
-    "name": "Premium Wardrobe 4",
+    "name": "AUSTIN 3 DOOR WARDROBE",
     "slug": "austin-3-door-wardrobe-400016",
     "category": "piyestra-bedroom-wardrobes",
     "price": 26621,
@@ -1942,7 +1942,7 @@ export const products = [
   },
   {
     "id": 400016,
-    "name": "Premium Wardrobe 5",
+    "name": "AUSTIN 3 DOOR WARDROBE",
     "slug": "austin-3-door-wardrobe-400017",
     "category": "piyestra-bedroom-wardrobes",
     "price": 19615,
@@ -1966,7 +1966,7 @@ export const products = [
   },
   {
     "id": 400017,
-    "name": "Premium Wardrobe 6",
+    "name": "AVON 4 DOOR WARDROBE",
     "slug": "avon-4-door-wardrobe-400018",
     "category": "piyestra-bedroom-wardrobes",
     "price": 23764,
@@ -1990,7 +1990,7 @@ export const products = [
   },
   {
     "id": 400018,
-    "name": "Premium Wardrobe 7",
+    "name": "CAIRO 3 DOOR WARDROBE",
     "slug": "cairo-3-door-wardrobe-400019",
     "category": "piyestra-bedroom-wardrobes",
     "price": 16153,
@@ -2014,7 +2014,7 @@ export const products = [
   },
   {
     "id": 400019,
-    "name": "Premium Wardrobe 8",
+    "name": "GEORGIA 3 DOOR WARDROBE",
     "slug": "georgia-3-door-wardrobe-400020",
     "category": "piyestra-bedroom-wardrobes",
     "price": 17464,
@@ -2038,7 +2038,7 @@ export const products = [
   },
   {
     "id": 400020,
-    "name": "Premium Wardrobe 9",
+    "name": "LIBERTY 4 DOOR WARDROBE",
     "slug": "liberty-4-door-wardrobe-400021",
     "category": "piyestra-bedroom-wardrobes",
     "price": 34943,
@@ -2062,7 +2062,7 @@ export const products = [
   },
   {
     "id": 400021,
-    "name": "Premium Wardrobe 10",
+    "name": "MONZA 3 DOOR WARDROBE",
     "slug": "monza-3-door-wardrobe-400022",
     "category": "piyestra-bedroom-wardrobes",
     "price": 19086,
@@ -2086,7 +2086,7 @@ export const products = [
   },
   {
     "id": 400022,
-    "name": "Premium Wardrobe 11",
+    "name": "NIPPY 3 DOOR WARDROBE",
     "slug": "nippy-3-door-wardrobe-400023",
     "category": "piyestra-bedroom-wardrobes",
     "price": 16844,
@@ -2110,7 +2110,7 @@ export const products = [
   },
   {
     "id": 400023,
-    "name": "Premium Wardrobe 12",
+    "name": "NIPPY 4 DOOR WARDROBE",
     "slug": "nippy-4-door-wardrobe-400024",
     "category": "piyestra-bedroom-wardrobes",
     "price": 19838,
@@ -2456,7 +2456,7 @@ export const products = [
   },
   {
     "id": 986354,
-    "name": "Premium Bed 21",
+    "name": "Premium Bed 17",
     "slug": "premium-bed-1",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2480,7 +2480,7 @@ export const products = [
   },
   {
     "id": 986355,
-    "name": "Premium Bed 22",
+    "name": "Premium Bed 18",
     "slug": "premium-bed-2",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2504,7 +2504,7 @@ export const products = [
   },
   {
     "id": 986356,
-    "name": "Premium Bed 23",
+    "name": "Premium Bed 19",
     "slug": "premium-bed-3",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2528,7 +2528,7 @@ export const products = [
   },
   {
     "id": 986357,
-    "name": "Premium Bed 24",
+    "name": "Premium Bed 20",
     "slug": "premium-bed-4",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2552,7 +2552,7 @@ export const products = [
   },
   {
     "id": 986358,
-    "name": "Premium Bed 25",
+    "name": "Premium Bed 21",
     "slug": "premium-bed-5",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2576,7 +2576,7 @@ export const products = [
   },
   {
     "id": 986359,
-    "name": "Premium Bed 26",
+    "name": "Premium Bed 22",
     "slug": "premium-bed-6",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2600,7 +2600,7 @@ export const products = [
   },
   {
     "id": 986360,
-    "name": "Premium Bed 27",
+    "name": "Premium Bed 23",
     "slug": "premium-bed-7",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2624,7 +2624,7 @@ export const products = [
   },
   {
     "id": 986361,
-    "name": "Premium Bed 28",
+    "name": "Premium Bed 24",
     "slug": "premium-bed-8",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2648,7 +2648,7 @@ export const products = [
   },
   {
     "id": 986362,
-    "name": "Premium Bed 29",
+    "name": "Premium Bed 25",
     "slug": "premium-bed-9",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2672,7 +2672,7 @@ export const products = [
   },
   {
     "id": 986363,
-    "name": "Premium Bed 30",
+    "name": "Premium Bed 26",
     "slug": "premium-bed-10",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2696,7 +2696,7 @@ export const products = [
   },
   {
     "id": 986364,
-    "name": "Premium Bed 31",
+    "name": "Premium Bed 27",
     "slug": "premium-bed-11",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2720,7 +2720,7 @@ export const products = [
   },
   {
     "id": 986365,
-    "name": "Premium Bed 32",
+    "name": "Premium Bed 28",
     "slug": "premium-bed-12",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2744,7 +2744,7 @@ export const products = [
   },
   {
     "id": 986366,
-    "name": "Premium Bed 33",
+    "name": "Premium Bed 29",
     "slug": "premium-bed-13",
     "category": "bedroom-beds",
     "price": 25000,
@@ -3089,7 +3089,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 1",
+    "name": "ATHENA DRESSING TABLE",
     "slug": "athena-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3113,7 +3113,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 2",
+    "name": "AUSTIN DRESSING TABLE",
     "slug": "austin-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3137,7 +3137,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 3",
+    "name": "AUSTIN DRESSING TABLE",
     "slug": "austin-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3161,7 +3161,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 4",
+    "name": "AVON DRESSING TABLE",
     "slug": "avon-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3185,7 +3185,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 5",
+    "name": "CAIRO DRESSING TABLE",
     "slug": "cairo-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3209,7 +3209,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 6",
+    "name": "DRESSING TABLE",
     "slug": "dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3233,7 +3233,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 7",
+    "name": "DRESSING TABLE",
     "slug": "dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3257,7 +3257,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 8",
+    "name": "FELCITY DRESSING TABLE",
     "slug": "felcity-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3281,7 +3281,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 9",
+    "name": "GEORGIA DRESSING TABLE",
     "slug": "georgia-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3305,7 +3305,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 10",
+    "name": "HARRY DRESSING TABLE",
     "slug": "harry-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3329,7 +3329,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 11",
+    "name": "INDY DRESSING TABLE",
     "slug": "indy-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3353,7 +3353,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Dressing Table 12",
+    "name": "LIBERTY DRESSING TABLE",
     "slug": "liberty-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3377,7 +3377,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Bed 34",
+    "name": "HARRY STORAGE BED",
     "slug": "harry-storage-bed",
     "category": "piyestra-bedroom-beds",
     "price": 50,
@@ -3401,7 +3401,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Bed 35",
+    "name": "LIBERTY HYDRAULIC BED",
     "slug": "liberty-hydraulic-bed",
     "category": "piyestra-bedroom-beds",
     "price": 50,
@@ -3425,7 +3425,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Bed 36",
+    "name": "ZERENA HYDRAULIC BED",
     "slug": "zerena-hydraulic-bed",
     "category": "piyestra-bedroom-beds",
     "price": 50,
@@ -3985,7 +3985,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Bed 37",
+    "name": "STELLA HYDRAULIC BED",
     "slug": "stella-hydraulic-bed",
     "category": "piyestra-bedroom-beds",
     "price": 25000,
@@ -4010,7 +4010,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Bed 38",
+    "name": "VIANA BED",
     "slug": "viana-bed",
     "category": "piyestra-bedroom-beds",
     "price": 25000,
@@ -4035,7 +4035,7 @@ export const products = [
     ]
   },
   {
-    "name": "Premium Bed 39",
+    "name": "INDY HYDRAULIC BED",
     "slug": "indy-hydraulic-bed",
     "category": "piyestra-bedroom-beds",
     "price": 25000,
@@ -4370,7 +4370,7 @@ export const products = [
   {
     "id": "designer-dream-bed",
     "slug": "designer-dream-bed",
-    "name": "Premium Bed 40",
+    "name": "Premium Bed 30",
     "category": "bedroom-beds",
     "price": 38000,
     "originalPrice": 45000,
@@ -4395,7 +4395,7 @@ export const products = [
   {
     "id": "wooden-comfort-bed-1",
     "slug": "wooden-comfort-bed-1",
-    "name": "Premium Bed 41",
+    "name": "Premium Bed 31",
     "category": "bedroom-beds",
     "price": 32000,
     "originalPrice": 38000,
@@ -4419,7 +4419,7 @@ export const products = [
   {
     "id": "soft-rest-bed",
     "slug": "soft-rest-bed",
-    "name": "Premium Bed 42",
+    "name": "Premium Bed 32",
     "category": "bedroom-beds",
     "price": 35000,
     "originalPrice": 41000,
@@ -4443,7 +4443,7 @@ export const products = [
   {
     "id": "wooden-comfort-bed-2",
     "slug": "wooden-comfort-bed-2",
-    "name": "Premium Bed 43",
+    "name": "Premium Bed 33",
     "category": "bedroom-beds",
     "price": 33000,
     "originalPrice": 39000,

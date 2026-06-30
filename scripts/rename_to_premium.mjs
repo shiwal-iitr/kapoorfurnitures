@@ -18,12 +18,12 @@ if (helpersIdx < 0) throw new Error('Could not locate helpers section');
 const helpers = original.slice(helpersIdx);
 
 // Broad item-type per category, per the user's "all a bed -> Premium Bed N" rule.
+// Piyestra products are excluded from the Premium-<N> rename — they keep
+// their original Piyestra-supplier names. Everything else is normalised.
 const CATEGORY_TO_TYPE = {
   'bedroom-beds': 'Bed',
-  'piyestra-bedroom-beds': 'Bed',
   'bedroom-chairs': 'Chair',
   'centre-tables': 'Centre Table',
-  'piyestra-bedroom-centre-tables': 'Dressing Table',
   'glass-top': 'Dining Table',
   'marble-top': 'Dining Table',
   '3-1-1-sofas': 'Sofa',
@@ -31,10 +31,6 @@ const CATEGORY_TO_TYPE = {
   'l-shape-sofas': 'Sofa',
   'sofa-cum-bed': 'Sofa Cum Bed',
   'deewan-cum-bed': 'Deewan Cum Bed',
-  'piyestra-office': 'Office Table',
-  'piyestra-study': 'Study Table',
-  'piyestra-entertainment': 'Entertainment Unit',
-  'piyestra-bedroom-wardrobes': 'Wardrobe',
 };
 
 const counters = {};
@@ -43,7 +39,7 @@ const report = { total: products.length, renamed: 0, byType: {}, samples: [], er
 for (const p of products) {
   const type = CATEGORY_TO_TYPE[p.category];
   if (!type) {
-    report.errors.push({ id: p.id, slug: p.slug, category: p.category, reason: 'no item type mapped' });
+    // Skip silently — piyestra products and any other unmapped categories keep their original names.
     continue;
   }
   counters[type] = (counters[type] || 0) + 1;
