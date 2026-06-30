@@ -311,30 +311,6 @@ export const products = [
     ]
   },
   {
-    "id": 9210,
-    "name": "Piyestra Study Table 11",
-    "slug": "piyestra-study-table-11",
-    "category": "piyestra-study",
-    "price": 13000,
-    "originalPrice": 15000,
-    "description": "A beautiful study table to perfectly complement your workspace. Features a sturdy design with a premium finish.",
-    "features": [
-      "Sturdy Construction",
-      "Premium Finish",
-      "Modern Design"
-    ],
-    "dimensions": "Standard Study Table Size",
-    "material": "Premium Wood / Glass",
-    "image": "/images/centre_tables_raw/img_p10_1.png",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.6,
-    "reviews": 15,
-    "gallery": [
-      "/images/centre_tables_raw/img_p10_1.png"
-    ]
-  },
-  {
     "id": 9000,
     "name": "Classic Dining Table 1",
     "slug": "classic-dining-table-1",
@@ -1444,56 +1420,6 @@ export const products = [
     "reviews": 56,
     "gallery": [
       "https://piyestraindia.com/wp-content/uploads/2024/09/01-6-600x600.jpg"
-    ]
-  },
-  {
-    "id": 375500,
-    "name": "TYPIST CHAIR",
-    "slug": "typist-chair-375500",
-    "category": "piyestra-study",
-    "price": 50,
-    "originalPrice": 60,
-    "description": "Introduce a charming attraction to your study area with a neatly tailored study desk design. The minimalistic creation developed using the finest materials and contrastive colors will bring a fascinating presentation to your living space.",
-    "features": [
-      "Premium Material Construction",
-      "Minimalistic & Elegant Design",
-      "Durable & Long-lasting",
-      "Easy to Maintain"
-    ],
-    "dimensions": "Standard Fits",
-    "material": "Premium Quality Wood & Fabric",
-    "image": "https://piyestraindia.com/wp-content/uploads/2022/08/PRD86-1-1-600x600.jpg",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.5,
-    "reviews": 50,
-    "gallery": [
-      "https://piyestraindia.com/wp-content/uploads/2022/08/PRD86-1-1-600x600.jpg"
-    ]
-  },
-  {
-    "id": 829054,
-    "name": "TYPIST CHAIR",
-    "slug": "typist-chair-829054",
-    "category": "piyestra-study",
-    "price": 50,
-    "originalPrice": 60,
-    "description": "Introduce a charming attraction to your study area with a neatly tailored study desk design. The minimalistic creation developed using the finest materials and contrastive colors will bring a fascinating presentation to your living space.",
-    "features": [
-      "Premium Material Construction",
-      "Minimalistic & Elegant Design",
-      "Durable & Long-lasting",
-      "Easy to Maintain"
-    ],
-    "dimensions": "Standard Fits",
-    "material": "Premium Quality Wood & Fabric",
-    "image": "https://piyestraindia.com/wp-content/uploads/2022/08/PRD151-1-600x600.jpg",
-    "isFeatured": false,
-    "isNew": true,
-    "rating": 4.5,
-    "reviews": 49,
-    "gallery": [
-      "https://piyestraindia.com/wp-content/uploads/2022/08/PRD151-1-600x600.jpg"
     ]
   },
   {
