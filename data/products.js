@@ -4366,6 +4366,248 @@ export const products = [
     "isNew": true,
     "rating": 4.4,
     "reviews": 15
+  },
+  {
+    "id": "designer-dream-bed",
+    "slug": "designer-dream-bed",
+    "name": "Designer Dream Bed",
+    "category": "bedroom-beds",
+    "price": 38000,
+    "originalPrice": 45000,
+    "description": "An elegant designer bed crafted to bring a luxurious feel to the modern bedroom.",
+    "features": [
+      "Premium upholstery",
+      "Sturdy hardwood frame",
+      "Designer headboard",
+      "Easy-clean finish"
+    ],
+    "dimensions": "King size",
+    "material": "Engineered wood with premium fabric",
+    "image": "/images/products/style/designer-dream-bed.jpg",
+    "gallery": [
+      "/images/products/style/designer-dream-bed.jpg"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 12
+  },
+  {
+    "id": "wooden-comfort-bed-1",
+    "slug": "wooden-comfort-bed-1",
+    "name": "Wooden Comfort Bed",
+    "category": "bedroom-beds",
+    "price": 32000,
+    "originalPrice": 38000,
+    "description": "A solid wooden bed combining comfort and durability for restful nights.",
+    "features": [
+      "Solid wood construction",
+      "Comfortable sleep surface",
+      "Classic detailing"
+    ],
+    "dimensions": "Queen size",
+    "material": "Solid wood",
+    "image": "/images/products/style/wooden-comfort-bed-1.jpg",
+    "gallery": [
+      "/images/products/style/wooden-comfort-bed-1.jpg"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.6,
+    "reviews": 10
+  },
+  {
+    "id": "soft-rest-bed",
+    "slug": "soft-rest-bed",
+    "name": "Soft Rest Bed",
+    "category": "bedroom-beds",
+    "price": 35000,
+    "originalPrice": 41000,
+    "description": "A soft upholstered bed designed for relaxed evenings and restful sleep.",
+    "features": [
+      "Plush upholstery",
+      "Cushioned headboard",
+      "Sturdy frame"
+    ],
+    "dimensions": "King size",
+    "material": "Engineered wood with premium fabric",
+    "image": "/images/products/style/soft-rest-bed.jpg",
+    "gallery": [
+      "/images/products/style/soft-rest-bed.jpg"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.6,
+    "reviews": 9
+  },
+  {
+    "id": "wooden-comfort-bed-2",
+    "slug": "wooden-comfort-bed-2",
+    "name": "Wooden Comfort Bed",
+    "category": "bedroom-beds",
+    "price": 33000,
+    "originalPrice": 39000,
+    "description": "A wooden bed crafted for everyday comfort with a clean, contemporary silhouette.",
+    "features": [
+      "Solid wood construction",
+      "Contemporary design",
+      "Long-lasting finish"
+    ],
+    "dimensions": "Queen size",
+    "material": "Solid wood",
+    "image": "/images/products/style/wooden-comfort-bed-2.jpg",
+    "gallery": [
+      "/images/products/style/wooden-comfort-bed-2.jpg"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.5,
+    "reviews": 8
+  },
+  {
+    "id": "urban-dining-table",
+    "slug": "urban-dining-table",
+    "name": "Urban Dining Table",
+    "category": "glass-top",
+    "price": 48000,
+    "originalPrice": 56000,
+    "description": "A contemporary urban-style dining table that pairs clean lines with everyday practicality.",
+    "features": [
+      "Contemporary design",
+      "Sturdy build",
+      "Generous seating space"
+    ],
+    "dimensions": "6 Seater",
+    "material": "Premium wood / glass top",
+    "image": "/images/products/style/urban-dining-table.jpeg",
+    "gallery": [
+      "/images/products/style/urban-dining-table.jpeg"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 11
+  },
+  {
+    "id": "cozy-dining-table",
+    "slug": "cozy-dining-table",
+    "name": "Cozy Dining Table",
+    "category": "glass-top",
+    "price": 42000,
+    "originalPrice": 49000,
+    "description": "A cosy dining table sized for warm family meals and intimate gatherings.",
+    "features": [
+      "Compact footprint",
+      "Warm wood finish",
+      "Easy-clean top"
+    ],
+    "dimensions": "4 Seater",
+    "material": "Premium wood / glass top",
+    "image": "/images/products/style/cozy-dining-table.jpeg",
+    "gallery": [
+      "/images/products/style/cozy-dining-table.jpeg"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.6,
+    "reviews": 9
+  },
+  {
+    "id": "deluxe-sofa-set-1",
+    "slug": "deluxe-sofa-set-1",
+    "name": "Deluxe Sofa Set",
+    "category": "3-2-2-sofas",
+    "price": 78000,
+    "originalPrice": 92000,
+    "description": "A deluxe sofa set offering generous seating and refined upholstery for the modern living room.",
+    "features": [
+      "Premium upholstery",
+      "Plush seating",
+      "Solid hardwood frame"
+    ],
+    "dimensions": "3+2+2 seater",
+    "material": "Hardwood frame with premium fabric",
+    "image": "/images/products/style/deluxe-sofa-set-1.png",
+    "gallery": [
+      "/images/products/style/deluxe-sofa-set-1.png"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 18
+  },
+  {
+    "id": "deluxe-sofa-set-2",
+    "slug": "deluxe-sofa-set-2",
+    "name": "Deluxe Sofa Set",
+    "category": "3-2-2-sofas",
+    "price": 82000,
+    "originalPrice": 95000,
+    "description": "A second variant of the deluxe sofa set, with a richer profile and equally premium build.",
+    "features": [
+      "Premium upholstery",
+      "Plush deep-seat cushions",
+      "Solid hardwood frame"
+    ],
+    "dimensions": "3+2+2 seater",
+    "material": "Hardwood frame with premium fabric",
+    "image": "/images/products/style/deluxe-sofa-set-2.png",
+    "gallery": [
+      "/images/products/style/deluxe-sofa-set-2.png"
+    ],
+    "isFeatured": false,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 14
+  },
+  {
+    "id": "majestic-bliss-sofa",
+    "slug": "majestic-bliss-sofa",
+    "name": "Majestic Bliss Sofa",
+    "category": "3-1-1-sofas",
+    "price": 65000,
+    "originalPrice": 78000,
+    "description": "A majestic 3-1-1 sofa configuration with cushioned comfort and an elegant silhouette.",
+    "features": [
+      "Premium upholstery",
+      "Curved profile",
+      "Solid frame"
+    ],
+    "dimensions": "3+1+1 seater",
+    "material": "Hardwood frame with premium fabric",
+    "image": "/images/products/style/majestic-bliss-sofa.png",
+    "gallery": [
+      "/images/products/style/majestic-bliss-sofa.png"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "rating": 4.7,
+    "reviews": 13
+  },
+  {
+    "id": "royal-relax-sofa-set",
+    "slug": "royal-relax-sofa-set",
+    "name": "Royal Relax Sofa Set",
+    "category": "l-shape-sofas",
+    "price": 95000,
+    "originalPrice": 1_15_000,
+    "description": "A royal L-shape sofa set engineered for relaxed evenings and statement living rooms.",
+    "features": [
+      "L-shape configuration",
+      "Plush deep-seat cushions",
+      "Premium upholstery",
+      "Sturdy hardwood frame"
+    ],
+    "dimensions": "L-shape, 6+ seater",
+    "material": "Hardwood frame with premium fabric",
+    "image": "/images/products/style/royal-relax-sofa-set.png",
+    "gallery": [
+      "/images/products/style/royal-relax-sofa-set.png"
+    ],
+    "isFeatured": true,
+    "isNew": true,
+    "rating": 4.8,
+    "reviews": 16
   }
 ];
 
