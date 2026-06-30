@@ -40,7 +40,7 @@ export async function generateMetadata(props) {
     : '/og-image.png';
 
   return {
-    title: `${product.name} - ${product.material}`,
+    title: product.material ? `${product.name} - ${product.material}` : product.name,
     description: product.description,
     alternates: {
       canonical: `/products/${product.slug}`,
