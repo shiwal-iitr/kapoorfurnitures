@@ -1,10 +1,11 @@
 /* ===== Custom Font Import ===== */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Allura&display=swap');
 
-/* Brand display font — matches the gilded "Kapoor Furnitures" sign style */
-.brand-cinzel { font-family: 'Cinzel', 'Playfair Display', Georgia, serif; }
-.brand-script { font-family: 'Allura', 'Cormorant Garamond', cursive; }
-.brand-tagline { font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif; }
+/* Brand display font — matches the gilded "Kapoor Furnitures" sign style.
+   Both "Kapoor" (uppercase bold) and "Furnitures" (italic) come from
+   Cormorant Garamond so the family is shared, per the reference sign. */
+.brand-name      { font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif; }
+.brand-tagline   { font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif; }
 
 @import "tailwindcss";
 

@@ -57,23 +57,24 @@ export default function Navbar() {
               <div className="flex flex-col justify-center leading-none">
                 <div className="flex items-baseline gap-2 md:gap-3">
                   <span
-                    className="brand-cinzel text-3xl md:text-4xl tracking-[0.08em] uppercase"
+                    className="brand-name text-3xl md:text-4xl tracking-[0.04em] uppercase"
                     style={{
                       background: 'linear-gradient(to bottom right, #F8E5A3, #D4AF37, #8A6410)',
                       WebkitBackgroundClip: 'text',
                       WebkitTextFillColor: 'transparent',
-                      fontWeight: 800,
-                      textShadow: '0 1px 0 rgba(0,0,0,0.05)',
+                      fontWeight: 700,
+                      lineHeight: 1,
                     }}
                   >
                     Kapoor
                   </span>
                   <span
-                    className="brand-script text-2xl md:text-3xl"
+                    className="brand-name italic text-2xl md:text-3xl"
                     style={{
                       background: 'linear-gradient(to bottom right, #F8E5A3, #D4AF37, #8A6410)',
                       WebkitBackgroundClip: 'text',
                       WebkitTextFillColor: 'transparent',
+                      fontWeight: 600,
                       lineHeight: 1,
                     }}
                   >
