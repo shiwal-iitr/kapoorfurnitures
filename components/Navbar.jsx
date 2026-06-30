@@ -1,6 +1,8 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import logoImg from '../public/images/logo.png';
 import { usePathname } from 'next/navigation';
 
 const navLinks = [
@@ -46,8 +48,8 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 ml-[20px] md:ml-0 flex items-center gap-3">
               <div className="relative w-11 h-11 md:w-12 md:h-12 rounded-full overflow-hidden border border-[#D4AF37]/40 shadow-[0_2px_10px_rgba(0,0,0,0.1)]">
-                <img 
-                  src="/images/logo.png" 
+                <Image 
+                  src={logoImg}
                   alt="Kapoor Furnitures Logo" 
                   className="w-full h-full object-cover scale-110"
                 />
