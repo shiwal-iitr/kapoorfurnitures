@@ -168,7 +168,7 @@ export const categories = [
 export const products = [
   {
     "id": 9200,
-    "name": "Elegant Centre Table 1",
+    "name": "Premium Centre Table 1",
     "slug": "elegant-centre-table-1",
     "category": "centre-tables",
     "price": 8000,
@@ -192,7 +192,7 @@ export const products = [
   },
   {
     "id": 9201,
-    "name": "Elegant Centre Table 2",
+    "name": "Premium Centre Table 2",
     "slug": "elegant-centre-table-2",
     "category": "centre-tables",
     "price": 8500,
@@ -216,7 +216,7 @@ export const products = [
   },
   {
     "id": 9204,
-    "name": "Elegant Centre Table 5",
+    "name": "Premium Centre Table 3",
     "slug": "elegant-centre-table-5",
     "category": "centre-tables",
     "price": 10000,
@@ -240,7 +240,7 @@ export const products = [
   },
   {
     "id": 9206,
-    "name": "Elegant Centre Table 7",
+    "name": "Premium Centre Table 4",
     "slug": "elegant-centre-table-7",
     "category": "centre-tables",
     "price": 11000,
@@ -264,7 +264,7 @@ export const products = [
   },
   {
     "id": 9207,
-    "name": "Elegant Centre Table 8",
+    "name": "Premium Centre Table 5",
     "slug": "elegant-centre-table-8",
     "category": "centre-tables",
     "price": 11500,
@@ -288,7 +288,7 @@ export const products = [
   },
   {
     "id": 9000,
-    "name": "Classic Dining Table 1",
+    "name": "Premium Dining Table 1",
     "slug": "classic-dining-table-1",
     "category": "glass-top",
     "price": 15000,
@@ -312,7 +312,7 @@ export const products = [
   },
   {
     "id": 9001,
-    "name": "Classic Dining Table 2",
+    "name": "Premium Dining Table 2",
     "slug": "classic-dining-table-2",
     "category": "marble-top",
     "price": 16000,
@@ -336,7 +336,7 @@ export const products = [
   },
   {
     "id": 9002,
-    "name": "Classic Dining Table 3",
+    "name": "Premium Dining Table 3",
     "slug": "classic-dining-table-3",
     "category": "glass-top",
     "price": 17000,
@@ -360,7 +360,7 @@ export const products = [
   },
   {
     "id": 9003,
-    "name": "Classic Dining Table 4",
+    "name": "Premium Dining Table 4",
     "slug": "classic-dining-table-4",
     "category": "glass-top",
     "price": 18000,
@@ -384,7 +384,7 @@ export const products = [
   },
   {
     "id": 9004,
-    "name": "Classic Dining Table 5",
+    "name": "Premium Dining Table 5",
     "slug": "classic-dining-table-5",
     "category": "glass-top",
     "price": 19000,
@@ -408,7 +408,7 @@ export const products = [
   },
   {
     "id": 9005,
-    "name": "Classic Dining Table 6",
+    "name": "Premium Dining Table 6",
     "slug": "classic-dining-table-6",
     "category": "glass-top",
     "price": 20000,
@@ -432,7 +432,7 @@ export const products = [
   },
   {
     "id": 9006,
-    "name": "Classic Dining Table 7",
+    "name": "Premium Dining Table 7",
     "slug": "classic-dining-table-7",
     "category": "glass-top",
     "price": 21000,
@@ -456,7 +456,7 @@ export const products = [
   },
   {
     "id": 9007,
-    "name": "Classic Dining Table 8",
+    "name": "Premium Dining Table 8",
     "slug": "classic-dining-table-8",
     "category": "glass-top",
     "price": 22000,
@@ -480,7 +480,7 @@ export const products = [
   },
   {
     "id": 9008,
-    "name": "Classic Dining Table 9",
+    "name": "Premium Dining Table 9",
     "slug": "classic-dining-table-9",
     "category": "glass-top",
     "price": 23000,
@@ -504,7 +504,7 @@ export const products = [
   },
   {
     "id": 9009,
-    "name": "Classic Dining Table 10",
+    "name": "Premium Dining Table 10",
     "slug": "classic-dining-table-10",
     "category": "marble-top",
     "price": 24000,
@@ -528,7 +528,7 @@ export const products = [
   },
   {
     "id": 9100,
-    "name": "Premium Dining Table Collection A",
+    "name": "Premium Dining Table 11",
     "slug": "premium-dining-table-a",
     "category": "marble-top",
     "price": 25000,
@@ -552,7 +552,7 @@ export const products = [
   },
   {
     "id": 9101,
-    "name": "Premium Dining Table Collection B",
+    "name": "Premium Dining Table 12",
     "slug": "premium-dining-table-b",
     "category": "marble-top",
     "price": 25000,
@@ -576,7 +576,7 @@ export const products = [
   },
   {
     "id": 9102,
-    "name": "Premium Dining Table Collection C",
+    "name": "Premium Dining Table 13",
     "slug": "premium-dining-table-c",
     "category": "marble-top",
     "price": 25000,
@@ -600,7 +600,7 @@ export const products = [
   },
   {
     "id": 1,
-    "name": "Royal Teak King Bed",
+    "name": "Premium Bed 1",
     "slug": "royal-teak-king-bed",
     "category": "bedroom-beds",
     "price": 45999,
@@ -625,7 +625,7 @@ export const products = [
   },
   {
     "id": 2,
-    "name": "Sheesham Maharaja Double Bed",
+    "name": "Premium Bed 2",
     "slug": "sheesham-maharaja-double-bed",
     "category": "bedroom-beds",
     "price": 38499,
@@ -650,7 +650,7 @@ export const products = [
   },
   {
     "id": 3,
-    "name": "Milano Upholstered Queen Bed",
+    "name": "Premium Bed 3",
     "slug": "milano-upholstered-queen-bed",
     "category": "bedroom-beds",
     "price": 29999,
@@ -675,7 +675,7 @@ export const products = [
   },
   {
     "id": 4,
-    "name": "Jaipur Carved Poster Bed",
+    "name": "Premium Bed 4",
     "slug": "jaipur-carved-poster-bed",
     "category": "bedroom-beds",
     "price": 72999,
@@ -700,7 +700,7 @@ export const products = [
   },
   {
     "id": 5,
-    "name": "Urban Storage King Bed",
+    "name": "Premium Bed 5",
     "slug": "urban-storage-king-bed",
     "category": "bedroom-beds",
     "price": 34999,
@@ -725,7 +725,7 @@ export const products = [
   },
   {
     "id": 6,
-    "name": "Neem Wood Single Bed",
+    "name": "Premium Bed 6",
     "slug": "neem-wood-single-bed",
     "category": "bedroom-beds",
     "price": 15499,
@@ -750,7 +750,7 @@ export const products = [
   },
   {
     "id": 7,
-    "name": "Aria Metal Frame Queen Bed",
+    "name": "Premium Bed 7",
     "slug": "aria-metal-frame-queen-bed",
     "category": "bedroom-beds",
     "price": 18999,
@@ -775,7 +775,7 @@ export const products = [
   },
   {
     "id": 10,
-    "name": "Classic Mango Wood Double Bed",
+    "name": "Premium Bed 8",
     "slug": "classic-mango-wood-double-bed",
     "category": "bedroom-beds",
     "price": 25999,
@@ -800,7 +800,7 @@ export const products = [
   },
   {
     "id": 11,
-    "name": "Trundle Guest Bed",
+    "name": "Premium Bed 9",
     "slug": "trundle-guest-bed",
     "category": "bedroom-beds",
     "price": 22999,
@@ -825,7 +825,7 @@ export const products = [
   },
   {
     "id": 12,
-    "name": "Rosewood Heritage Bed",
+    "name": "Premium Bed 10",
     "slug": "rosewood-heritage-bed",
     "category": "bedroom-beds",
     "price": 67999,
@@ -850,7 +850,7 @@ export const products = [
   },
   {
     "id": 13,
-    "name": "Bunk Bed with Ladder",
+    "name": "Premium Bed 11",
     "slug": "bunk-bed-with-ladder",
     "category": "bedroom-beds",
     "price": 24999,
@@ -875,7 +875,7 @@ export const products = [
   },
   {
     "id": 14,
-    "name": "Diwan Cum Bed with Storage",
+    "name": "Premium Bed 12",
     "slug": "diwan-cum-bed-with-storage",
     "category": "bedroom-beds",
     "price": 19999,
@@ -900,7 +900,7 @@ export const products = [
   },
   {
     "id": 15,
-    "name": "Rattan Cane King Bed",
+    "name": "Premium Bed 13",
     "slug": "rattan-cane-king-bed",
     "category": "bedroom-beds",
     "price": 52999,
@@ -925,7 +925,7 @@ export const products = [
   },
   {
     "id": 16,
-    "name": "Leatherette Cushioned Bed",
+    "name": "Premium Bed 14",
     "slug": "leatherette-cushioned-bed",
     "category": "bedroom-beds",
     "price": 33499,
@@ -950,7 +950,7 @@ export const products = [
   },
   {
     "id": 17,
-    "name": "Compact Folding Single Bed",
+    "name": "Premium Bed 15",
     "slug": "compact-folding-single-bed",
     "category": "bedroom-beds",
     "price": 14999,
@@ -975,7 +975,7 @@ export const products = [
   },
   {
     "id": 18,
-    "name": "Velvet Wingback King Bed",
+    "name": "Premium Bed 16",
     "slug": "velvet-wingback-king-bed",
     "category": "bedroom-beds",
     "price": 56999,
@@ -1000,7 +1000,7 @@ export const products = [
   },
   {
     "id": 450059,
-    "name": "EXECUTIVE TABLE",
+    "name": "Premium Office Table 1",
     "slug": "executive-table-450059",
     "category": "piyestra-office",
     "price": 50,
@@ -1025,7 +1025,7 @@ export const products = [
   },
   {
     "id": 441995,
-    "name": "EXECUTIVE TABLE",
+    "name": "Premium Office Table 2",
     "slug": "executive-table-441995",
     "category": "piyestra-office",
     "price": 50,
@@ -1050,7 +1050,7 @@ export const products = [
   },
   {
     "id": 339270,
-    "name": "OFFICE TABLE",
+    "name": "Premium Office Table 3",
     "slug": "office-table-339270",
     "category": "piyestra-office",
     "price": 50,
@@ -1075,7 +1075,7 @@ export const products = [
   },
   {
     "id": 360532,
-    "name": "OFFICE TABLE",
+    "name": "Premium Office Table 4",
     "slug": "office-table-360532",
     "category": "piyestra-office",
     "price": 50,
@@ -1100,7 +1100,7 @@ export const products = [
   },
   {
     "id": 479214,
-    "name": "OFFICE TABLE",
+    "name": "Premium Office Table 5",
     "slug": "office-table-479214",
     "category": "piyestra-office",
     "price": 50,
@@ -1125,7 +1125,7 @@ export const products = [
   },
   {
     "id": 170464,
-    "name": "OFFICE TABLE",
+    "name": "Premium Office Table 6",
     "slug": "office-table-170464",
     "category": "piyestra-office",
     "price": 50,
@@ -1150,7 +1150,7 @@ export const products = [
   },
   {
     "id": 752073,
-    "name": "OFFICE TABLE",
+    "name": "Premium Office Table 7",
     "slug": "office-table-752073",
     "category": "piyestra-office",
     "price": 50,
@@ -1175,7 +1175,7 @@ export const products = [
   },
   {
     "id": 428762,
-    "name": "OFFICE TABLE",
+    "name": "Premium Office Table 8",
     "slug": "office-table-428762",
     "category": "piyestra-office",
     "price": 50,
@@ -1200,7 +1200,7 @@ export const products = [
   },
   {
     "id": 986353,
-    "name": "COMPUTER TABLE",
+    "name": "Premium Study Table 1",
     "slug": "computer-table-986353",
     "category": "piyestra-study",
     "price": 50,
@@ -1225,7 +1225,7 @@ export const products = [
   },
   {
     "id": 413325,
-    "name": "COMPUTER TABLE",
+    "name": "Premium Study Table 2",
     "slug": "computer-table-413325",
     "category": "piyestra-study",
     "price": 50,
@@ -1250,7 +1250,7 @@ export const products = [
   },
   {
     "id": 144820,
-    "name": "COMPUTER TABLE",
+    "name": "Premium Study Table 3",
     "slug": "computer-table-144820",
     "category": "piyestra-study",
     "price": 50,
@@ -1275,7 +1275,7 @@ export const products = [
   },
   {
     "id": 144852,
-    "name": "STUDY DESK",
+    "name": "Premium Study Table 4",
     "slug": "study-desk-144852",
     "category": "piyestra-study",
     "price": 50,
@@ -1300,7 +1300,7 @@ export const products = [
   },
   {
     "id": 803299,
-    "name": "STUDY DESK",
+    "name": "Premium Study Table 5",
     "slug": "study-desk-803299",
     "category": "piyestra-study",
     "price": 50,
@@ -1325,7 +1325,7 @@ export const products = [
   },
   {
     "id": 18700,
-    "name": "STUDY DESK",
+    "name": "Premium Study Table 6",
     "slug": "study-desk-18700",
     "category": "piyestra-study",
     "price": 50,
@@ -1350,7 +1350,7 @@ export const products = [
   },
   {
     "id": 971394,
-    "name": "STUDY DESK",
+    "name": "Premium Study Table 7",
     "slug": "study-desk-971394",
     "category": "piyestra-study",
     "price": 50,
@@ -1375,7 +1375,7 @@ export const products = [
   },
   {
     "id": 915727,
-    "name": "STUDY DESK",
+    "name": "Premium Study Table 8",
     "slug": "study-desk-915727",
     "category": "piyestra-study",
     "price": 50,
@@ -1400,7 +1400,7 @@ export const products = [
   },
   {
     "id": 107234,
-    "name": "STUDY DESK",
+    "name": "Premium Study Table 9",
     "slug": "study-desk-107234",
     "category": "piyestra-study",
     "price": 50,
@@ -1425,7 +1425,7 @@ export const products = [
   },
   {
     "id": 523105,
-    "name": "STUDY DESK",
+    "name": "Premium Study Table 10",
     "slug": "study-desk-523105",
     "category": "piyestra-study",
     "price": 50,
@@ -1450,7 +1450,7 @@ export const products = [
   },
   {
     "id": 517482,
-    "name": "AUDIO/VIDEO RACK",
+    "name": "Premium Entertainment Unit 1",
     "slug": "audio-video-rack-517482",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1475,7 +1475,7 @@ export const products = [
   },
   {
     "id": 433159,
-    "name": "AUDIO/VIDEO RACK",
+    "name": "Premium Entertainment Unit 2",
     "slug": "audio-video-rack-433159",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1500,7 +1500,7 @@ export const products = [
   },
   {
     "id": 198414,
-    "name": "AUDIO/VIDEO RACK",
+    "name": "Premium Entertainment Unit 3",
     "slug": "audio-video-rack-198414",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1525,7 +1525,7 @@ export const products = [
   },
   {
     "id": 248286,
-    "name": "AUDIO/VIDEO RACK",
+    "name": "Premium Entertainment Unit 4",
     "slug": "audio-video-rack-248286",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1550,7 +1550,7 @@ export const products = [
   },
   {
     "id": 196446,
-    "name": "AUDIO/VIDEO RACK",
+    "name": "Premium Entertainment Unit 5",
     "slug": "audio-video-rack-196446",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1575,7 +1575,7 @@ export const products = [
   },
   {
     "id": 499891,
-    "name": "AUDIO/VIDEO RACK",
+    "name": "Premium Entertainment Unit 6",
     "slug": "audio-video-rack-499891",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1600,7 +1600,7 @@ export const products = [
   },
   {
     "id": 576022,
-    "name": "AUDIO/VIDEO RACK",
+    "name": "Premium Entertainment Unit 7",
     "slug": "audio-video-rack-576022",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1625,7 +1625,7 @@ export const products = [
   },
   {
     "id": 280358,
-    "name": "AUDIO/VIDEO RACK",
+    "name": "Premium Entertainment Unit 8",
     "slug": "audio-video-rack-280358",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1650,7 +1650,7 @@ export const products = [
   },
   {
     "id": 920435,
-    "name": "AUDIO/VIDEO RACK",
+    "name": "Premium Entertainment Unit 9",
     "slug": "audio-video-rack-920435",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1675,7 +1675,7 @@ export const products = [
   },
   {
     "id": 45322,
-    "name": "AUDIO/VIDEO RACK",
+    "name": "Premium Entertainment Unit 10",
     "slug": "audio-video-rack-45322",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1700,7 +1700,7 @@ export const products = [
   },
   {
     "id": 304146,
-    "name": "AUDIO/VIDEO RACK (Copy)",
+    "name": "Premium Entertainment Unit 11",
     "slug": "audio-video-rack-copy-304146",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1725,7 +1725,7 @@ export const products = [
   },
   {
     "id": 46722,
-    "name": "AVA WALL UNIT",
+    "name": "Premium Entertainment Unit 12",
     "slug": "ava-wall-unit-46722",
     "category": "piyestra-entertainment",
     "price": 50,
@@ -1750,7 +1750,7 @@ export const products = [
   },
   {
     "id": 400000,
-    "name": "ATHENA HYDRAULIC BED",
+    "name": "Premium Bed 17",
     "slug": "athena-hydraulic-king-bed-400001",
     "category": "piyestra-bedroom-beds",
     "price": 22448,
@@ -1774,7 +1774,7 @@ export const products = [
   },
   {
     "id": 400002,
-    "name": "AUSTIN HYDRAULIC BED",
+    "name": "Premium Bed 18",
     "slug": "austin-hydraulic-king-bed-400003",
     "category": "piyestra-bedroom-beds",
     "price": 32369,
@@ -1798,7 +1798,7 @@ export const products = [
   },
   {
     "id": 400006,
-    "name": "AUSTIN KING BED",
+    "name": "Premium Bed 19",
     "slug": "austin-king-bed-400007",
     "category": "piyestra-bedroom-beds",
     "price": 29070,
@@ -1822,7 +1822,7 @@ export const products = [
   },
   {
     "id": 400010,
-    "name": "AVON HYDRAULIC BED",
+    "name": "Premium Bed 20",
     "slug": "avon-hydraulic-king-bed-400011",
     "category": "piyestra-bedroom-beds",
     "price": 24200,
@@ -1846,7 +1846,7 @@ export const products = [
   },
   {
     "id": 400012,
-    "name": "ATHENA 2 DOOR SLIDING WARDROBE",
+    "name": "Premium Wardrobe 1",
     "slug": "athena-2-door-sliding-wardrobe-400013",
     "category": "piyestra-bedroom-wardrobes",
     "price": 32477,
@@ -1870,7 +1870,7 @@ export const products = [
   },
   {
     "id": 400013,
-    "name": "AUSTIN 2 DOOR WARDROBE",
+    "name": "Premium Wardrobe 2",
     "slug": "austin-2-door-wardrobe-400014",
     "category": "piyestra-bedroom-wardrobes",
     "price": 23511,
@@ -1894,7 +1894,7 @@ export const products = [
   },
   {
     "id": 400014,
-    "name": "AUSTIN 2 DOOR WARDROBE",
+    "name": "Premium Wardrobe 3",
     "slug": "austin-2-door-wardrobe-400015",
     "category": "piyestra-bedroom-wardrobes",
     "price": 26865,
@@ -1918,7 +1918,7 @@ export const products = [
   },
   {
     "id": 400015,
-    "name": "AUSTIN 3 DOOR WARDROBE",
+    "name": "Premium Wardrobe 4",
     "slug": "austin-3-door-wardrobe-400016",
     "category": "piyestra-bedroom-wardrobes",
     "price": 26621,
@@ -1942,7 +1942,7 @@ export const products = [
   },
   {
     "id": 400016,
-    "name": "AUSTIN 3 DOOR WARDROBE",
+    "name": "Premium Wardrobe 5",
     "slug": "austin-3-door-wardrobe-400017",
     "category": "piyestra-bedroom-wardrobes",
     "price": 19615,
@@ -1966,7 +1966,7 @@ export const products = [
   },
   {
     "id": 400017,
-    "name": "AVON 4 DOOR WARDROBE",
+    "name": "Premium Wardrobe 6",
     "slug": "avon-4-door-wardrobe-400018",
     "category": "piyestra-bedroom-wardrobes",
     "price": 23764,
@@ -1990,7 +1990,7 @@ export const products = [
   },
   {
     "id": 400018,
-    "name": "CAIRO 3 DOOR WARDROBE",
+    "name": "Premium Wardrobe 7",
     "slug": "cairo-3-door-wardrobe-400019",
     "category": "piyestra-bedroom-wardrobes",
     "price": 16153,
@@ -2014,7 +2014,7 @@ export const products = [
   },
   {
     "id": 400019,
-    "name": "GEORGIA 3 DOOR WARDROBE",
+    "name": "Premium Wardrobe 8",
     "slug": "georgia-3-door-wardrobe-400020",
     "category": "piyestra-bedroom-wardrobes",
     "price": 17464,
@@ -2038,7 +2038,7 @@ export const products = [
   },
   {
     "id": 400020,
-    "name": "LIBERTY 4 DOOR WARDROBE",
+    "name": "Premium Wardrobe 9",
     "slug": "liberty-4-door-wardrobe-400021",
     "category": "piyestra-bedroom-wardrobes",
     "price": 34943,
@@ -2062,7 +2062,7 @@ export const products = [
   },
   {
     "id": 400021,
-    "name": "MONZA 3 DOOR WARDROBE",
+    "name": "Premium Wardrobe 10",
     "slug": "monza-3-door-wardrobe-400022",
     "category": "piyestra-bedroom-wardrobes",
     "price": 19086,
@@ -2086,7 +2086,7 @@ export const products = [
   },
   {
     "id": 400022,
-    "name": "NIPPY 3 DOOR WARDROBE",
+    "name": "Premium Wardrobe 11",
     "slug": "nippy-3-door-wardrobe-400023",
     "category": "piyestra-bedroom-wardrobes",
     "price": 16844,
@@ -2110,7 +2110,7 @@ export const products = [
   },
   {
     "id": 400023,
-    "name": "NIPPY 4 DOOR WARDROBE",
+    "name": "Premium Wardrobe 12",
     "slug": "nippy-4-door-wardrobe-400024",
     "category": "piyestra-bedroom-wardrobes",
     "price": 19838,
@@ -2134,7 +2134,7 @@ export const products = [
   },
   {
     "id": 8100,
-    "name": "Sofa Set 1",
+    "name": "Premium Sofa 1",
     "slug": "sofa-set-1",
     "category": "3-2-2-sofas",
     "description": "A premium sofa set crafted for comfort and elegance. Perfect centerpiece for your living room with superior cushioning and durable fabric.",
@@ -2157,7 +2157,7 @@ export const products = [
   },
   {
     "id": 8101,
-    "name": "Sofa Set 2",
+    "name": "Premium Sofa 2",
     "slug": "sofa-set-2",
     "category": "3-2-2-sofas",
     "description": "A luxurious multi-piece sofa set designed for large living spaces. Combines comfort with classic design elements for a sophisticated look.",
@@ -2180,7 +2180,7 @@ export const products = [
   },
   {
     "id": 8102,
-    "name": "Sofa Set 3",
+    "name": "Premium Sofa 3",
     "slug": "sofa-set-3",
     "category": "3-2-2-sofas",
     "description": "An elegant sofa set with a contemporary design. Features premium fabric upholstery and a sturdy wooden frame for long-lasting comfort.",
@@ -2203,7 +2203,7 @@ export const products = [
   },
   {
     "id": 8103,
-    "name": "Sofa Set 4",
+    "name": "Premium Sofa 4",
     "slug": "sofa-set-4",
     "category": "l-shape-sofas",
     "description": "A beautifully crafted sofa set that blends traditional and modern aesthetics. Offers exceptional comfort and durability for everyday use.",
@@ -2226,7 +2226,7 @@ export const products = [
   },
   {
     "id": 8104,
-    "name": "Sofa Set 5",
+    "name": "Premium Sofa 5",
     "slug": "sofa-set-5",
     "category": "l-shape-sofas",
     "description": "A stylish and spacious sofa set ideal for families. Features plush cushioning and a rich fabric finish that adds warmth to your living room.",
@@ -2249,7 +2249,7 @@ export const products = [
   },
   {
     "id": 8105,
-    "name": "Sofa Set 6",
+    "name": "Premium Sofa 6",
     "slug": "sofa-set-6",
     "category": "l-shape-sofas",
     "description": "A compact yet comfortable sofa set perfect for apartments and smaller living spaces. Elegant design with premium upholstery.",
@@ -2272,7 +2272,7 @@ export const products = [
   },
   {
     "id": 8106,
-    "name": "Sofa Set 7",
+    "name": "Premium Sofa 7",
     "slug": "sofa-set-7",
     "category": "l-shape-sofas",
     "description": "A premium sectional sofa with a contemporary design. Ideal for modern living rooms offering abundant seating with style.",
@@ -2295,7 +2295,7 @@ export const products = [
   },
   {
     "id": 8107,
-    "name": "Sofa Set 8",
+    "name": "Premium Sofa 8",
     "slug": "sofa-set-8",
     "category": "l-shape-sofas",
     "description": "An exquisite sofa set featuring hand-crafted details and superior comfort. A statement piece for your living room.",
@@ -2318,7 +2318,7 @@ export const products = [
   },
   {
     "id": 8108,
-    "name": "Sofa Set 9",
+    "name": "Premium Sofa 9",
     "slug": "sofa-set-9",
     "category": "l-shape-sofas",
     "description": "A royal and majestic sofa set with intricate carvings and plush upholstery. Brings a touch of grandeur to your home.",
@@ -2341,7 +2341,7 @@ export const products = [
   },
   {
     "id": 8109,
-    "name": "Sofa Set 10",
+    "name": "Premium Sofa 10",
     "slug": "sofa-set-10",
     "category": "l-shape-sofas",
     "description": "A modern and sleek sofa set with clean lines and minimalist design. Perfect for contemporary interiors.",
@@ -2364,7 +2364,7 @@ export const products = [
   },
   {
     "id": 8110,
-    "name": "Sofa Set 11",
+    "name": "Premium Sofa 11",
     "slug": "sofa-set-11",
     "category": "l-shape-sofas",
     "description": "A versatile sofa set suitable for both formal and casual settings. Features high-density foam and premium fabric for lasting comfort.",
@@ -2387,7 +2387,7 @@ export const products = [
   },
   {
     "id": 8111,
-    "name": "Sofa Set 12",
+    "name": "Premium Sofa 12",
     "slug": "sofa-set-12",
     "category": "l-shape-sofas",
     "description": "A chic and stylish sofa set with distinctive design elements. The perfect blend of comfort and contemporary style.",
@@ -2410,7 +2410,7 @@ export const products = [
   },
   {
     "id": 8112,
-    "name": "3-1-1 Sofa Set",
+    "name": "Premium Sofa 13",
     "slug": "sofa-set-13",
     "category": "3-1-1-sofas",
     "description": "A grand and luxurious sofa set that commands attention. Superior craftsmanship with premium materials for an unforgettable living room.",
@@ -2433,7 +2433,7 @@ export const products = [
   },
   {
     "id": 8113,
-    "name": "Sofa Set 14",
+    "name": "Premium Sofa 14",
     "slug": "sofa-set-14",
     "category": "l-shape-sofas",
     "description": "A sophisticated sofa set featuring elegant detailing and superior comfort. Ideal for those who appreciate fine craftsmanship.",
@@ -2456,7 +2456,7 @@ export const products = [
   },
   {
     "id": 986354,
-    "name": "Premium Bed 1",
+    "name": "Premium Bed 21",
     "slug": "premium-bed-1",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2480,7 +2480,7 @@ export const products = [
   },
   {
     "id": 986355,
-    "name": "Premium Bed 2",
+    "name": "Premium Bed 22",
     "slug": "premium-bed-2",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2504,7 +2504,7 @@ export const products = [
   },
   {
     "id": 986356,
-    "name": "Premium Bed 3",
+    "name": "Premium Bed 23",
     "slug": "premium-bed-3",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2528,7 +2528,7 @@ export const products = [
   },
   {
     "id": 986357,
-    "name": "Premium Bed 4",
+    "name": "Premium Bed 24",
     "slug": "premium-bed-4",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2552,7 +2552,7 @@ export const products = [
   },
   {
     "id": 986358,
-    "name": "Premium Bed 5",
+    "name": "Premium Bed 25",
     "slug": "premium-bed-5",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2576,7 +2576,7 @@ export const products = [
   },
   {
     "id": 986359,
-    "name": "Premium Bed 6",
+    "name": "Premium Bed 26",
     "slug": "premium-bed-6",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2600,7 +2600,7 @@ export const products = [
   },
   {
     "id": 986360,
-    "name": "Premium Bed 7",
+    "name": "Premium Bed 27",
     "slug": "premium-bed-7",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2624,7 +2624,7 @@ export const products = [
   },
   {
     "id": 986361,
-    "name": "Premium Bed 8",
+    "name": "Premium Bed 28",
     "slug": "premium-bed-8",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2648,7 +2648,7 @@ export const products = [
   },
   {
     "id": 986362,
-    "name": "Premium Bed 9",
+    "name": "Premium Bed 29",
     "slug": "premium-bed-9",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2672,7 +2672,7 @@ export const products = [
   },
   {
     "id": 986363,
-    "name": "Premium Bed 10",
+    "name": "Premium Bed 30",
     "slug": "premium-bed-10",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2696,7 +2696,7 @@ export const products = [
   },
   {
     "id": 986364,
-    "name": "Premium Bed 11",
+    "name": "Premium Bed 31",
     "slug": "premium-bed-11",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2720,7 +2720,7 @@ export const products = [
   },
   {
     "id": 986365,
-    "name": "Premium Bed 12",
+    "name": "Premium Bed 32",
     "slug": "premium-bed-12",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2744,7 +2744,7 @@ export const products = [
   },
   {
     "id": 986366,
-    "name": "Premium Bed 13",
+    "name": "Premium Bed 33",
     "slug": "premium-bed-13",
     "category": "bedroom-beds",
     "price": 25000,
@@ -2768,7 +2768,7 @@ export const products = [
   },
   {
     "id": 986367,
-    "name": "Bedroom Chair 1",
+    "name": "Premium Chair 1",
     "slug": "bedroom-chair-1",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -2791,7 +2791,7 @@ export const products = [
   },
   {
     "id": 986368,
-    "name": "Bedroom Chair 2",
+    "name": "Premium Chair 2",
     "slug": "bedroom-chair-2",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -2814,7 +2814,7 @@ export const products = [
   },
   {
     "id": 986369,
-    "name": "Bedroom Chair 3",
+    "name": "Premium Chair 3",
     "slug": "bedroom-chair-3",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -2837,7 +2837,7 @@ export const products = [
   },
   {
     "id": 986370,
-    "name": "Bedroom Chair 4",
+    "name": "Premium Chair 4",
     "slug": "bedroom-chair-4",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -2860,7 +2860,7 @@ export const products = [
   },
   {
     "id": 986371,
-    "name": "Bedroom Chair 5",
+    "name": "Premium Chair 5",
     "slug": "bedroom-chair-5",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -2883,7 +2883,7 @@ export const products = [
   },
   {
     "id": 986372,
-    "name": "Bedroom Chair 6",
+    "name": "Premium Chair 6",
     "slug": "bedroom-chair-6",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -2906,7 +2906,7 @@ export const products = [
   },
   {
     "id": 986373,
-    "name": "Bedroom Chair 7",
+    "name": "Premium Chair 7",
     "slug": "bedroom-chair-7",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -2929,7 +2929,7 @@ export const products = [
   },
   {
     "id": 986374,
-    "name": "Bedroom Chair 8",
+    "name": "Premium Chair 8",
     "slug": "bedroom-chair-8",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -2952,7 +2952,7 @@ export const products = [
   },
   {
     "id": 986375,
-    "name": "Bedroom Chair 9",
+    "name": "Premium Chair 9",
     "slug": "bedroom-chair-9",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -2975,7 +2975,7 @@ export const products = [
   },
   {
     "id": 986376,
-    "name": "Bedroom Chair 10",
+    "name": "Premium Chair 10",
     "slug": "bedroom-chair-10",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -2998,7 +2998,7 @@ export const products = [
   },
   {
     "id": 986377,
-    "name": "Bedroom Chair 11",
+    "name": "Premium Chair 11",
     "slug": "bedroom-chair-11",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -3021,7 +3021,7 @@ export const products = [
   },
   {
     "id": 986378,
-    "name": "Bedroom Chair 12",
+    "name": "Premium Chair 12",
     "slug": "bedroom-chair-12",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -3044,7 +3044,7 @@ export const products = [
   },
   {
     "id": 986379,
-    "name": "Bedroom Chair 13",
+    "name": "Premium Chair 13",
     "slug": "bedroom-chair-13",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -3067,7 +3067,7 @@ export const products = [
   },
   {
     "id": 986380,
-    "name": "Bedroom Chair 14",
+    "name": "Premium Chair 14",
     "slug": "bedroom-chair-14",
     "category": "bedroom-chairs",
     "price": 6000,
@@ -3089,7 +3089,7 @@ export const products = [
     ]
   },
   {
-    "name": "ATHENA DRESSING TABLE",
+    "name": "Premium Dressing Table 1",
     "slug": "athena-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3113,7 +3113,7 @@ export const products = [
     ]
   },
   {
-    "name": "AUSTIN DRESSING TABLE",
+    "name": "Premium Dressing Table 2",
     "slug": "austin-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3137,7 +3137,7 @@ export const products = [
     ]
   },
   {
-    "name": "AUSTIN DRESSING TABLE",
+    "name": "Premium Dressing Table 3",
     "slug": "austin-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3161,7 +3161,7 @@ export const products = [
     ]
   },
   {
-    "name": "AVON DRESSING TABLE",
+    "name": "Premium Dressing Table 4",
     "slug": "avon-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3185,7 +3185,7 @@ export const products = [
     ]
   },
   {
-    "name": "CAIRO DRESSING TABLE",
+    "name": "Premium Dressing Table 5",
     "slug": "cairo-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3209,7 +3209,7 @@ export const products = [
     ]
   },
   {
-    "name": "DRESSING TABLE",
+    "name": "Premium Dressing Table 6",
     "slug": "dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3233,7 +3233,7 @@ export const products = [
     ]
   },
   {
-    "name": "DRESSING TABLE",
+    "name": "Premium Dressing Table 7",
     "slug": "dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3257,7 +3257,7 @@ export const products = [
     ]
   },
   {
-    "name": "FELCITY DRESSING TABLE",
+    "name": "Premium Dressing Table 8",
     "slug": "felcity-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3281,7 +3281,7 @@ export const products = [
     ]
   },
   {
-    "name": "GEORGIA DRESSING TABLE",
+    "name": "Premium Dressing Table 9",
     "slug": "georgia-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3305,7 +3305,7 @@ export const products = [
     ]
   },
   {
-    "name": "HARRY DRESSING TABLE",
+    "name": "Premium Dressing Table 10",
     "slug": "harry-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3329,7 +3329,7 @@ export const products = [
     ]
   },
   {
-    "name": "INDY DRESSING TABLE",
+    "name": "Premium Dressing Table 11",
     "slug": "indy-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3353,7 +3353,7 @@ export const products = [
     ]
   },
   {
-    "name": "LIBERTY DRESSING TABLE",
+    "name": "Premium Dressing Table 12",
     "slug": "liberty-dressing-table",
     "category": "piyestra-bedroom-centre-tables",
     "price": 50,
@@ -3377,7 +3377,7 @@ export const products = [
     ]
   },
   {
-    "name": "HARRY STORAGE BED",
+    "name": "Premium Bed 34",
     "slug": "harry-storage-bed",
     "category": "piyestra-bedroom-beds",
     "price": 50,
@@ -3401,7 +3401,7 @@ export const products = [
     ]
   },
   {
-    "name": "LIBERTY HYDRAULIC BED",
+    "name": "Premium Bed 35",
     "slug": "liberty-hydraulic-bed",
     "category": "piyestra-bedroom-beds",
     "price": 50,
@@ -3425,7 +3425,7 @@ export const products = [
     ]
   },
   {
-    "name": "ZERENA HYDRAULIC BED",
+    "name": "Premium Bed 36",
     "slug": "zerena-hydraulic-bed",
     "category": "piyestra-bedroom-beds",
     "price": 50,
@@ -3450,7 +3450,7 @@ export const products = [
   },
   {
     "id": 986396,
-    "name": "Marble Top Dining 1",
+    "name": "Premium Dining Table 14",
     "slug": "marble-top-dining-1",
     "category": "marble-top",
     "price": 45000,
@@ -3473,7 +3473,7 @@ export const products = [
   },
   {
     "id": 986397,
-    "name": "Marble Top Dining 2",
+    "name": "Premium Dining Table 15",
     "slug": "marble-top-dining-2",
     "category": "marble-top",
     "price": 45000,
@@ -3496,7 +3496,7 @@ export const products = [
   },
   {
     "id": 986398,
-    "name": "Marble Top Dining 3",
+    "name": "Premium Dining Table 16",
     "slug": "marble-top-dining-3",
     "category": "marble-top",
     "price": 45000,
@@ -3519,7 +3519,7 @@ export const products = [
   },
   {
     "id": 986399,
-    "name": "Marble Top Dining 4",
+    "name": "Premium Dining Table 17",
     "slug": "marble-top-dining-4",
     "category": "marble-top",
     "price": 45000,
@@ -3542,7 +3542,7 @@ export const products = [
   },
   {
     "id": 986400,
-    "name": "Marble Top Dining 5",
+    "name": "Premium Dining Table 18",
     "slug": "marble-top-dining-5",
     "category": "marble-top",
     "price": 45000,
@@ -3565,7 +3565,7 @@ export const products = [
   },
   {
     "id": 986401,
-    "name": "Marble Top Dining 6",
+    "name": "Premium Dining Table 19",
     "slug": "marble-top-dining-6",
     "category": "marble-top",
     "price": 45000,
@@ -3588,7 +3588,7 @@ export const products = [
   },
   {
     "id": 986402,
-    "name": "Marble Top Dining 7",
+    "name": "Premium Dining Table 20",
     "slug": "marble-top-dining-7",
     "category": "marble-top",
     "price": 45000,
@@ -3611,7 +3611,7 @@ export const products = [
   },
   {
     "id": 986403,
-    "name": "L-Shape Sofa Extra 1",
+    "name": "Premium Sofa 15",
     "slug": "l-shape-sofa-extra-1",
     "category": "l-shape-sofas",
     "price": 35000,
@@ -3634,7 +3634,7 @@ export const products = [
   },
   {
     "id": 986404,
-    "name": "L-Shape Sofa Extra 2",
+    "name": "Premium Sofa 16",
     "slug": "l-shape-sofa-extra-2",
     "category": "l-shape-sofas",
     "price": 35000,
@@ -3657,7 +3657,7 @@ export const products = [
   },
   {
     "id": 986405,
-    "name": "L-Shape Sofa Extra 3",
+    "name": "Premium Sofa 17",
     "slug": "l-shape-sofa-extra-3",
     "category": "l-shape-sofas",
     "price": 35000,
@@ -3680,7 +3680,7 @@ export const products = [
   },
   {
     "id": 986406,
-    "name": "L-Shape Sofa Extra 4",
+    "name": "Premium Sofa 18",
     "slug": "l-shape-sofa-extra-4",
     "category": "l-shape-sofas",
     "price": 35000,
@@ -3703,7 +3703,7 @@ export const products = [
   },
   {
     "id": 986407,
-    "name": "L-Shape Sofa Extra 5",
+    "name": "Premium Sofa 19",
     "slug": "l-shape-sofa-extra-5",
     "category": "l-shape-sofas",
     "price": 35000,
@@ -3726,7 +3726,7 @@ export const products = [
   },
   {
     "id": 986408,
-    "name": "3-1-1 Sofa 1",
+    "name": "Premium Sofa 20",
     "slug": "3-1-1-sofa-1",
     "category": "3-1-1-sofas",
     "price": 28000,
@@ -3749,7 +3749,7 @@ export const products = [
   },
   {
     "id": 986409,
-    "name": "3-1-1 Sofa 2",
+    "name": "Premium Sofa 21",
     "slug": "3-1-1-sofa-2",
     "category": "3-1-1-sofas",
     "price": 28000,
@@ -3772,7 +3772,7 @@ export const products = [
   },
   {
     "id": 986410,
-    "name": "3-1-1 Sofa 3",
+    "name": "Premium Sofa 22",
     "slug": "3-1-1-sofa-3",
     "category": "3-1-1-sofas",
     "price": 28000,
@@ -3795,7 +3795,7 @@ export const products = [
   },
   {
     "id": 986411,
-    "name": "3-1-1 Sofa 4",
+    "name": "Premium Sofa 23",
     "slug": "3-1-1-sofa-4",
     "category": "3-1-1-sofas",
     "price": 28000,
@@ -3818,7 +3818,7 @@ export const products = [
   },
   {
     "id": 9400,
-    "name": "Premium Centre Table 1",
+    "name": "Premium Centre Table 6",
     "slug": "premium-centre-table-1",
     "category": "centre-tables",
     "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
@@ -3842,7 +3842,7 @@ export const products = [
   },
   {
     "id": 9401,
-    "name": "Premium Centre Table 2",
+    "name": "Premium Centre Table 7",
     "slug": "premium-centre-table-2",
     "category": "centre-tables",
     "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
@@ -3866,7 +3866,7 @@ export const products = [
   },
   {
     "id": 9404,
-    "name": "Premium Centre Table 5",
+    "name": "Premium Centre Table 8",
     "slug": "premium-centre-table-5",
     "category": "centre-tables",
     "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
@@ -3890,7 +3890,7 @@ export const products = [
   },
   {
     "id": 9405,
-    "name": "Premium Centre Table 6",
+    "name": "Premium Centre Table 9",
     "slug": "premium-centre-table-6",
     "category": "centre-tables",
     "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
@@ -3914,7 +3914,7 @@ export const products = [
   },
   {
     "id": 9406,
-    "name": "Premium Centre Table 7",
+    "name": "Premium Centre Table 10",
     "slug": "premium-centre-table-7",
     "category": "centre-tables",
     "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
@@ -3938,7 +3938,7 @@ export const products = [
   },
   {
     "id": 9407,
-    "name": "Premium Centre Table 8",
+    "name": "Premium Centre Table 11",
     "slug": "premium-centre-table-8",
     "category": "centre-tables",
     "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
@@ -3962,7 +3962,7 @@ export const products = [
   },
   {
     "id": 9408,
-    "name": "Premium Centre Table 9",
+    "name": "Premium Centre Table 12",
     "slug": "premium-centre-table-9",
     "category": "centre-tables",
     "description": "An elegant, premium centre table featuring exceptional craftsmanship. Perfect as a centrepiece for any modern or classic living room setting.",
@@ -3985,7 +3985,7 @@ export const products = [
     ]
   },
   {
-    "name": "STELLA HYDRAULIC BED",
+    "name": "Premium Bed 37",
     "slug": "stella-hydraulic-bed",
     "category": "piyestra-bedroom-beds",
     "price": 25000,
@@ -4010,7 +4010,7 @@ export const products = [
     ]
   },
   {
-    "name": "VIANA BED",
+    "name": "Premium Bed 38",
     "slug": "viana-bed",
     "category": "piyestra-bedroom-beds",
     "price": 25000,
@@ -4035,7 +4035,7 @@ export const products = [
     ]
   },
   {
-    "name": "INDY HYDRAULIC BED",
+    "name": "Premium Bed 39",
     "slug": "indy-hydraulic-bed",
     "category": "piyestra-bedroom-beds",
     "price": 25000,
@@ -4106,7 +4106,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-1",
     "slug": "sofa-cum-bed-1",
-    "name": "Luxury Sofa Cum Bed Model 1",
+    "name": "Premium Sofa Cum Bed 1",
     "description": "A premium Sofa Cum Bed featuring an elegant multi-purpose design for modern living spaces.",
     "price": 24000,
     "originalPrice": 28000,
@@ -4128,7 +4128,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-2",
     "slug": "sofa-cum-bed-2",
-    "name": "Luxury Sofa Cum Bed Model 2",
+    "name": "Premium Sofa Cum Bed 2",
     "description": "Sophisticated dual-tone Sofa Cum Bed offering ultimate comfort in both seating and sleeping configurations.",
     "price": 25500,
     "originalPrice": 30000,
@@ -4150,7 +4150,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-3",
     "slug": "sofa-cum-bed-3",
-    "name": "Luxury Sofa Cum Bed Model 3",
+    "name": "Premium Sofa Cum Bed 3",
     "description": "Elegant space-saving Sofa Cum Bed designed with premium tufted fabrics and sturdy construction.",
     "price": 26000,
     "originalPrice": 32000,
@@ -4172,7 +4172,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-4",
     "slug": "sofa-cum-bed-4",
-    "name": "Luxury Sofa Cum Bed Model 4",
+    "name": "Premium Sofa Cum Bed 4",
     "description": "A premium multi-functional piece that brings a contemporary, sophisticated look to any room.",
     "price": 28000,
     "originalPrice": 35000,
@@ -4194,7 +4194,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-5",
     "slug": "sofa-cum-bed-5",
-    "name": "Luxury Sofa Cum Bed Model 5",
+    "name": "Premium Sofa Cum Bed 5",
     "description": "Elegant space-saving design combined with supreme comfort for contemporary homes.",
     "price": 25000,
     "originalPrice": 30000,
@@ -4216,7 +4216,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-6",
     "slug": "sofa-cum-bed-6",
-    "name": "Luxury Sofa Cum Bed Model 6",
+    "name": "Premium Sofa Cum Bed 6",
     "description": "Sophisticated dual-tone Sofa Cum Bed offering ultimate comfort in both seating and sleeping configurations.",
     "price": 26500,
     "originalPrice": 32000,
@@ -4238,7 +4238,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-7",
     "slug": "sofa-cum-bed-7",
-    "name": "Luxury Sofa Cum Bed Model 7",
+    "name": "Premium Sofa Cum Bed 7",
     "description": "A premium piece that perfectly balances style and practicality for your living space.",
     "price": 27000,
     "originalPrice": 33000,
@@ -4260,7 +4260,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-8",
     "slug": "sofa-cum-bed-8",
-    "name": "Luxury Sofa Cum Bed Model 8",
+    "name": "Premium Sofa Cum Bed 8",
     "description": "Ultra-luxurious Sofa Cum Bed that seamlessly transforms into a cozy sleeping space.",
     "price": 29000,
     "originalPrice": 35000,
@@ -4282,7 +4282,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-9",
     "slug": "sofa-cum-bed-9",
-    "name": "Luxury Sofa Cum Bed Model 9",
+    "name": "Premium Sofa Cum Bed 9",
     "description": "Minimalist and highly functional Sofa Cum Bed with a sleek silhouette and hidden storage.",
     "price": 24500,
     "originalPrice": 29500,
@@ -4304,7 +4304,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-10",
     "slug": "sofa-cum-bed-10",
-    "name": "Luxury Sofa Cum Bed Model 10",
+    "name": "Premium Sofa Cum Bed 10",
     "description": "An elegant addition to any modern interior, featuring smooth sliding mechanisms and plush fabric.",
     "price": 31000,
     "originalPrice": 38000,
@@ -4326,7 +4326,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-11",
     "slug": "sofa-cum-bed-11",
-    "name": "Classic Sofa Cum Bed Model 11",
+    "name": "Premium Sofa Cum Bed 11",
     "description": "A classic style Sofa Cum Bed designed to maximize room space without compromising on sleeping comfort.",
     "price": 22000,
     "originalPrice": 26000,
@@ -4348,7 +4348,7 @@ export const products = [
   {
     "id": "sofa-cum-bed-12",
     "slug": "sofa-cum-bed-12",
-    "name": "Classic Sofa Cum Bed Model 12",
+    "name": "Premium Sofa Cum Bed 12",
     "description": "A reliable and robust Sofa Cum Bed that is perfect for everyday use in busy households.",
     "price": 23000,
     "originalPrice": 27500,
@@ -4370,7 +4370,7 @@ export const products = [
   {
     "id": "designer-dream-bed",
     "slug": "designer-dream-bed",
-    "name": "Designer Dream Bed",
+    "name": "Premium Bed 40",
     "category": "bedroom-beds",
     "price": 38000,
     "originalPrice": 45000,
@@ -4395,7 +4395,7 @@ export const products = [
   {
     "id": "wooden-comfort-bed-1",
     "slug": "wooden-comfort-bed-1",
-    "name": "Wooden Comfort Bed",
+    "name": "Premium Bed 41",
     "category": "bedroom-beds",
     "price": 32000,
     "originalPrice": 38000,
@@ -4419,7 +4419,7 @@ export const products = [
   {
     "id": "soft-rest-bed",
     "slug": "soft-rest-bed",
-    "name": "Soft Rest Bed",
+    "name": "Premium Bed 42",
     "category": "bedroom-beds",
     "price": 35000,
     "originalPrice": 41000,
@@ -4443,7 +4443,7 @@ export const products = [
   {
     "id": "wooden-comfort-bed-2",
     "slug": "wooden-comfort-bed-2",
-    "name": "Wooden Comfort Bed",
+    "name": "Premium Bed 43",
     "category": "bedroom-beds",
     "price": 33000,
     "originalPrice": 39000,
@@ -4467,7 +4467,7 @@ export const products = [
   {
     "id": "urban-dining-table",
     "slug": "urban-dining-table",
-    "name": "Urban Dining Table",
+    "name": "Premium Dining Table 21",
     "category": "marble-top",
     "price": 48000,
     "originalPrice": 56000,
@@ -4491,7 +4491,7 @@ export const products = [
   {
     "id": "cozy-dining-table",
     "slug": "cozy-dining-table",
-    "name": "Cozy Dining Table",
+    "name": "Premium Dining Table 22",
     "category": "marble-top",
     "price": 42000,
     "originalPrice": 49000,
@@ -4515,7 +4515,7 @@ export const products = [
   {
     "id": "deluxe-sofa-set-1",
     "slug": "deluxe-sofa-set-1",
-    "name": "Deluxe Sofa Set",
+    "name": "Premium Sofa 24",
     "category": "3-2-2-sofas",
     "price": 78000,
     "originalPrice": 92000,
@@ -4539,7 +4539,7 @@ export const products = [
   {
     "id": "deluxe-sofa-set-2",
     "slug": "deluxe-sofa-set-2",
-    "name": "Deluxe Sofa Set",
+    "name": "Premium Sofa 25",
     "category": "3-2-2-sofas",
     "price": 82000,
     "originalPrice": 95000,
@@ -4563,7 +4563,7 @@ export const products = [
   {
     "id": "majestic-bliss-sofa",
     "slug": "majestic-bliss-sofa",
-    "name": "Majestic Bliss Sofa",
+    "name": "Premium Sofa 26",
     "category": "3-1-1-sofas",
     "price": 65000,
     "originalPrice": 78000,
@@ -4587,10 +4587,10 @@ export const products = [
   {
     "id": "royal-relax-sofa-set",
     "slug": "royal-relax-sofa-set",
-    "name": "Royal Relax Sofa Set",
+    "name": "Premium Sofa 27",
     "category": "l-shape-sofas",
     "price": 95000,
-    "originalPrice": 1_15_000,
+    "originalPrice": 115000,
     "description": "A royal L-shape sofa set engineered for relaxed evenings and statement living rooms.",
     "features": [
       "L-shape configuration",
