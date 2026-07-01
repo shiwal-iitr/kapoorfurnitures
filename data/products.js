@@ -862,14 +862,12 @@ export const products = [
     ],
     "dimensions": "L 200 x W 100 x H 160 cm",
     "material": "Rubber Wood",
-    "image": "/images/beds_raw/img_p12_1.png",
+    "image": '/images/products/ai_bunk-bed-with-ladder.png',
     "isFeatured": false,
     "isNew": false,
     "rating": 4.4,
     "reviews": 113,
-    "gallery": [
-      "/images/beds_raw/img_p12_1.png"
-    ]
+    "gallery": [ '/images/products/ai_bunk-bed-with-ladder.png' ]
   },
   {
     "id": 14,
@@ -2467,14 +2465,12 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/ai_generated/ai_premium_bed_1_1782073720444.png",
+    "image": '/images/products/ai_premium-bed-1.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
     "reviews": 20,
-    "gallery": [
-      "/images/ai_generated/ai_premium_bed_1_1782073720444.png"
-    ]
+    "gallery": [ '/images/products/ai_premium-bed-1.png' ]
   },
   {
     "id": 986355,
@@ -2491,14 +2487,12 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/products/ai_premium-bed-2_v2.png",
+    "image": '/images/products/ai_premium-bed-2.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
     "reviews": 20,
-    "gallery": [
-      "/images/ai_generated/ai_premium_bed_2_1782073733180.png"
-    ]
+    "gallery": [ '/images/products/ai_premium-bed-2.png' ]
   },
   {
     "id": 986356,
@@ -2563,14 +2557,12 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/ai_generated/ai_premium_bed_5_1782111107581.png",
+    "image": '/images/products/ai_premium-bed-5.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
     "reviews": 20,
-    "gallery": [
-      "/images/ai_generated/ai_premium_bed_5_1782111107581.png"
-    ]
+    "gallery": [ '/images/products/ai_premium-bed-5.png' ]
   },
   {
     "id": 986359,
@@ -2587,14 +2579,12 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/ai_generated/ai_premium_bed_6_1782073770385.png",
+    "image": '/images/products/ai_premium-bed-6.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
     "reviews": 20,
-    "gallery": [
-      "/images/ai_generated/ai_premium_bed_6_1782073770385.png"
-    ]
+    "gallery": [ '/images/products/ai_premium-bed-6.png' ]
   },
   {
     "id": 986360,
@@ -2611,14 +2601,12 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/ai_generated/ai_premium_bed_7_1782111123261.png",
+    "image": '/images/products/ai_premium-bed-7.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
     "reviews": 20,
-    "gallery": [
-      "/images/ai_generated/ai_premium_bed_7_1782111123261.png"
-    ]
+    "gallery": [ '/images/products/ai_premium-bed-7.png' ]
   },
   {
     "id": 986361,
@@ -2707,14 +2695,12 @@ export const products = [
     ],
     "dimensions": "Standard King Size",
     "material": "Engineered Wood",
-    "image": "/images/ai_generated/ai_premium_bed_11_1782111181712.png",
+    "image": '/images/products/ai_premium-bed-11.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
     "reviews": 20,
-    "gallery": [
-      "/images/ai_generated/ai_premium_bed_11_1782111181712.png"
-    ]
+    "gallery": [ '/images/products/ai_premium-bed-11.png' ]
   },
   {
     "id": 986365,
@@ -4373,10 +4359,8 @@ export const products = [
     ],
     "dimensions": "King size",
     "material": "Engineered wood with premium fabric",
-    "image": "/images/products/style/designer-dream-bed.jpg",
-    "gallery": [
-      "/images/products/style/designer-dream-bed.jpg"
-    ],
+    "image": '/images/products/ai_designer-dream-bed.png',
+    "gallery": [ '/images/products/ai_designer-dream-bed.png' ],
     "isFeatured": true,
     "isNew": true,
     "rating": 4.7,
@@ -4397,10 +4381,8 @@ export const products = [
     ],
     "dimensions": "Queen size",
     "material": "Solid wood",
-    "image": "/images/products/style/wooden-comfort-bed-1.jpg",
-    "gallery": [
-      "/images/products/style/wooden-comfort-bed-1.jpg"
-    ],
+    "image": '/images/products/ai_wooden-comfort-bed-1.png',
+    "gallery": [ '/images/products/ai_wooden-comfort-bed-1.png' ],
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
@@ -4421,10 +4403,8 @@ export const products = [
     ],
     "dimensions": "King size",
     "material": "Engineered wood with premium fabric",
-    "image": "/images/products/style/soft-rest-bed.jpg",
-    "gallery": [
-      "/images/products/style/soft-rest-bed.jpg"
-    ],
+    "image": '/images/products/ai_soft-rest-bed.png',
+    "gallery": [ '/images/products/ai_soft-rest-bed.png' ],
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
@@ -4445,10 +4425,8 @@ export const products = [
     ],
     "dimensions": "Queen size",
     "material": "Solid wood",
-    "image": "/images/products/style/wooden-comfort-bed-2.jpg",
-    "gallery": [
-      "/images/products/style/wooden-comfort-bed-2.jpg"
-    ],
+    "image": '/images/products/ai_wooden-comfort-bed-2.png',
+    "gallery": [ '/images/products/ai_wooden-comfort-bed-2.png' ],
     "isFeatured": false,
     "isNew": true,
     "rating": 4.5,
