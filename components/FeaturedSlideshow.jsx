@@ -53,7 +53,7 @@ export default function FeaturedSlideshow() {
         <p className="section-subheading">Handpicked pieces that define luxury and comfort</p>
       </div>
 
-      <div className="relative w-full h-[60vh] sm:h-[68vh] md:h-[80vh] overflow-hidden bg-neutral-900">
+      <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] md:aspect-[16/9] max-h-[85vh] overflow-hidden bg-neutral-900">
         {slides.map((s, i) => (
           <Link
             key={s.id}
