@@ -277,12 +277,12 @@ export const products = [
     ],
     "dimensions": "Standard Centre Table Size",
     "material": "Premium Wood / Glass",
-    "image": '/images/centre_tables_raw/img_p5_1.png',
+    "image": '/images/centre_tables_raw/img_p7_1.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
     "reviews": 15,
-    "gallery": [ '/images/centre_tables_raw/img_p5_1.png' ]
+    "gallery": [ '/images/centre_tables_raw/img_p7_1.png' ]
   },
   {
     "id": 9000,
