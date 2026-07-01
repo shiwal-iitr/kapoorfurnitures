@@ -253,7 +253,7 @@ export const products = [
     ],
     "dimensions": "Standard Centre Table Size",
     "material": "Premium Wood / Glass",
-    "image": "/images/products/ai_elegant-centre-table-7_v4.png",
+    "image": '/images/products/ai_elegant-centre-table-7_v4.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
@@ -277,7 +277,7 @@ export const products = [
     ],
     "dimensions": "Standard Centre Table Size",
     "material": "Premium Wood / Glass",
-    "image": "/images/products/ai_elegant-centre-table-8_v4.png",
+    "image": '/images/centre_tables_raw/img_p7_1.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.6,
@@ -285,7 +285,7 @@ export const products = [
     "gallery": [
       "/images/centre_tables_raw/img_p7_1.png"
     ]
-  },
+  , descriptionImage: '/images/centre_tables_raw/img_p7_1.png'},
   {
     "id": 9000,
     "name": "Premium Dining Table 1",
@@ -3877,7 +3877,7 @@ export const products = [
     ],
     "dimensions": "Standard Size",
     "material": "Wood / Metal / Glass",
-    "image": "/images/products/ai_premium-centre-table-5_v3.png",
+    "image": '/images/products/ai_premium-centre-table-5_v3.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
@@ -3885,7 +3885,7 @@ export const products = [
     "gallery": [
       "/images/ai_generated/ai_premium_centre_5_1782051037923.png"
     ]
-  },
+  , descriptionImage: '/images/products/ai_premium-centre-table-5_v3.png'},
   {
     "id": 9405,
     "name": "Premium Centre Table 9",
@@ -3901,7 +3901,7 @@ export const products = [
     ],
     "dimensions": "Standard Size",
     "material": "Wood / Metal / Glass",
-    "image": "/images/products/ai_premium-centre-table-6_v2.png",
+    "image": '/images/products/ai_premium-centre-table-6_v2.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
@@ -3909,7 +3909,7 @@ export const products = [
     "gallery": [
       "/images/ai_generated/ai_premium_centre_6_1782070415889.png"
     ]
-  },
+  , descriptionImage: '/images/products/ai_premium-centre-table-6_v2.png'},
   {
     "id": 9406,
     "name": "Premium Centre Table 10",
@@ -3925,7 +3925,7 @@ export const products = [
     ],
     "dimensions": "Standard Size",
     "material": "Wood / Metal / Glass",
-    "image": "/images/products/ai_premium-centre-table-7_v2.png",
+    "image": '/images/products/ai_premium-centre-table-7_v2.png',
     "isFeatured": false,
     "isNew": true,
     "rating": 4.8,
@@ -3933,7 +3933,7 @@ export const products = [
     "gallery": [
       "/images/ai_generated/ai_premium_centre_7_1782070432148.png"
     ]
-  },
+  , descriptionImage: '/images/products/ai_premium-centre-table-7_v2.png'},
   {
     "id": 9407,
     "name": "Premium Centre Table 11",
