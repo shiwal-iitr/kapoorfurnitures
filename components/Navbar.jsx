@@ -68,11 +68,12 @@ export default function Navbar() {
                   <span
                     className="brand-name text-3xl md:text-4xl tracking-[0.04em] uppercase"
                     style={{
-                      background: 'linear-gradient(to bottom right, #F8E5A3, #D4AF37, #8A6410)',
+                      background: 'linear-gradient(to bottom right, #A0761B, #7A5A0F, #4E3808)',
                       WebkitBackgroundClip: 'text',
                       WebkitTextFillColor: 'transparent',
-                      fontWeight: 700,
+                      fontWeight: 800,
                       lineHeight: 1,
+                      textShadow: '0 1px 0 rgba(0,0,0,0.05)',
                     }}
                   >
                     Kapoor
@@ -91,11 +92,11 @@ export default function Navbar() {
                   </span>
                 </div>
                 <div className="flex items-center gap-2 mt-1.5">
-                  <div className="h-[1px] flex-grow bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent opacity-50"></div>
-                  <span className="brand-tagline italic text-[10px] md:text-[11px] tracking-[0.12em] text-[#a07b18]">
+                  <div className="h-[1px] w-3 md:w-5 bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent opacity-60"></div>
+                  <span className="brand-tagline italic text-[13px] md:text-[16px] tracking-[0.14em] text-[#7a5a0f] whitespace-nowrap">
                     Premium Living Since 2000
                   </span>
-                  <div className="h-[1px] flex-grow bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent opacity-50"></div>
+                  <div className="h-[1px] w-3 md:w-5 bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent opacity-60"></div>
                 </div>
               </div>
             </Link>
