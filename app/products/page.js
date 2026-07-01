@@ -34,7 +34,13 @@ function ProductsContent() {
     return found;
   }, [activeCategory]);
 
-  const subcategoriesToShow = activeCategoryNode?.subcategories || null;
+  // Only show the intermediate visual subcategory grid when there are 2+
+  // subcategories. For single-subcategory parents (e.g. Chairs, Bedroom)
+  // skip that redundant one-tile page and show the products directly.
+  const subcategoriesToShow =
+    activeCategoryNode?.subcategories && activeCategoryNode.subcategories.length > 1
+      ? activeCategoryNode.subcategories
+      : null;
 
   const filteredProducts = useMemo(() => {
     let filtered = products;
