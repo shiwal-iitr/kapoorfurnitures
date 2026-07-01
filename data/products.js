@@ -3836,7 +3836,7 @@ export const products = [
     "isNew": true,
     "rating": 4.8,
     "reviews": 5,
-    "gallery": [ "/images/products/ai_premium_centre_table_1_var1.png", "/images/products/ai_premium_centre_table_1_var2.png", "/images/products/ai_premium_centre_table_1_var3.png" ]
+    "gallery": [ '/images/products/ai_premium-centre-table-1_v4.png' ]
   },
   {
     "id": 9401,
