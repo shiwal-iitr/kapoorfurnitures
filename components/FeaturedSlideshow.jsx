@@ -53,7 +53,7 @@ export default function FeaturedSlideshow() {
         <p className="section-subheading">Handpicked pieces that define luxury and comfort</p>
       </div>
 
-      <div className="relative w-full h-[55vh] sm:h-[65vh] md:h-[75vh] overflow-hidden bg-black">
+      <div className="relative w-full h-[60vh] sm:h-[68vh] md:h-[80vh] overflow-hidden bg-neutral-900">
         {slides.map((s, i) => (
           <Link
             key={s.id}
@@ -64,15 +64,26 @@ export default function FeaturedSlideshow() {
             aria-hidden={i !== idx}
             tabIndex={i === idx ? 0 : -1}
           >
+            {/* Blurred backdrop fills the wide frame without stretching the product */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={s.product.image || '/images/placeholder.svg'}
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 w-full h-full object-cover scale-110 blur-2xl opacity-50"
+              referrerPolicy="no-referrer"
+              loading={i === idx ? 'eager' : 'lazy'}
+            />
+            {/* Sharp product image, fully visible (no cropping) */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={s.product.image || '/images/placeholder.svg'}
               alt={s.product.name}
-              className="w-full h-full object-cover"
+              className="relative w-full h-full object-contain"
               referrerPolicy="no-referrer"
               loading={i === idx ? 'eager' : 'lazy'}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/10" />
             <div className="absolute inset-x-0 bottom-0 px-6 sm:px-12 pb-20 md:pb-24 text-center">
               <p className="text-[#c9a96e] uppercase tracking-[0.3em] text-xs sm:text-sm mb-3">
                 {s.label}
